@@ -1,0 +1,2850 @@
+company_id,company_name,country_code,movie_id,color_info,languages,countries,release dates
+1,E! Entertainment Television,us,2,Color,English,USA,22/01/2006
+1,E! Entertainment Television,us,2,Color,English,USA,22/01/2006
+2,YouTube,us,11,Color,Italian,Italy,29/03/2012
+3,Generalization Y Entertainment,us,44,Color,English,USA,24/04/2013
+4,5*,gb,50,Color,English,Unkown,01/01/1800
+5,Canadian Television (CTV),ca,50,Color,English,Unkown,01/01/1800
+6,Columbia Broadcasting System (CBS),us,50,Color,English,Unkown,01/01/1800
+7,Nine Network Australia,au,50,Color,English,Unkown,01/01/1800
+8,Veronica,nl,50,Color,English,Unkown,01/01/1800
+9,Warner Channel Latin America,br,50,Color,English,Unkown,01/01/1800
+4,5*,gb,51,Color,English,Canada,14/10/2010
+5,Canadian Television (CTV),ca,51,Color,English,Canada,14/10/2010
+6,Columbia Broadcasting System (CBS),us,51,Color,English,Canada,14/10/2010
+7,Nine Network Australia,au,51,Color,English,Canada,14/10/2010
+8,Veronica,nl,51,Color,English,Canada,14/10/2010
+9,Warner Channel Latin America,br,51,Color,English,Canada,14/10/2010
+4,5*,gb,52,Color,English,Canada,20/01/2011
+5,Canadian Television (CTV),ca,52,Color,English,Canada,20/01/2011
+6,Columbia Broadcasting System (CBS),us,52,Color,English,Canada,20/01/2011
+8,Veronica,nl,52,Color,English,Canada,20/01/2011
+4,5*,gb,53,Color,English,Canada,04/11/2010
+5,Canadian Television (CTV),ca,53,Color,English,Canada,04/11/2010
+6,Columbia Broadcasting System (CBS),us,53,Color,English,Canada,04/11/2010
+8,Veronica,nl,53,Color,English,Canada,04/11/2010
+4,5*,gb,54,Color,English,Canada,28/10/2010
+5,Canadian Television (CTV),ca,54,Color,English,Canada,28/10/2010
+6,Columbia Broadcasting System (CBS),us,54,Color,English,Canada,28/10/2010
+7,Nine Network Australia,au,54,Color,English,Canada,28/10/2010
+8,Veronica,nl,54,Color,English,Canada,28/10/2010
+9,Warner Channel Latin America,br,54,Color,English,Canada,28/10/2010
+4,5*,gb,55,Color,English,Canada,27/01/2011
+5,Canadian Television (CTV),ca,55,Color,English,Canada,27/01/2011
+6,Columbia Broadcasting System (CBS),us,55,Color,English,Canada,27/01/2011
+8,Veronica,nl,55,Color,English,Canada,27/01/2011
+4,5*,gb,56,Color,English,Canada,16/12/2010
+5,Canadian Television (CTV),ca,56,Color,English,Canada,16/12/2010
+6,Columbia Broadcasting System (CBS),us,56,Color,English,Canada,16/12/2010
+8,Veronica,nl,56,Color,English,Canada,16/12/2010
+4,5*,gb,57,Color,English,Canada,06/01/2011
+5,Canadian Television (CTV),ca,57,Color,English,Canada,06/01/2011
+6,Columbia Broadcasting System (CBS),us,57,Color,English,Canada,06/01/2011
+8,Veronica,nl,57,Color,English,Canada,06/01/2011
+4,5*,gb,58,Color,English,Canada,10/02/2011
+5,Canadian Television (CTV),ca,58,Color,English,Canada,10/02/2011
+6,Columbia Broadcasting System (CBS),us,58,Color,English,Canada,10/02/2011
+8,Veronica,nl,58,Color,English,Canada,10/02/2011
+4,5*,gb,59,Color,English,Canada,18/11/2010
+5,Canadian Television (CTV),ca,59,Color,English,Canada,18/11/2010
+6,Columbia Broadcasting System (CBS),us,59,Color,English,Canada,18/11/2010
+8,Veronica,nl,59,Color,English,Canada,18/11/2010
+4,5*,gb,60,Color,English,Canada,21/10/2010
+5,Canadian Television (CTV),ca,60,Color,English,Canada,21/10/2010
+6,Columbia Broadcasting System (CBS),us,60,Color,English,Canada,21/10/2010
+7,Nine Network Australia,au,60,Color,English,Canada,21/10/2010
+8,Veronica,nl,60,Color,English,Canada,21/10/2010
+9,Warner Channel Latin America,br,60,Color,English,Canada,21/10/2010
+4,5*,gb,61,Color,English,Canada,23/09/2010
+5,Canadian Television (CTV),ca,61,Color,English,Canada,23/09/2010
+6,Columbia Broadcasting System (CBS),us,61,Color,English,Canada,23/09/2010
+7,Nine Network Australia,au,61,Color,English,Canada,23/09/2010
+8,Veronica,nl,61,Color,English,Canada,23/09/2010
+9,Warner Channel Latin America,br,61,Color,English,Canada,23/09/2010
+4,5*,gb,62,Color,English,Cambodia,13/01/2011
+5,Canadian Television (CTV),ca,62,Color,English,Cambodia,13/01/2011
+6,Columbia Broadcasting System (CBS),us,62,Color,English,Cambodia,13/01/2011
+8,Veronica,nl,62,Color,English,Cambodia,13/01/2011
+4,5*,gb,63,Color,English,Canada,11/11/2010
+5,Canadian Television (CTV),ca,63,Color,English,Canada,11/11/2010
+6,Columbia Broadcasting System (CBS),us,63,Color,English,Canada,11/11/2010
+8,Veronica,nl,63,Color,English,Canada,11/11/2010
+4,5*,gb,64,Color,English,Canada,07/10/2010
+5,Canadian Television (CTV),ca,64,Color,English,Canada,07/10/2010
+6,Columbia Broadcasting System (CBS),us,64,Color,English,Canada,07/10/2010
+7,Nine Network Australia,au,64,Color,English,Canada,07/10/2010
+8,Veronica,nl,64,Color,English,Canada,07/10/2010
+9,Warner Channel Latin America,br,64,Color,English,Canada,07/10/2010
+4,5*,gb,65,Color,English,Canada,03/02/2011
+5,Canadian Television (CTV),ca,65,Color,English,Canada,03/02/2011
+6,Columbia Broadcasting System (CBS),us,65,Color,English,Canada,03/02/2011
+8,Veronica,nl,65,Color,English,Canada,03/02/2011
+4,5*,gb,66,Color,English,Canada,17/02/2011
+5,Canadian Television (CTV),ca,66,Color,English,Canada,17/02/2011
+6,Columbia Broadcasting System (CBS),us,66,Color,English,Canada,17/02/2011
+8,Veronica,nl,66,Color,English,Canada,17/02/2011
+4,5*,gb,67,Color,English,Canada,30/09/2010
+5,Canadian Television (CTV),ca,67,Color,English,Canada,30/09/2010
+6,Columbia Broadcasting System (CBS),us,67,Color,English,Canada,30/09/2010
+7,Nine Network Australia,au,67,Color,English,Canada,30/09/2010
+8,Veronica,nl,67,Color,English,Canada,30/09/2010
+9,Warner Channel Latin America,br,67,Color,English,Canada,30/09/2010
+4,5*,gb,68,Color,English,Canada,09/12/2010
+5,Canadian Television (CTV),ca,68,Color,English,Canada,09/12/2010
+6,Columbia Broadcasting System (CBS),us,68,Color,English,Canada,09/12/2010
+7,Nine Network Australia,au,68,Color,English,Canada,09/12/2010
+8,Veronica,nl,68,Color,English,Canada,09/12/2010
+10,Lorimar Telepictures,us,69,Color,English,Unkown,01/01/1800
+11,Warner Bros. Television,us,69,Color,English,Unkown,01/01/1800
+12,A&E Television Networks,us,70,Color,English,USA,19/06/2010
+13,Alliance Atlantis Broadcasting,ca,82,Color,English,Canada,13/09/2001
+14,National Geographic Channel,gb,82,Color,English,Canada,13/09/2001
+6,Columbia Broadcasting System (CBS),us,85,Color,English,USA,17/09/1984
+15,Music Television 2 (MTV2),us,86,Color,English,USA,02/02/2002
+16,Music Television (MTV),us,94,Color,English,USA,13/10/2005
+17,Food Network,us,106,Color,English,USA,23/09/2012
+18,CanWest Global Communications,ca,114,Color,English,USA,08/11/2004
+19,National Broadcasting Company (NBC),us,114,Color,English,USA,08/11/2004
+17,Food Network,us,118,Color,English,USA,24/04/2002
+20,MTV Networks,us,196,Color,English,USA,01/05/2009
+20,MTV Networks,us,211,Color,English,USA,01/12/2009
+21,7 Network,au,227,Color,English,Australia,13/09/1980
+22,NYC TV,us,228,Color,English,USA,24/01/2003
+19,National Broadcasting Company (NBC),us,272,Color,English,USA,26/01/1979
+23,Paramount Television,,272,Color,English,USA,26/01/1979
+19,National Broadcasting Company (NBC),us,273,Color,English,USA,26/01/1979
+19,National Broadcasting Company (NBC),us,279,Color,English,USA,09/03/1979
+24,Sky Television,gb,282,Color,English,UK,02/09/2011
+25,VH1 Classic,us,283,Color,English,USA,22/05/2009
+26,BBC Video,gb,284,Color,English,UK,30/12/1982
+27,British Broadcasting Corporation (BBC),gb,284,Color,English,UK,30/12/1982
+28,Eesti Televisioon (ETV),ee,284,Color,English,UK,30/12/1982
+29,Pan Vision Oy,fi,284,Color,English,UK,30/12/1982
+30,Polyband,de,284,Color,English,UK,30/12/1982
+31,RTL Entertainment,nl,284,Color,English,UK,30/12/1982
+32,Televisie Radio Omroep Stichting (TROS),nl,284,Color,English,UK,30/12/1982
+33,Warner Home Video,nl,284,Color,English,UK,30/12/1982
+34,Warner Home Video,us,284,Color,English,UK,30/12/1982
+35,Leopard International,gb,370,Color,English,UK,15/09/2010
+36,CanWest Global Television Network,ca,371,Color,English,Canada,13/09/2007
+37,Komuna,rs,398,Color,Serbo-Croatian,Serbia,20/06/2000
+38,Vitaya,be,404,Color,Dutch,Belgium,23/12/2007
+27,British Broadcasting Corporation (BBC),gb,405,Color,English,UK,10/09/2001
+39,BBC Scotland,gb,414,Color,Scottish Gaelic,UK,23/04/2009
+40,Astromax Entertainment,dk,579,Black and White,English,Denmark,01/01/2012
+40,Astromax Entertainment,dk,580,Black and White,English,USA,01/01/2012
+41,Court TV,us,581,Unkown,English,Unkown,01/01/1800
+42,Filmbox HD,hu,581,Unkown,English,Unkown,01/01/1800
+43,Filmbox,hu,581,Unkown,English,Unkown,01/01/1800
+44,Fremantle Media,gb,581,Unkown,English,Unkown,01/01/1800
+45,Poén!,hu,581,Unkown,English,Unkown,01/01/1800
+46,RTL Klub Televízió,hu,581,Unkown,English,Unkown,01/01/1800
+47,Sorozat,hu,581,Unkown,English,Unkown,01/01/1800
+41,Court TV,us,586,Unkown,English,USA,13/09/2006
+48,Five US,gb,596,Color,English,USA,13/09/2006
+49,Fox Network,us,596,Color,English,USA,13/09/2006
+31,RTL Entertainment,nl,596,Color,English,USA,13/09/2006
+46,RTL Klub Televízió,hu,596,Color,English,USA,13/09/2006
+50,Sony Pictures Home Entertainment,be,596,Color,English,USA,13/09/2006
+51,Sony Pictures Home Entertainment,nl,596,Color,English,USA,13/09/2006
+52,Sony Pictures Home Entertainment,us,596,Color,English,USA,13/09/2006
+53,TV3,ee,596,Color,English,USA,13/09/2006
+49,Fox Network,us,597,Color,English,USA,21/03/2010
+46,RTL Klub Televízió,hu,597,Color,English,USA,21/03/2010
+46,RTL Klub Televízió,hu,600,Unkown,English,USA,14/11/2007
+49,Fox Network,us,601,Color,English,USA,18/04/2010
+46,RTL Klub Televízió,hu,602,Unkown,English,USA,25/04/2010
+46,RTL Klub Televízió,hu,603,Unkown,English,USA,28/02/2010
+46,RTL Klub Televízió,hu,605,Unkown,English,USA,08/10/2008
+54,Comedy Central Deutschland,de,606,Color,English,USA,14/03/2007
+49,Fox Network,us,606,Color,English,USA,14/03/2007
+46,RTL Klub Televízió,hu,606,Color,English,USA,14/03/2007
+49,Fox Network,us,607,Color,English,Germany,01/03/2010
+46,RTL Klub Televízió,hu,607,Color,English,Germany,01/03/2010
+54,Comedy Central Deutschland,de,608,Color,English,USA,03/10/2007
+49,Fox Network,us,608,Color,English,USA,03/10/2007
+46,RTL Klub Televízió,hu,608,Color,English,USA,03/10/2007
+49,Fox Network,us,609,Color,English,Germany,25/02/2010
+46,RTL Klub Televízió,hu,609,Color,English,Germany,25/02/2010
+54,Comedy Central Deutschland,de,610,Color,English,USA,21/12/2006
+49,Fox Network,us,610,Color,English,USA,21/12/2006
+46,RTL Klub Televízió,hu,610,Color,English,USA,21/12/2006
+54,Comedy Central Deutschland,de,611,Color,English,USA,30/11/2006
+49,Fox Network,us,611,Color,English,USA,30/11/2006
+46,RTL Klub Televízió,hu,611,Color,English,USA,30/11/2006
+46,RTL Klub Televízió,hu,612,Unkown,English,USA,28/03/2010
+46,RTL Klub Televízió,hu,613,Unkown,English,USA,02/10/2009
+54,Comedy Central Deutschland,de,614,Color,English,USA,16/11/2006
+49,Fox Network,us,614,Color,English,USA,16/11/2006
+46,RTL Klub Televízió,hu,614,Color,English,USA,16/11/2006
+46,RTL Klub Televízió,hu,615,Unkown,English,USA,24/09/2008
+46,RTL Klub Televízió,hu,617,Unkown,English,USA,28/11/2007
+49,Fox Network,us,618,Color,English,USA,04/04/2010
+46,RTL Klub Televízió,hu,618,Color,English,USA,04/04/2010
+54,Comedy Central Deutschland,de,619,Color,English,USA,18/01/2007
+49,Fox Network,us,619,Color,English,USA,18/01/2007
+46,RTL Klub Televízió,hu,619,Color,English,USA,18/01/2007
+54,Comedy Central Deutschland,de,620,Color,English,USA,26/09/2007
+49,Fox Network,us,620,Color,English,USA,26/09/2007
+46,RTL Klub Televízió,hu,620,Color,English,USA,26/09/2007
+54,Comedy Central Deutschland,de,622,Color,English,USA,21/03/2007
+49,Fox Network,us,622,Color,English,USA,21/03/2007
+46,RTL Klub Televízió,hu,622,Color,English,USA,21/03/2007
+46,RTL Klub Televízió,hu,624,Unkown,English,USA,17/09/2008
+46,RTL Klub Televízió,hu,629,Unkown,English,USA,17/10/2007
+46,RTL Klub Televízió,hu,630,Unkown,English,USA,25/12/2009
+46,RTL Klub Televízió,hu,631,Unkown,English,USA,28/11/2007
+46,RTL Klub Televízió,hu,632,Unkown,English,USA,21/02/2010
+54,Comedy Central Deutschland,de,633,Color,English,USA,19/09/2007
+49,Fox Network,us,633,Color,English,USA,19/09/2007
+46,RTL Klub Televízió,hu,633,Color,English,USA,19/09/2007
+46,RTL Klub Televízió,hu,634,Unkown,English,USA,01/10/2008
+54,Comedy Central Deutschland,de,635,Color,English,Canada,06/09/2006
+49,Fox Network,us,635,Color,English,Canada,06/09/2006
+31,RTL Entertainment,nl,635,Color,English,Canada,06/09/2006
+46,RTL Klub Televízió,hu,635,Color,English,Canada,06/09/2006
+46,RTL Klub Televízió,hu,636,Unkown,English,USA,14/05/2008
+46,RTL Klub Televízió,hu,637,Unkown,English,USA,25/03/2008
+46,RTL Klub Televízió,hu,638,Unkown,English,USA,07/05/2008
+46,RTL Klub Televízió,hu,639,Unkown,English,USA,08/10/2008
+54,Comedy Central Deutschland,de,642,Color,English,USA,14/09/2006
+49,Fox Network,us,642,Color,English,USA,14/09/2006
+46,RTL Klub Televízió,hu,642,Color,English,USA,14/09/2006
+49,Fox Network,us,644,Color,English,USA,23/04/2008
+46,RTL Klub Televízió,hu,644,Color,English,USA,23/04/2008
+49,Fox Network,us,645,Unkown,English,USA,14/02/2010
+46,RTL Klub Televízió,hu,645,Unkown,English,USA,14/02/2010
+49,Fox Network,us,646,Color,English,USA,30/04/2008
+46,RTL Klub Televízió,hu,646,Color,English,USA,30/04/2008
+46,RTL Klub Televízió,hu,647,Unkown,English,USA,10/09/2008
+46,RTL Klub Televízió,hu,648,Unkown,English,USA,01/10/2008
+54,Comedy Central Deutschland,de,649,Color,English,USA,11/04/2007
+49,Fox Network,us,649,Color,English,USA,11/04/2007
+46,RTL Klub Televízió,hu,649,Color,English,USA,11/04/2007
+46,RTL Klub Televízió,hu,650,Unkown,English,USA,14/05/2008
+54,Comedy Central Deutschland,de,651,Color,English,USA,04/04/2007
+49,Fox Network,us,651,Color,English,USA,04/04/2007
+46,RTL Klub Televízió,hu,651,Color,English,USA,04/04/2007
+55,Radio Télévision Belge Francophone (RTBF),be,651,Color,English,USA,04/04/2007
+56,TPS Star,fr,651,Color,English,USA,04/04/2007
+54,Comedy Central Deutschland,de,652,Color,English,USA,04/01/2007
+49,Fox Network,us,652,Color,English,USA,04/01/2007
+46,RTL Klub Televízió,hu,652,Color,English,USA,04/01/2007
+49,Fox Network,us,653,Color,English,USA,23/05/2010
+54,Comedy Central Deutschland,de,654,Color,English,USA,08/02/2007
+49,Fox Network,us,654,Color,English,USA,08/02/2007
+46,RTL Klub Televízió,hu,654,Color,English,USA,08/02/2007
+55,Radio Télévision Belge Francophone (RTBF),be,654,Color,English,USA,08/02/2007
+56,TPS Star,fr,654,Color,English,USA,08/02/2007
+49,Fox Network,us,656,Color,English,USA,25/12/2009
+46,RTL Klub Televízió,hu,656,Color,English,USA,25/12/2009
+49,Fox Network,us,657,Color,English,USA,21/02/2010
+54,Comedy Central Deutschland,de,658,Color,English,USA,28/03/2007
+49,Fox Network,us,658,Color,English,USA,28/03/2007
+46,RTL Klub Televízió,hu,658,Color,English,USA,28/03/2007
+54,Comedy Central Deutschland,de,659,Color,English,USA,01/02/2007
+49,Fox Network,us,659,Color,English,USA,01/02/2007
+46,RTL Klub Televízió,hu,659,Color,English,USA,01/02/2007
+49,Fox Network,us,660,Color,English,USA,07/03/2010
+49,Fox Network,us,661,Color,English,USA,25/12/2009
+46,RTL Klub Televízió,hu,661,Color,English,USA,25/12/2009
+46,RTL Klub Televízió,hu,662,Color,English,USA,25/12/2009
+54,Comedy Central Deutschland,de,663,Color,English,USA,02/11/2006
+49,Fox Network,us,663,Color,English,USA,02/11/2006
+46,RTL Klub Televízió,hu,663,Color,English,USA,02/11/2006
+54,Comedy Central Deutschland,de,664,Color,English,USA,11/01/2007
+49,Fox Network,us,664,Color,English,USA,11/01/2007
+46,RTL Klub Televízió,hu,664,Color,English,USA,11/01/2007
+54,Comedy Central Deutschland,de,665,Color,English,USA,15/02/2007
+49,Fox Network,us,665,Color,English,USA,15/02/2007
+46,RTL Klub Televízió,hu,665,Color,English,USA,15/02/2007
+49,Fox Network,us,666,Color,English,Germany,24/02/2010
+46,RTL Klub Televízió,hu,666,Color,English,Germany,24/02/2010
+49,Fox Network,us,667,Color,English,USA,14/03/2010
+46,RTL Klub Televízió,hu,668,Unkown,English,USA,07/02/2010
+54,Comedy Central Deutschland,de,669,Color,English,USA,21/09/2006
+49,Fox Network,us,669,Color,English,USA,21/09/2006
+46,RTL Klub Televízió,hu,669,Color,English,USA,21/09/2006
+49,Fox Network,us,670,Color,English,USA,10/10/2007
+46,RTL Klub Televízió,hu,670,Color,English,USA,10/10/2007
+52,Sony Pictures Home Entertainment,us,670,Color,English,USA,10/10/2007
+54,Comedy Central Deutschland,de,671,Color,English,USA,14/12/2006
+49,Fox Network,us,671,Color,English,USA,14/12/2006
+46,RTL Klub Televízió,hu,671,Color,English,USA,14/12/2006
+54,Comedy Central Deutschland,de,673,Color,English,USA,28/09/2006
+49,Fox Network,us,673,Color,English,USA,28/09/2006
+46,RTL Klub Televízió,hu,673,Color,English,USA,28/09/2006
+46,RTL Klub Televízió,hu,674,Unkown,English,USA,07/11/2007
+54,Comedy Central Deutschland,de,675,Color,English,USA,11/04/2007
+49,Fox Network,us,675,Color,English,USA,11/04/2007
+46,RTL Klub Televízió,hu,675,Color,English,USA,11/04/2007
+54,Comedy Central Deutschland,de,677,Color,English,USA,09/11/2006
+49,Fox Network,us,677,Color,English,USA,09/11/2006
+46,RTL Klub Televízió,hu,677,Color,English,USA,09/11/2006
+57,Spike TV,us,678,Color,English,USA,12/11/2004
+6,Columbia Broadcasting System (CBS),us,681,Black and White,English,USA,31/03/1961
+6,Columbia Broadcasting System (CBS),us,682,Black and White,English,USA,14/07/1961
+6,Columbia Broadcasting System (CBS),us,683,Black and White,English,USA,28/04/1961
+6,Columbia Broadcasting System (CBS),us,684,Black and White,English,USA,09/06/1961
+6,Columbia Broadcasting System (CBS),us,685,Black and White,English,USA,02/06/1961
+6,Columbia Broadcasting System (CBS),us,686,Black and White,English,USA,26/05/1961
+6,Columbia Broadcasting System (CBS),us,687,Black and White,English,USA,23/06/1961
+6,Columbia Broadcasting System (CBS),us,688,Black and White,English,USA,05/05/1961
+6,Columbia Broadcasting System (CBS),us,689,Black and White,English,USA,30/06/1961
+6,Columbia Broadcasting System (CBS),us,690,Black and White,English,USA,07/07/1961
+6,Columbia Broadcasting System (CBS),us,691,Black and White,English,USA,12/05/1961
+6,Columbia Broadcasting System (CBS),us,692,Black and White,English,USA,07/04/1961
+6,Columbia Broadcasting System (CBS),us,693,Black and White,English,USA,16/06/1961
+6,Columbia Broadcasting System (CBS),us,694,Black and White,English,USA,14/04/1961
+6,Columbia Broadcasting System (CBS),us,695,Black and White,English,USA,31/03/1961
+58,Z Flight Productions,us,399,Color,English,USA,01/12/2009
+59,Bridge Entertainment Group,nl,429,Color,Dutch,Netherlands,05/12/2010
+59,Bridge Entertainment Group,nl,429,Color,Dutch,Netherlands,05/12/2010
+60,Katholieke Radio Omroep (KRO),nl,429,Color,Dutch,Netherlands,05/12/2010
+61,Video Film Express,nl,429,Color,Dutch,Netherlands,05/12/2010
+60,Katholieke Radio Omroep (KRO),nl,442,Color,Dutch,Netherlands,05/12/2010
+60,Katholieke Radio Omroep (KRO),nl,443,Color,Dutch,Netherlands,16/01/2011
+60,Katholieke Radio Omroep (KRO),nl,452,Color,Dutch,Netherlands,26/12/2010
+60,Katholieke Radio Omroep (KRO),nl,453,Color,Dutch,Netherlands,23/01/2011
+60,Katholieke Radio Omroep (KRO),nl,454,Color,Dutch,Netherlands,02/01/2011
+60,Katholieke Radio Omroep (KRO),nl,456,Color,Dutch,Netherlands,12/12/2010
+60,Katholieke Radio Omroep (KRO),nl,457,Color,Dutch,Netherlands,09/01/2011
+60,Katholieke Radio Omroep (KRO),nl,460,Color,Dutch,Netherlands,19/12/2010
+62,Disky Communications Europe,nl,469,Color,Dutch,Netherlands,31/12/1993
+62,Disky Communications Europe,nl,469,Color,Dutch,Netherlands,31/12/1993
+31,RTL Entertainment,nl,469,Color,Dutch,Netherlands,31/12/1993
+31,RTL Entertainment,nl,469,Color,Dutch,Netherlands,31/12/1993
+31,RTL Entertainment,nl,469,Color,Dutch,Netherlands,31/12/1993
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,469,Color,Dutch,Netherlands,31/12/1993
+31,RTL Entertainment,nl,470,Unkown,English,Netherlands,13/09/2000
+31,RTL Entertainment,nl,473,Unkown,English,Netherlands,11/04/1998
+31,RTL Entertainment,nl,475,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,478,Unkown,English,Netherlands,13/09/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,479,Unkown,English,Netherlands,18/02/1994
+31,RTL Entertainment,nl,480,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,481,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,483,Unkown,English,Netherlands,13/09/1997
+31,RTL Entertainment,nl,484,Unkown,English,Netherlands,28/03/1998
+31,RTL Entertainment,nl,485,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,486,Unkown,English,Netherlands,13/09/2000
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,487,Unkown,English,Netherlands,26/01/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,488,Unkown,English,Netherlands,04/02/1994
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,489,Unkown,English,Netherlands,05/01/1995
+31,RTL Entertainment,nl,491,Unkown,English,Netherlands,13/09/1997
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,492,Unkown,English,Netherlands,23/02/1995
+31,RTL Entertainment,nl,493,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,494,Unkown,English,Netherlands,13/09/1997
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,495,Unkown,English,Netherlands,02/03/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,496,Unkown,English,Netherlands,16/03/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,497,Unkown,English,Netherlands,30/03/1995
+31,RTL Entertainment,nl,498,Unkown,English,Netherlands,30/05/1998
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,499,Unkown,English,Netherlands,14/01/1994
+31,RTL Entertainment,nl,500,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,506,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,507,Unkown,English,Netherlands,13/09/1997
+31,RTL Entertainment,nl,508,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,509,Unkown,English,Netherlands,09/05/1998
+31,RTL Entertainment,nl,510,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,511,Unkown,English,Netherlands,13/09/1997
+31,RTL Entertainment,nl,512,Unkown,English,Netherlands,13/09/1995
+31,RTL Entertainment,nl,513,Unkown,English,Netherlands,13/09/1994
+31,RTL Entertainment,nl,515,Unkown,English,Netherlands,13/09/1998
+31,RTL Entertainment,nl,516,Unkown,English,Netherlands,13/09/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,517,Unkown,English,Netherlands,23/03/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,518,Unkown,English,Netherlands,09/02/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,521,Unkown,English,Netherlands,12/01/1995
+31,RTL Entertainment,nl,522,Unkown,English,Netherlands,13/09/1997
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,523,Unkown,English,Netherlands,13/09/1994
+31,RTL Entertainment,nl,524,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,525,Unkown,English,Netherlands,13/09/1997
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,526,Unkown,English,Netherlands,28/01/1994
+31,RTL Entertainment,nl,527,Unkown,English,Netherlands,13/09/1997
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,528,Unkown,English,Netherlands,02/02/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,531,Unkown,English,Netherlands,16/02/1995
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,532,Unkown,English,Netherlands,07/01/1994
+31,RTL Entertainment,nl,533,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,534,Unkown,English,Netherlands,02/05/1998
+31,RTL Entertainment,nl,535,Unkown,English,Netherlands,13/09/1997
+31,RTL Entertainment,nl,536,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,537,Unkown,English,Netherlands,21/03/1998
+31,RTL Entertainment,nl,538,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,540,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,541,Unkown,English,Netherlands,13/09/2000
+31,RTL Entertainment,nl,542,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,544,Unkown,English,Netherlands,13/09/1997
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,545,Unkown,English,Netherlands,11/02/1994
+31,RTL Entertainment,nl,546,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,549,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,550,Unkown,English,Netherlands,18/04/1998
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,551,Unkown,English,Netherlands,21/01/1994
+31,RTL Entertainment,nl,552,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,553,Unkown,English,Netherlands,13/09/2000
+31,RTL Entertainment,nl,554,Unkown,English,Netherlands,02/05/1998
+31,RTL Entertainment,nl,555,Unkown,English,Netherlands,13/09/1997
+31,RTL Entertainment,nl,556,Color,Dutch,Netherlands,13/09/2000
+31,RTL Entertainment,nl,557,Unkown,English,Netherlands,03/01/2000
+31,RTL Entertainment,nl,558,Unkown,English,Netherlands,13/09/1996
+31,RTL Entertainment,nl,559,Unkown,English,Netherlands,13/09/1997
+31,RTL Entertainment,nl,560,Unkown,English,Netherlands,06/06/1998
+31,RTL Entertainment,nl,563,Unkown,English,Netherlands,23/05/1998
+31,RTL Entertainment,nl,564,Unkown,English,Netherlands,04/04/1998
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,565,Unkown,English,Netherlands,09/03/1995
+31,RTL Entertainment,nl,566,Unkown,English,Netherlands,13/09/1999
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,567,Unkown,English,Netherlands,19/01/1995
+31,RTL Entertainment,nl,568,Unkown,English,Netherlands,13/09/2000
+31,RTL Entertainment,nl,572,Unkown,English,Netherlands,13/09/1999
+31,RTL Entertainment,nl,574,Unkown,English,Netherlands,13/09/1995
+31,RTL Entertainment,nl,575,Unkown,English,Netherlands,13/09/1997
+31,RTL Entertainment,nl,576,Unkown,English,Netherlands,16/05/1998
+64,Televisió de Catalunya (TV3),es,723,Color,Catalan,Spain,02/04/2008
+65,SBS Program Sales,au,750,Color,English,Australia,13/09/2003
+66,Malvalanda,es,817,Color,Spanish,Spain,01/12/2008
+67,Sat.1,de,819,Color,German,Germany,10/10/2010
+68,Westdeutscher Rundfunk (WDR),de,820,Color,German,Germany,23/07/2006
+64,Televisió de Catalunya (TV3),es,826,Color,Catalan,Spain,05/07/2004
+69,Televisión Española (TVE),es,901,Black and White,Spanish,Spain,13/09/1971
+70,Das Vierte,de,853,Color,German,Germany,07/03/2007
+71,RaiTrade,it,860,Black and White,Italian,Italy,07/09/1971
+72,Sender Freies Berlin (SFB),de,887,Color,German,Germany,20/08/1993
+73,Danmarks Radio (DR),dk,903,Color,Danish,Denmark,01/05/2000
+74,AT-X,jp,907,Color,Japanese,Japan,05/04/2006
+75,Bandai America,us,907,Color,Japanese,Japan,05/04/2006
+76,Bandai Entertainment,us,907,Color,Japanese,Japan,05/04/2006
+77,Bandai Visual Company,jp,907,Color,Japanese,Japan,05/04/2006
+78,Cartoon Network,us,907,Color,Japanese,Japan,05/04/2006
+79,TV Aichi,jp,907,Color,Japanese,Japan,05/04/2006
+80,TV Osaka,jp,907,Color,Japanese,Japan,05/04/2006
+81,TV Setouchi,jp,907,Color,Japanese,Japan,05/04/2006
+82,TV Tokyo,jp,907,Color,Japanese,Japan,05/04/2006
+74,AT-X,jp,908,Color,Japanese,Japan,06/09/2006
+78,Cartoon Network,us,908,Color,Japanese,Japan,06/09/2006
+79,TV Aichi,jp,908,Color,Japanese,Japan,06/09/2006
+80,TV Osaka,jp,908,Color,Japanese,Japan,06/09/2006
+81,TV Setouchi,jp,908,Color,Japanese,Japan,06/09/2006
+82,TV Tokyo,jp,908,Color,Japanese,Japan,06/09/2006
+74,AT-X,jp,909,Color,Japanese,Japan,21/06/2006
+78,Cartoon Network,us,909,Color,Japanese,Japan,21/06/2006
+74,AT-X,jp,910,Color,Japanese,Japan,10/05/2006
+78,Cartoon Network,us,910,Color,Japanese,Japan,10/05/2006
+79,TV Aichi,jp,910,Color,Japanese,Japan,10/05/2006
+80,TV Osaka,jp,910,Color,Japanese,Japan,10/05/2006
+81,TV Setouchi,jp,910,Color,Japanese,Japan,10/05/2006
+82,TV Tokyo,jp,910,Color,Japanese,Japan,10/05/2006
+74,AT-X,jp,911,Color,Japanese,Japan,20/09/2006
+78,Cartoon Network,us,911,Color,Japanese,Japan,20/09/2006
+79,TV Aichi,jp,911,Color,Japanese,Japan,20/09/2006
+80,TV Osaka,jp,911,Color,Japanese,Japan,20/09/2006
+81,TV Setouchi,jp,911,Color,Japanese,Japan,20/09/2006
+82,TV Tokyo,jp,911,Color,Japanese,Japan,20/09/2006
+74,AT-X,jp,912,Color,Japanese,Japan,30/08/2006
+78,Cartoon Network,us,912,Color,Japanese,Japan,30/08/2006
+74,AT-X,jp,913,Color,Japanese,Japan,27/09/2006
+78,Cartoon Network,us,913,Color,Japanese,Japan,27/09/2006
+79,TV Aichi,jp,913,Color,Japanese,Japan,27/09/2006
+80,TV Osaka,jp,913,Color,Japanese,Japan,27/09/2006
+81,TV Setouchi,jp,913,Color,Japanese,Japan,27/09/2006
+82,TV Tokyo,jp,913,Color,Japanese,Japan,27/09/2006
+74,AT-X,jp,914,Color,Japanese,Japan,14/06/2006
+78,Cartoon Network,us,914,Color,Japanese,Japan,14/06/2006
+74,AT-X,jp,915,Color,Japanese,Japan,03/05/2006
+78,Cartoon Network,us,915,Color,Japanese,Japan,03/05/2006
+79,TV Aichi,jp,915,Color,Japanese,Japan,03/05/2006
+80,TV Osaka,jp,915,Color,Japanese,Japan,03/05/2006
+81,TV Setouchi,jp,915,Color,Japanese,Japan,03/05/2006
+82,TV Tokyo,jp,915,Color,Japanese,Japan,03/05/2006
+74,AT-X,jp,916,Color,Japanese,Japan,26/04/2006
+78,Cartoon Network,us,916,Color,Japanese,Japan,26/04/2006
+79,TV Aichi,jp,916,Color,Japanese,Japan,26/04/2006
+80,TV Osaka,jp,916,Color,Japanese,Japan,26/04/2006
+81,TV Setouchi,jp,916,Color,Japanese,Japan,26/04/2006
+82,TV Tokyo,jp,916,Color,Japanese,Japan,26/04/2006
+74,AT-X,jp,917,Color,Japanese,Japan,17/05/2006
+78,Cartoon Network,us,917,Color,Japanese,Japan,17/05/2006
+79,TV Aichi,jp,917,Color,Japanese,Japan,17/05/2006
+80,TV Osaka,jp,917,Color,Japanese,Japan,17/05/2006
+81,TV Setouchi,jp,917,Color,Japanese,Japan,17/05/2006
+82,TV Tokyo,jp,917,Color,Japanese,Japan,17/05/2006
+74,AT-X,jp,918,Color,Japanese,Japan,19/04/2006
+78,Cartoon Network,us,918,Color,Japanese,Japan,19/04/2006
+79,TV Aichi,jp,918,Color,Japanese,Japan,19/04/2006
+80,TV Osaka,jp,918,Color,Japanese,Japan,19/04/2006
+81,TV Setouchi,jp,918,Color,Japanese,Japan,19/04/2006
+82,TV Tokyo,jp,918,Color,Japanese,Japan,19/04/2006
+74,AT-X,jp,919,Color,Japanese,Japan,09/08/2006
+78,Cartoon Network,us,919,Color,Japanese,Japan,09/08/2006
+74,AT-X,jp,920,Color,Japanese,Japan,31/05/2006
+78,Cartoon Network,us,920,Color,Japanese,Japan,31/05/2006
+74,AT-X,jp,921,Color,Japanese,Japan,07/06/2006
+78,Cartoon Network,us,921,Color,Japanese,Japan,07/06/2006
+74,AT-X,jp,922,Color,Japanese,Japan,12/07/2006
+78,Cartoon Network,us,922,Color,Japanese,Japan,12/07/2006
+74,AT-X,jp,923,Color,Japanese,Japan,26/07/2006
+78,Cartoon Network,us,923,Color,Japanese,Japan,26/07/2006
+74,AT-X,jp,924,Color,Japanese,Japan,23/08/2006
+78,Cartoon Network,us,924,Color,Japanese,Japan,23/08/2006
+74,AT-X,jp,925,Color,Japanese,Japan,19/07/2006
+78,Cartoon Network,us,925,Color,Japanese,Japan,19/07/2006
+74,AT-X,jp,926,Color,Japanese,Japan,24/05/2006
+78,Cartoon Network,us,926,Color,Japanese,Japan,24/05/2006
+79,TV Aichi,jp,926,Color,Japanese,Japan,24/05/2006
+80,TV Osaka,jp,926,Color,Japanese,Japan,24/05/2006
+81,TV Setouchi,jp,926,Color,Japanese,Japan,24/05/2006
+82,TV Tokyo,jp,926,Color,Japanese,Japan,24/05/2006
+74,AT-X,jp,927,Color,Japanese,Japan,28/06/2006
+78,Cartoon Network,us,927,Color,Japanese,Japan,28/06/2006
+74,AT-X,jp,928,Color,Japanese,Japan,13/09/2006
+78,Cartoon Network,us,928,Color,Japanese,Japan,13/09/2006
+79,TV Aichi,jp,928,Color,Japanese,Japan,13/09/2006
+80,TV Osaka,jp,928,Color,Japanese,Japan,13/09/2006
+81,TV Setouchi,jp,928,Color,Japanese,Japan,13/09/2006
+82,TV Tokyo,jp,928,Color,Japanese,Japan,13/09/2006
+74,AT-X,jp,929,Color,Japanese,Japan,27/09/2006
+78,Cartoon Network,us,929,Color,Japanese,Japan,27/09/2006
+79,TV Aichi,jp,929,Color,Japanese,Japan,27/09/2006
+80,TV Osaka,jp,929,Color,Japanese,Japan,27/09/2006
+81,TV Setouchi,jp,929,Color,Japanese,Japan,27/09/2006
+82,TV Tokyo,jp,929,Color,Japanese,Japan,27/09/2006
+74,AT-X,jp,930,Color,Japanese,Japan,12/04/2006
+78,Cartoon Network,us,930,Color,Japanese,Japan,12/04/2006
+79,TV Aichi,jp,930,Color,Japanese,Japan,12/04/2006
+80,TV Osaka,jp,930,Color,Japanese,Japan,12/04/2006
+81,TV Setouchi,jp,930,Color,Japanese,Japan,12/04/2006
+82,TV Tokyo,jp,930,Color,Japanese,Japan,12/04/2006
+74,AT-X,jp,931,Color,Japanese,Japan,05/07/2006
+78,Cartoon Network,us,931,Color,Japanese,Japan,05/07/2006
+74,AT-X,jp,932,Color,Japanese,Japan,16/08/2006
+78,Cartoon Network,us,932,Color,Japanese,Japan,16/08/2006
+74,AT-X,jp,933,Color,Japanese,Japan,05/04/2006
+78,Cartoon Network,us,933,Color,Japanese,Japan,05/04/2006
+79,TV Aichi,jp,933,Color,Japanese,Japan,05/04/2006
+80,TV Osaka,jp,933,Color,Japanese,Japan,05/04/2006
+81,TV Setouchi,jp,933,Color,Japanese,Japan,05/04/2006
+82,TV Tokyo,jp,933,Color,Japanese,Japan,05/04/2006
+83,Atari Ibérica S.A.,es,934,Black and White,English,Japan,05/04/2002
+76,Bandai Entertainment,us,934,Black and White,English,Japan,05/04/2002
+77,Bandai Visual Company,jp,934,Black and White,English,Japan,05/04/2002
+78,Cartoon Network,us,934,Black and White,English,Japan,05/04/2002
+84,YTV,ca,934,Black and White,English,Japan,05/04/2002
+76,Bandai Entertainment,us,935,Color,Japanese,Japan,01/05/2002
+77,Bandai Visual Company,jp,935,Color,Japanese,Japan,01/05/2002
+78,Cartoon Network,us,935,Color,Japanese,Japan,01/05/2002
+82,TV Tokyo,jp,935,Color,Japanese,Japan,01/05/2002
+84,YTV,ca,935,Color,Japanese,Japan,01/05/2002
+76,Bandai Entertainment,us,938,Color,Japanese,Japan,05/06/2002
+77,Bandai Visual Company,jp,938,Color,Japanese,Japan,05/06/2002
+78,Cartoon Network,us,938,Color,Japanese,Japan,05/06/2002
+82,TV Tokyo,jp,938,Color,Japanese,Japan,05/06/2002
+84,YTV,ca,938,Color,Japanese,Japan,05/06/2002
+76,Bandai Entertainment,us,943,Color,Japanese,Japan,08/05/2002
+77,Bandai Visual Company,jp,943,Color,Japanese,Japan,08/05/2002
+78,Cartoon Network,us,943,Color,Japanese,Japan,08/05/2002
+82,TV Tokyo,jp,943,Color,Japanese,Japan,08/05/2002
+84,YTV,ca,943,Color,Japanese,Japan,08/05/2002
+76,Bandai Entertainment,us,944,Color,Japanese,Japan,19/06/2002
+77,Bandai Visual Company,jp,944,Color,Japanese,Japan,19/06/2002
+78,Cartoon Network,us,944,Color,Japanese,Japan,19/06/2002
+82,TV Tokyo,jp,944,Color,Japanese,Japan,19/06/2002
+84,YTV,ca,944,Color,Japanese,Japan,19/06/2002
+76,Bandai Entertainment,us,945,Color,Japanese,Japan,29/05/2002
+77,Bandai Visual Company,jp,945,Color,Japanese,Japan,29/05/2002
+78,Cartoon Network,us,945,Color,Japanese,Japan,29/05/2002
+82,TV Tokyo,jp,945,Color,Japanese,Japan,29/05/2002
+84,YTV,ca,945,Color,Japanese,Japan,29/05/2002
+76,Bandai Entertainment,us,947,Color,Japanese,Japan,17/04/2002
+77,Bandai Visual Company,jp,947,Color,Japanese,Japan,17/04/2002
+78,Cartoon Network,us,947,Color,Japanese,Japan,17/04/2002
+82,TV Tokyo,jp,947,Color,Japanese,Japan,17/04/2002
+84,YTV,ca,947,Color,Japanese,Japan,17/04/2002
+76,Bandai Entertainment,us,948,Color,Japanese,Japan,10/04/2002
+77,Bandai Visual Company,jp,948,Color,Japanese,Japan,10/04/2002
+78,Cartoon Network,us,948,Color,Japanese,Japan,10/04/2002
+82,TV Tokyo,jp,948,Color,Japanese,Japan,10/04/2002
+84,YTV,ca,948,Color,Japanese,Japan,10/04/2002
+76,Bandai Entertainment,us,949,Unkown,English,Japan,13/09/2002
+77,Bandai Visual Company,jp,949,Unkown,English,Japan,13/09/2002
+76,Bandai Entertainment,us,951,Color,Japanese,Japan,12/06/2002
+77,Bandai Visual Company,jp,951,Color,Japanese,Japan,12/06/2002
+78,Cartoon Network,us,951,Color,Japanese,Japan,12/06/2002
+82,TV Tokyo,jp,951,Color,Japanese,Japan,12/06/2002
+84,YTV,ca,951,Color,Japanese,Japan,12/06/2002
+76,Bandai Entertainment,us,953,Color,Japanese,Japan,22/05/2002
+77,Bandai Visual Company,jp,953,Color,Japanese,Japan,22/05/2002
+78,Cartoon Network,us,953,Color,Japanese,Japan,22/05/2002
+82,TV Tokyo,jp,953,Color,Japanese,Japan,22/05/2002
+84,YTV,ca,953,Color,Japanese,Japan,22/05/2002
+76,Bandai Entertainment,us,954,Color,Japanese,Japan,15/05/2002
+77,Bandai Visual Company,jp,954,Color,Japanese,Japan,15/05/2002
+78,Cartoon Network,us,954,Color,Japanese,Japan,15/05/2002
+82,TV Tokyo,jp,954,Color,Japanese,Japan,15/05/2002
+84,YTV,ca,954,Color,Japanese,Japan,15/05/2002
+83,Atari Ibérica S.A.,es,956,Color,Japanese,Japan,25/09/2002
+76,Bandai Entertainment,us,956,Color,Japanese,Japan,25/09/2002
+77,Bandai Visual Company,jp,956,Color,Japanese,Japan,25/09/2002
+78,Cartoon Network,us,956,Color,Japanese,Japan,25/09/2002
+84,YTV,ca,956,Color,Japanese,Japan,25/09/2002
+76,Bandai Entertainment,us,957,Color,Japanese,Japan,03/04/2002
+77,Bandai Visual Company,jp,957,Color,Japanese,Japan,03/04/2002
+78,Cartoon Network,us,957,Color,Japanese,Japan,03/04/2002
+82,TV Tokyo,jp,957,Color,Japanese,Japan,03/04/2002
+84,YTV,ca,957,Color,Japanese,Japan,03/04/2002
+76,Bandai Entertainment,us,961,Unkown,English,Japan,13/09/2003
+77,Bandai Visual Company,jp,961,Unkown,English,Japan,13/09/2003
+76,Bandai Entertainment,us,962,Color,Japanese,Japan,24/04/2002
+77,Bandai Visual Company,jp,962,Color,Japanese,Japan,24/04/2002
+78,Cartoon Network,us,962,Color,Japanese,Japan,24/04/2002
+82,TV Tokyo,jp,962,Color,Japanese,Japan,24/04/2002
+84,YTV,ca,962,Color,Japanese,Japan,24/04/2002
+85,Bandai Entertainment Inc.,jp,963,Color,English,USA,25/05/2004
+82,TV Tokyo,jp,963,Color,English,USA,25/05/2004
+86,STV,,976,Color,English,UK,31/12/2010
+87,Showbox Home Entertainment,gb,977,Color,English,Unkown,01/01/1800
+88,The Adult Channel,gb,977,Color,English,Unkown,01/01/1800
+69,Televisión Española (TVE),es,978,Color,Spanish,Spain,10/09/1979
+89,ADV Films,us,979,Color,Japanese,Japan,05/10/2006
+90,BS-i,jp,979,Color,Japanese,Japan,05/10/2006
+91,FUNimation Entertainment,us,979,Color,Japanese,Japan,05/10/2006
+92,Tokyo Broadcasting System (TBS),jp,979,Color,Japanese,Japan,05/10/2006
+93,Independent Television (ITV),gb,993,Color,English,UK,22/10/1987
+94,Premiere,de,996,Color,German,Unkown,01/01/1800
+95,Chiba TV,jp,1114,Color,Japanese,Japan,06/04/2009
+96,Telefé International,ar,1141,Color,Spanish,Argentina,04/12/2005
+97,Televisión Federal (Telefe),ar,1141,Color,Spanish,Argentina,04/12/2005
+98,Canal 13,ar,1144,Color,Spanish,Argentina,08/04/2002
+96,Telefé International,ar,1144,Color,Spanish,Argentina,08/04/2002
+99,Viva Platina,il,1144,Color,Spanish,Argentina,08/04/2002
+100,ET-3,gr,1146,Color,Greek,Greece,15/10/2012
+101,SoapNet,us,1158,Color,English,USA,04/09/2004
+102,Cuatro,es,1179,Color,Spanish,Spain,09/11/2005
+103,Avanti Ciné Vidéo Inc.,ca,1181,Color,Turkish,Turkey,04/01/2012
+104,ZDFtheaterkanal,de,1182,Color,German,Unkown,01/01/1800
+105,WEHO Public Access 36,us,1187,Color,English,Unkown,01/01/1800
+5,Canadian Television (CTV),ca,1188,Color,English,Canada,13/10/2009
+106,Logo,us,1188,Color,English,Canada,13/10/2009
+16,Music Television (MTV),us,1335,Color,English,UK,02/04/2006
+27,British Broadcasting Corporation (BBC),gb,1370,Color,English,UK,22/09/2010
+107,Kitanihon Broadcasting Co. (KNB),jp,1147,Color,Japanese,Japan,02/04/2007
+108,Antena 3 Televisión,es,1148,Color,Spanish,Spain,23/12/2006
+109,TF1,fr,1149,Color,French,France,08/01/2007
+110,Télévision Française 1 (TF1),fr,1149,Color,French,France,08/01/2007
+111,Canale 5,it,1157,Color,Italian,Italy,07/05/2007
+112,Talpa,nl,1352,Color,Dutch,Unkown,01/01/1800
+113,Tien,nl,1352,Color,Dutch,Unkown,01/01/1800
+92,Tokyo Broadcasting System (TBS),jp,1369,Color,Japanese,Japan,04/04/1980
+114,Nippon Television Network Corporation (NTV),jp,1379,Color,Japanese,Japan,13/01/2008
+64,Televisió de Catalunya (TV3),es,1389,Color,Catalan,Spain,26/03/2008
+73,Danmarks Radio (DR),dk,1396,Black and White,Danish,Denmark,06/10/1969
+115,Radio Telefís Éireann (RTÉ),ie,1400,Color,English,Ireland,23/07/2006
+116,Evangelische Omroep (EO),nl,1401,Color,Dutch,Netherlands,03/09/2012
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,1401,Color,Dutch,Netherlands,03/09/2012
+7,Nine Network Australia,au,1417,Color,English,Australia,29/01/2007
+19,National Broadcasting Company (NBC),us,1465,Color,English,Unkown,01/01/1800
+19,National Broadcasting Company (NBC),us,1469,Color,English,USA,19/01/2007
+19,National Broadcasting Company (NBC),us,1470,Color,English,USA,26/01/2007
+19,National Broadcasting Company (NBC),us,1476,Color,English,USA,20/10/2006
+19,National Broadcasting Company (NBC),us,1478,Color,English,USA,27/10/2006
+19,National Broadcasting Company (NBC),us,1479,Color,English,USA,03/11/2006
+19,National Broadcasting Company (NBC),us,1483,Color,English,USA,15/12/2006
+19,National Broadcasting Company (NBC),us,1485,Color,English,USA,04/01/2008
+19,National Broadcasting Company (NBC),us,1489,Color,English,USA,13/09/2007
+19,National Broadcasting Company (NBC),us,1493,Color,English,USA,09/02/2007
+117,Game Show Network (GSN),us,1494,Color,English,Unkown,01/01/1800
+118,MBC-TV Korea,kr,1535,Color,Korean,South Korea,06/07/2003
+119,Radiotelevisão Portuguesa (RTP),pt,1536,Color,Portuguese,Portugal,13/09/1981
+19,National Broadcasting Company (NBC),us,1547,Black and White,English,USA,08/10/1961
+19,National Broadcasting Company (NBC),us,1548,Unkown,English,USA,27/05/1962
+119,Radiotelevisão Portuguesa (RTP),pt,1549,Color,Portuguese,Portugal,13/09/1985
+97,Televisión Federal (Telefe),ar,1550,Color,Spanish,Argentina,29/11/1999
+120,Travel Channel,us,1551,Color,English,USA,29/03/2007
+120,Travel Channel,us,1557,Unkown,English,USA,26/04/2007
+120,Travel Channel,us,1561,Unkown,English,USA,31/05/2007
+120,Travel Channel,us,1564,Unkown,English,USA,27/04/2007
+121,ZDF / 3sat,de,1565,Color,German,Germany,14/02/2009
+121,ZDF / 3sat,de,1570,Color,English,Austria,03/03/2008
+122,AXN,hu,1576,Color,English,USA,02/08/2003
+123,Alibi,gb,1576,Color,English,USA,02/08/2003
+124,BS Fuji,jp,1576,Color,English,USA,02/08/2003
+125,Lifetime Television,us,1576,Color,English,USA,02/08/2003
+126,Lions Gate Television,ca,1576,Color,English,USA,02/08/2003
+31,RTL Entertainment,nl,1576,Color,English,USA,02/08/2003
+46,RTL Klub Televízió,hu,1576,Color,English,USA,02/08/2003
+53,TV3,ee,1576,Color,English,USA,02/08/2003
+127,Kabel 1,de,1577,Color,English,USA,18/10/2003
+125,Lifetime Television,us,1577,Color,English,USA,18/10/2003
+46,RTL Klub Televízió,hu,1577,Color,English,USA,18/10/2003
+127,Kabel 1,de,1578,Color,English,USA,02/10/2005
+125,Lifetime Television,us,1578,Color,English,USA,02/10/2005
+46,RTL Klub Televízió,hu,1578,Color,English,USA,02/10/2005
+127,Kabel 1,de,1579,Color,English,USA,21/08/2005
+125,Lifetime Television,us,1579,Color,English,USA,21/08/2005
+46,RTL Klub Televízió,hu,1579,Color,English,USA,21/08/2005
+127,Kabel 1,de,1580,Color,English,USA,17/07/2005
+125,Lifetime Television,us,1580,Color,English,USA,17/07/2005
+46,RTL Klub Televízió,hu,1580,Color,English,USA,17/07/2005
+127,Kabel 1,de,1581,Color,English,USA,12/06/2005
+125,Lifetime Television,us,1581,Color,English,USA,12/06/2005
+46,RTL Klub Televízió,hu,1581,Color,English,USA,12/06/2005
+127,Kabel 1,de,1582,Color,English,USA,19/06/2005
+125,Lifetime Television,us,1582,Color,English,USA,19/06/2005
+46,RTL Klub Televízió,hu,1582,Color,English,USA,19/06/2005
+127,Kabel 1,de,1583,Color,English,USA,06/12/2003
+125,Lifetime Television,us,1583,Color,English,USA,06/12/2003
+46,RTL Klub Televízió,hu,1583,Color,English,USA,06/12/2003
+127,Kabel 1,de,1584,Color,English,USA,18/09/2004
+125,Lifetime Television,us,1584,Color,English,USA,18/09/2004
+46,RTL Klub Televízió,hu,1584,Color,English,USA,18/09/2004
+127,Kabel 1,de,1585,Color,English,USA,15/01/2006
+125,Lifetime Television,us,1585,Color,English,USA,15/01/2006
+46,RTL Klub Televízió,hu,1585,Color,English,USA,15/01/2006
+127,Kabel 1,de,1586,Color,English,USA,30/10/2004
+125,Lifetime Television,us,1586,Color,English,USA,30/10/2004
+46,RTL Klub Televízió,hu,1586,Color,English,USA,30/10/2004
+127,Kabel 1,de,1587,Color,English,USA,01/11/2003
+125,Lifetime Television,us,1587,Color,English,USA,01/11/2003
+46,RTL Klub Televízió,hu,1587,Color,English,USA,01/11/2003
+127,Kabel 1,de,1588,Color,English,USA,10/01/2004
+125,Lifetime Television,us,1588,Color,English,USA,10/01/2004
+46,RTL Klub Televízió,hu,1588,Color,English,USA,10/01/2004
+127,Kabel 1,de,1589,Color,English,USA,21/08/2004
+125,Lifetime Television,us,1589,Color,English,USA,21/08/2004
+46,RTL Klub Televízió,hu,1589,Color,English,USA,21/08/2004
+127,Kabel 1,de,1590,Color,English,USA,29/01/2006
+125,Lifetime Television,us,1590,Color,English,USA,29/01/2006
+46,RTL Klub Televízió,hu,1590,Color,English,USA,29/01/2006
+127,Kabel 1,de,1591,Color,English,USA,29/01/2006
+125,Lifetime Television,us,1591,Color,English,USA,29/01/2006
+46,RTL Klub Televízió,hu,1591,Color,English,USA,29/01/2006
+127,Kabel 1,de,1592,Color,English,USA,13/12/2003
+125,Lifetime Television,us,1592,Color,English,USA,13/12/2003
+46,RTL Klub Televízió,hu,1592,Color,English,USA,13/12/2003
+127,Kabel 1,de,1593,Color,English,USA,14/08/2005
+125,Lifetime Television,us,1593,Color,English,USA,14/08/2005
+46,RTL Klub Televízió,hu,1593,Color,English,USA,14/08/2005
+115,Radio Telefís Éireann (RTÉ),ie,1593,Color,English,USA,14/08/2005
+127,Kabel 1,de,1594,Color,English,USA,11/12/2005
+125,Lifetime Television,us,1594,Color,English,USA,11/12/2005
+46,RTL Klub Televízió,hu,1594,Color,English,USA,11/12/2005
+127,Kabel 1,de,1595,Color,English,USA,23/08/2003
+125,Lifetime Television,us,1595,Color,English,USA,23/08/2003
+31,RTL Entertainment,nl,1595,Color,English,USA,23/08/2003
+46,RTL Klub Televízió,hu,1595,Color,English,USA,23/08/2003
+127,Kabel 1,de,1596,Color,English,USA,14/08/2004
+125,Lifetime Television,us,1596,Color,English,USA,14/08/2004
+46,RTL Klub Televízió,hu,1596,Color,English,USA,14/08/2004
+127,Kabel 1,de,1597,Color,English,USA,16/08/2003
+125,Lifetime Television,us,1597,Color,English,USA,16/08/2003
+46,RTL Klub Televízió,hu,1597,Color,English,USA,16/08/2003
+127,Kabel 1,de,1598,Color,English,USA,09/01/2005
+125,Lifetime Television,us,1598,Color,English,USA,09/01/2005
+46,RTL Klub Televízió,hu,1598,Color,English,USA,09/01/2005
+127,Kabel 1,de,1599,Color,English,USA,24/07/2004
+125,Lifetime Television,us,1599,Color,English,USA,24/07/2004
+46,RTL Klub Televízió,hu,1599,Color,English,USA,24/07/2004
+127,Kabel 1,de,1600,Color,English,USA,07/08/2005
+125,Lifetime Television,us,1600,Color,English,USA,07/08/2005
+46,RTL Klub Televízió,hu,1600,Color,English,USA,07/08/2005
+127,Kabel 1,de,1601,Color,English,USA,07/08/2004
+125,Lifetime Television,us,1601,Color,English,USA,07/08/2004
+46,RTL Klub Televízió,hu,1601,Color,English,USA,07/08/2004
+127,Kabel 1,de,1602,Color,English,USA,24/07/2005
+125,Lifetime Television,us,1602,Color,English,USA,24/07/2005
+46,RTL Klub Televízió,hu,1602,Color,English,USA,24/07/2005
+127,Kabel 1,de,1603,Color,English,USA,03/01/2004
+125,Lifetime Television,us,1603,Color,English,USA,03/01/2004
+46,RTL Klub Televízió,hu,1603,Color,English,USA,03/01/2004
+127,Kabel 1,de,1604,Color,English,USA,11/10/2003
+125,Lifetime Television,us,1604,Color,English,USA,11/10/2003
+46,RTL Klub Televízió,hu,1604,Color,English,USA,11/10/2003
+127,Kabel 1,de,1605,Color,English,USA,09/10/2004
+125,Lifetime Television,us,1605,Color,English,USA,09/10/2004
+46,RTL Klub Televízió,hu,1605,Color,English,USA,09/10/2004
+127,Kabel 1,de,1606,Color,English,USA,13/09/2003
+125,Lifetime Television,us,1606,Color,English,USA,13/09/2003
+46,RTL Klub Televízió,hu,1606,Color,English,USA,13/09/2003
+127,Kabel 1,de,1607,Color,English,USA,10/07/2005
+125,Lifetime Television,us,1607,Color,English,USA,10/07/2005
+46,RTL Klub Televízió,hu,1607,Color,English,USA,10/07/2005
+115,Radio Telefís Éireann (RTÉ),ie,1607,Color,English,USA,10/07/2005
+127,Kabel 1,de,1608,Color,English,USA,17/07/2004
+125,Lifetime Television,us,1608,Color,English,USA,17/07/2004
+46,RTL Klub Televízió,hu,1608,Color,English,USA,17/07/2004
+127,Kabel 1,de,1609,Color,English,USA,23/01/2005
+125,Lifetime Television,us,1609,Color,English,USA,23/01/2005
+46,RTL Klub Televízió,hu,1609,Color,English,USA,23/01/2005
+127,Kabel 1,de,1610,Color,English,USA,18/09/2005
+125,Lifetime Television,us,1610,Color,English,USA,18/09/2005
+46,RTL Klub Televízió,hu,1610,Color,English,USA,18/09/2005
+115,Radio Telefís Éireann (RTÉ),ie,1610,Color,English,USA,18/09/2005
+127,Kabel 1,de,1611,Color,English,USA,16/01/2005
+125,Lifetime Television,us,1611,Color,English,USA,16/01/2005
+46,RTL Klub Televízió,hu,1611,Color,English,USA,16/01/2005
+127,Kabel 1,de,1612,Color,English,USA,02/08/2003
+125,Lifetime Television,us,1612,Color,English,USA,02/08/2003
+46,RTL Klub Televízió,hu,1612,Color,English,USA,02/08/2003
+127,Kabel 1,de,1613,Color,English,USA,02/10/2004
+125,Lifetime Television,us,1613,Color,English,USA,02/10/2004
+46,RTL Klub Televízió,hu,1613,Color,English,USA,02/10/2004
+127,Kabel 1,de,1614,Color,English,USA,25/09/2004
+125,Lifetime Television,us,1614,Color,English,USA,25/09/2004
+46,RTL Klub Televízió,hu,1614,Color,English,USA,25/09/2004
+127,Kabel 1,de,1615,Color,English,USA,31/07/2004
+125,Lifetime Television,us,1615,Color,English,USA,31/07/2004
+46,RTL Klub Televízió,hu,1615,Color,English,USA,31/07/2004
+127,Kabel 1,de,1616,Color,English,USA,10/07/2004
+125,Lifetime Television,us,1616,Color,English,USA,10/07/2004
+46,RTL Klub Televízió,hu,1616,Color,English,USA,10/07/2004
+127,Kabel 1,de,1617,Color,English,USA,25/09/2005
+125,Lifetime Television,us,1617,Color,English,USA,25/09/2005
+46,RTL Klub Televízió,hu,1617,Color,English,USA,25/09/2005
+127,Kabel 1,de,1618,Color,English,USA,05/02/2006
+125,Lifetime Television,us,1618,Color,English,USA,05/02/2006
+46,RTL Klub Televízió,hu,1618,Color,English,USA,05/02/2006
+115,Radio Telefís Éireann (RTÉ),ie,1618,Color,English,USA,05/02/2006
+127,Kabel 1,de,1619,Color,English,USA,08/01/2006
+125,Lifetime Television,us,1619,Color,English,USA,08/01/2006
+46,RTL Klub Televízió,hu,1619,Color,English,USA,08/01/2006
+127,Kabel 1,de,1620,Color,English,USA,24/01/2004
+125,Lifetime Television,us,1620,Color,English,USA,24/01/2004
+46,RTL Klub Televízió,hu,1620,Color,English,USA,24/01/2004
+127,Kabel 1,de,1621,Color,English,USA,09/08/2003
+125,Lifetime Television,us,1621,Color,English,USA,09/08/2003
+46,RTL Klub Televízió,hu,1621,Color,English,USA,09/08/2003
+127,Kabel 1,de,1622,Color,English,USA,06/09/2003
+125,Lifetime Television,us,1622,Color,English,USA,06/09/2003
+46,RTL Klub Televízió,hu,1622,Color,English,USA,06/09/2003
+127,Kabel 1,de,1623,Color,English,USA,20/09/2003
+125,Lifetime Television,us,1623,Color,English,USA,20/09/2003
+46,RTL Klub Televízió,hu,1623,Color,English,USA,20/09/2003
+127,Kabel 1,de,1624,Color,English,USA,27/09/2003
+125,Lifetime Television,us,1624,Color,English,USA,27/09/2003
+46,RTL Klub Televízió,hu,1624,Color,English,USA,27/09/2003
+127,Kabel 1,de,1625,Color,English,USA,16/10/2004
+125,Lifetime Television,us,1625,Color,English,USA,16/10/2004
+46,RTL Klub Televízió,hu,1625,Color,English,USA,16/10/2004
+127,Kabel 1,de,1626,Color,English,USA,23/10/2004
+125,Lifetime Television,us,1626,Color,English,USA,23/10/2004
+46,RTL Klub Televízió,hu,1626,Color,English,USA,23/10/2004
+127,Kabel 1,de,1627,Color,English,Canada,11/09/2005
+125,Lifetime Television,us,1627,Color,English,Canada,11/09/2005
+46,RTL Klub Televízió,hu,1627,Color,English,Canada,11/09/2005
+115,Radio Telefís Éireann (RTÉ),ie,1627,Color,English,Canada,11/09/2005
+127,Kabel 1,de,1628,Color,English,USA,26/06/2005
+125,Lifetime Television,us,1628,Color,English,USA,26/06/2005
+46,RTL Klub Televízió,hu,1628,Color,English,USA,26/06/2005
+127,Kabel 1,de,1629,Color,English,USA,08/11/2003
+125,Lifetime Television,us,1629,Color,English,USA,08/11/2003
+46,RTL Klub Televízió,hu,1629,Color,English,USA,08/11/2003
+127,Kabel 1,de,1630,Color,English,USA,30/01/2005
+125,Lifetime Television,us,1630,Color,English,USA,30/01/2005
+46,RTL Klub Televízió,hu,1630,Color,English,USA,30/01/2005
+127,Kabel 1,de,1631,Color,English,USA,22/11/2003
+125,Lifetime Television,us,1631,Color,English,USA,22/11/2003
+46,RTL Klub Televízió,hu,1631,Color,English,USA,22/11/2003
+128,TV2 Danmark,dk,1632,Color,Danish,Denmark,17/08/2012
+129,KIKA,de,1636,Color,Spanish,Germany,27/09/2005
+69,Televisión Española (TVE),es,1636,Color,Spanish,Germany,27/09/2005
+130,DIY Network,us,1637,Color,English,USA,04/10/2011
+130,DIY Network,us,1643,Color,English,USA,14/04/2012
+131,TBS Superstation,us,1656,Color,English,USA,26/01/2008
+132,Comcast,us,1667,Color,English,Unkown,01/01/1800
+27,British Broadcasting Corporation (BBC),gb,1668,Color,English,UK,10/03/2008
+133,NHK,jp,1668,Color,English,UK,10/03/2008
+134,YLE Export,fi,1677,Color,English,Finland,13/09/2003
+135,Fuse Network,us,1757,Color,English,USA,19/02/2008
+36,CanWest Global Television Network,ca,1760,Color,English,USA,27/11/2006
+46,RTL Klub Televízió,hu,1760,Color,English,USA,27/11/2006
+52,Sony Pictures Home Entertainment,us,1760,Color,English,USA,27/11/2006
+136,Turner Broadcasting System (TBS),us,1760,Color,English,USA,27/11/2006
+46,RTL Klub Televízió,hu,1761,Unkown,English,USA,19/02/2008
+46,RTL Klub Televízió,hu,1762,Unkown,English,USA,25/12/2006
+46,RTL Klub Televízió,hu,1763,Unkown,English,USA,17/02/2009
+46,RTL Klub Televízió,hu,1764,Unkown,English,USA,15/01/2008
+46,RTL Klub Televízió,hu,1765,Unkown,English,USA,13/01/2009
+46,RTL Klub Televízió,hu,1766,Unkown,English,USA,05/02/2008
+46,RTL Klub Televízió,hu,1767,Unkown,English,USA,22/01/2008
+46,RTL Klub Televízió,hu,1768,Unkown,English,USA,11/12/2006
+46,RTL Klub Televízió,hu,1769,Unkown,English,USA,26/02/2008
+46,RTL Klub Televízió,hu,1770,Unkown,English,USA,27/01/2009
+46,RTL Klub Televízió,hu,1771,Unkown,English,USA,24/02/2009
+46,RTL Klub Televízió,hu,1772,Unkown,English,USA,20/01/2009
+46,RTL Klub Televízió,hu,1773,Unkown,English,USA,12/02/2008
+46,RTL Klub Televízió,hu,1774,Unkown,English,USA,10/02/2009
+46,RTL Klub Televízió,hu,1775,Unkown,English,USA,04/12/2006
+46,RTL Klub Televízió,hu,1776,Unkown,English,USA,27/11/2006
+46,RTL Klub Televízió,hu,1777,Unkown,English,USA,04/03/2008
+46,RTL Klub Televízió,hu,1778,Unkown,English,USA,03/02/2009
+46,RTL Klub Televízió,hu,1779,Unkown,English,USA,29/01/2008
+46,RTL Klub Televízió,hu,1780,Unkown,English,USA,06/01/2009
+46,RTL Klub Televízió,hu,1781,Unkown,English,USA,18/12/2006
+137,RTL,de,1783,Color,German,Germany,02/03/2009
+130,DIY Network,us,1784,Color,English,USA,10/10/2010
+57,Spike TV,us,1851,Color,English,USA,13/09/2013
+138,British Sky Broadcasting (BSkyB),gb,1852,Color,English,UK,21/12/2009
+138,British Sky Broadcasting (BSkyB),gb,1853,Color,English,UK,21/12/2009
+138,British Sky Broadcasting (BSkyB),gb,1857,Black and White,English,UK,30/12/2009
+138,British Sky Broadcasting (BSkyB),gb,1858,Unkown,English,UK,25/12/2009
+139,Channel 4 Television Corporation,gb,1865,Color,English,UK,20/01/2011
+140,G4 Media,us,2006,Color,English,Unkown,01/01/1800
+141,"Nashville Network, The (TNN)",us,2016,Color,English,Unkown,01/01/1800
+142,LA18 TV,us,2017,Color,Chinese,USA,11/10/2010
+57,Spike TV,us,2018,Color,English,USA,02/02/2004
+57,Spike TV,us,2019,Color,English,USA,31/05/2004
+57,Spike TV,us,2020,Color,English,USA,07/06/2004
+57,Spike TV,us,2021,Color,English,USA,13/09/2004
+143,ABC Family,us,2025,Color,English,USA,07/07/2009
+122,AXN,hu,2025,Color,English,USA,07/07/2009
+144,Animax,hu,2025,Color,English,USA,07/07/2009
+145,Shout! Factory,us,2025,Color,English,USA,07/07/2009
+146,Viva,de,2025,Color,English,USA,07/07/2009
+122,AXN,hu,2026,Unkown,English,USA,24/05/2010
+145,Shout! Factory,us,2026,Unkown,English,USA,24/05/2010
+122,AXN,hu,2027,Unkown,English,USA,17/05/2010
+145,Shout! Factory,us,2027,Unkown,English,USA,17/05/2010
+122,AXN,hu,2028,Unkown,English,USA,29/03/2010
+145,Shout! Factory,us,2028,Unkown,English,USA,29/03/2010
+144,Animax,hu,2029,Unkown,English,UK,25/08/2009
+144,Animax,hu,2031,Unkown,English,UK,04/08/2009
+144,Animax,hu,2030,Unkown,English,UK,28/07/2009
+144,Animax,hu,2032,Unkown,English,USA,08/09/2009
+122,AXN,hu,2033,Unkown,English,USA,05/04/2010
+145,Shout! Factory,us,2033,Unkown,English,USA,05/04/2010
+144,Animax,hu,2034,Unkown,English,UK,01/09/2009
+122,AXN,hu,2035,Unkown,English,USA,12/04/2010
+145,Shout! Factory,us,2035,Unkown,English,USA,12/04/2010
+144,Animax,hu,2036,Unkown,English,UK,14/07/2009
+122,AXN,hu,2037,Unkown,English,USA,10/05/2010
+145,Shout! Factory,us,2037,Unkown,English,USA,10/05/2010
+144,Animax,hu,2038,Unkown,English,UK,18/08/2009
+122,AXN,hu,2039,Unkown,English,USA,19/04/2010
+145,Shout! Factory,us,2039,Unkown,English,USA,19/04/2010
+144,Animax,hu,2040,Unkown,English,UK,07/07/2009
+122,AXN,hu,2041,Unkown,English,USA,24/05/2010
+145,Shout! Factory,us,2041,Unkown,English,USA,24/05/2010
+122,AXN,hu,2042,Unkown,English,USA,26/04/2010
+145,Shout! Factory,us,2042,Unkown,English,USA,26/04/2010
+122,AXN,hu,2043,Unkown,English,USA,05/05/2010
+145,Shout! Factory,us,2043,Unkown,English,USA,05/05/2010
+144,Animax,hu,2044,Unkown,English,USA,21/07/2009
+144,Animax,hu,2045,Unkown,English,UK,11/08/2009
+147,Bravo!,us,2046,Color,English,USA,01/07/2012
+148,Maverick Television,us,2048,Color,English,UK,13/09/2002
+27,British Broadcasting Corporation (BBC),gb,2050,Color,English,UK,05/07/2006
+27,British Broadcasting Corporation (BBC),gb,2054,Color,English,UK,05/07/2006
+149,History Channel,us,2055,Color,English,USA,27/02/2012
+130,DIY Network,us,2068,Color,English,USA,26/09/2006
+21,7 Network,au,2075,Color,English,Australia,21/04/2009
+150,Viasat3,hu,2079,Color,English,USA,01/12/2004
+151,Animal Planet / Discovery,gb,2071,Color,English,UK,29/04/2007
+152,ITV Global Entertainment,gb,2071,Color,English,UK,29/04/2007
+153,Meridian Broadcasting,gb,2071,Color,English,UK,29/04/2007
+64,Televisió de Catalunya (TV3),es,1649,Color,Catalan,Spain,29/09/2008
+73,Danmarks Radio (DR),dk,1759,Black and White,Danish,Denmark,19/01/1952
+154,YLE TV1,fi,1785,Color,Finnish,Finland,04/06/2007
+154,YLE TV1,fi,1796,Color,Finnish,Finland,03/06/2008
+154,YLE TV1,fi,1807,Color,Finnish,Finland,06/06/2011
+154,YLE TV1,fi,1818,Color,Finnish,Finland,11/06/2009
+69,Televisión Española (TVE),es,1832,Color,Spanish,Spain,03/03/2005
+155,Greek Television ET-1,gr,1850,Color,Greek,Unkown,01/01/1800
+156,New Greek Television (NET),gr,1850,Color,Greek,Unkown,01/01/1800
+20,MTV Networks,us,1897,Color,English,USA,01/05/2010
+154,YLE TV1,fi,2069,Color,Finnish,Finland,28/12/2009
+157,TV3 Danmark,dk,2070,Color,Danish,Unkown,01/01/1800
+158,Télévision Suisse-Romande (TSR),ch,2255,Color,French,Switzerland,21/11/2010
+159,Metro-Goldwyn-Mayer (MGM),us,2266,Color,English,Unkown,01/01/1800
+160,American Broadcasting Company (ABC),us,2281,Color,English,USA,28/09/2003
+161,Buena Vista Television,us,2281,Color,English,USA,28/09/2003
+162,Chum Television,ca,2281,Color,English,USA,28/09/2003
+163,Plus,gb,2281,Color,English,USA,28/09/2003
+164,TV2,hu,2281,Color,English,USA,28/09/2003
+8,Veronica,nl,2281,Color,English,USA,28/09/2003
+160,American Broadcasting Company (ABC),us,2282,Color,English,USA,05/10/2003
+127,Kabel 1,de,2282,Color,English,USA,05/10/2003
+164,TV2,hu,2282,Color,English,USA,05/10/2003
+160,American Broadcasting Company (ABC),us,2283,Color,English,USA,19/10/2003
+127,Kabel 1,de,2283,Color,English,USA,19/10/2003
+164,TV2,hu,2283,Color,English,USA,19/10/2003
+160,American Broadcasting Company (ABC),us,2284,Color,English,USA,26/10/2003
+127,Kabel 1,de,2284,Color,English,USA,26/10/2003
+164,TV2,hu,2284,Color,English,USA,26/10/2003
+160,American Broadcasting Company (ABC),us,2285,Color,English,USA,28/09/2003
+127,Kabel 1,de,2285,Color,English,USA,28/09/2003
+164,TV2,hu,2285,Color,English,USA,28/09/2003
+160,American Broadcasting Company (ABC),us,2286,Color,English,USA,11/01/2004
+127,Kabel 1,de,2286,Color,English,USA,11/01/2004
+164,TV2,hu,2286,Color,English,USA,11/01/2004
+160,American Broadcasting Company (ABC),us,2287,Color,English,USA,23/11/2003
+127,Kabel 1,de,2287,Color,English,USA,23/11/2003
+164,TV2,hu,2287,Color,English,USA,23/11/2003
+160,American Broadcasting Company (ABC),us,2288,Color,English,USA,12/10/2003
+127,Kabel 1,de,2288,Color,English,USA,12/10/2003
+164,TV2,hu,2288,Color,English,USA,12/10/2003
+160,American Broadcasting Company (ABC),us,2289,Color,English,USA,18/01/2004
+127,Kabel 1,de,2289,Color,English,USA,18/01/2004
+164,TV2,hu,2289,Color,English,USA,18/01/2004
+160,American Broadcasting Company (ABC),us,2290,Color,English,USA,09/11/2003
+127,Kabel 1,de,2290,Color,English,USA,09/11/2003
+164,TV2,hu,2290,Color,English,USA,09/11/2003
+160,American Broadcasting Company (ABC),us,2291,Color,English,USA,30/11/2003
+127,Kabel 1,de,2291,Color,English,USA,30/11/2003
+164,TV2,hu,2291,Color,English,USA,30/11/2003
+160,American Broadcasting Company (ABC),us,2292,Color,English,USA,25/01/2004
+127,Kabel 1,de,2292,Color,English,USA,25/01/2004
+164,TV2,hu,2292,Color,English,USA,25/01/2004
+160,American Broadcasting Company (ABC),us,2293,Color,English,USA,21/12/2003
+127,Kabel 1,de,2293,Color,English,USA,21/12/2003
+164,TV2,hu,2293,Color,English,USA,21/12/2003
+160,American Broadcasting Company (ABC),us,2294,Color,English,USA,02/11/2003
+127,Kabel 1,de,2294,Color,English,USA,02/11/2003
+164,TV2,hu,2294,Color,English,USA,02/11/2003
+160,American Broadcasting Company (ABC),us,2295,Color,English,USA,07/12/2003
+127,Kabel 1,de,2295,Color,English,USA,07/12/2003
+164,TV2,hu,2295,Color,English,USA,07/12/2003
+160,American Broadcasting Company (ABC),us,2296,Color,English,USA,01/02/2004
+127,Kabel 1,de,2296,Color,English,USA,01/02/2004
+164,TV2,hu,2296,Color,English,USA,01/02/2004
+133,NHK,jp,2297,Color,Japanese,Japan,31/08/2010
+2,YouTube,us,2307,Color,Spanish,Spain,03/10/2011
+165,A&E Home Video,us,2382,Color,English,USA,15/01/2001
+12,A&E Television Networks,us,2382,Color,English,USA,15/01/2001
+147,Bravo!,us,2416,Color,English,USA,13/11/2013
+166,ABS-CBN,ph,2417,Color,Filipino,Philippines,09/05/2011
+166,ABS-CBN,ph,2418,Unkown,English,Philippines,15/09/2011
+166,ABS-CBN,ph,2419,Unkown,English,Philippines,13/10/2011
+166,ABS-CBN,ph,2420,Unkown,English,Philippines,17/06/2011
+166,ABS-CBN,ph,2421,Unkown,English,Philippines,15/06/2011
+166,ABS-CBN,ph,2422,Unkown,English,Philippines,12/07/2011
+166,ABS-CBN,ph,2423,Unkown,English,Philippines,22/06/2011
+166,ABS-CBN,ph,2425,Unkown,English,Philippines,12/08/2011
+166,ABS-CBN,ph,2426,Unkown,English,Philippines,05/10/2011
+166,ABS-CBN,ph,2427,Unkown,English,Philippines,28/09/2011
+166,ABS-CBN,ph,2428,Unkown,English,Philippines,07/06/2011
+166,ABS-CBN,ph,2424,Unkown,English,Philippines,19/05/2011
+166,ABS-CBN,ph,2436,Unkown,English,Philippines,01/11/2011
+166,ABS-CBN,ph,2437,Unkown,English,Philippines,25/10/2011
+166,ABS-CBN,ph,2438,Unkown,English,Philippines,25/08/2011
+166,ABS-CBN,ph,2439,Unkown,English,Philippines,09/09/2011
+166,ABS-CBN,ph,2440,Unkown,English,Philippines,08/09/2011
+166,ABS-CBN,ph,2441,Unkown,English,Philippines,17/11/2011
+166,ABS-CBN,ph,2442,Unkown,English,Philippines,25/07/2011
+166,ABS-CBN,ph,2443,Unkown,English,Philippines,16/05/2011
+166,ABS-CBN,ph,2444,Unkown,English,Philippines,20/07/2011
+166,ABS-CBN,ph,2445,Unkown,English,Philippines,19/07/2011
+166,ABS-CBN,ph,2446,Unkown,English,Philippines,10/11/2011
+166,ABS-CBN,ph,2447,Unkown,English,Philippines,02/08/2011
+166,ABS-CBN,ph,2448,Unkown,English,Philippines,22/08/2011
+166,ABS-CBN,ph,2449,Unkown,English,Philippines,28/06/2011
+166,ABS-CBN,ph,2451,Unkown,English,Philippines,20/05/2011
+166,ABS-CBN,ph,2453,Unkown,English,Philippines,07/09/2011
+166,ABS-CBN,ph,2454,Unkown,English,Philippines,26/05/2011
+166,ABS-CBN,ph,2452,Unkown,English,Philippines,12/05/2011
+166,ABS-CBN,ph,2455,Unkown,English,Philippines,26/10/2011
+166,ABS-CBN,ph,2456,Unkown,English,Philippines,21/10/2011
+166,ABS-CBN,ph,2457,Unkown,English,Philippines,13/06/2011
+166,ABS-CBN,ph,2458,Unkown,English,Philippines,24/10/2011
+166,ABS-CBN,ph,2459,Unkown,English,Philippines,13/05/2011
+166,ABS-CBN,ph,2460,Unkown,English,Philippines,23/05/2011
+166,ABS-CBN,ph,2461,Unkown,English,Philippines,18/11/2011
+166,ABS-CBN,ph,2462,Unkown,English,Philippines,24/05/2011
+166,ABS-CBN,ph,2463,Unkown,English,Philippines,17/08/2011
+166,ABS-CBN,ph,2464,Unkown,English,Philippines,14/07/2011
+166,ABS-CBN,ph,2465,Unkown,English,Philippines,17/10/2011
+166,ABS-CBN,ph,2466,Unkown,English,Philippines,18/07/2011
+166,ABS-CBN,ph,2467,Unkown,English,Philippines,16/06/2011
+166,ABS-CBN,ph,2468,Unkown,English,Philippines,30/05/2011
+166,ABS-CBN,ph,2429,Unkown,English,Philippines,15/08/2011
+166,ABS-CBN,ph,2430,Unkown,English,Philippines,02/11/2011
+166,ABS-CBN,ph,2431,Unkown,English,Philippines,19/08/2011
+166,ABS-CBN,ph,2432,Unkown,English,Philippines,07/07/2011
+166,ABS-CBN,ph,2433,Unkown,English,Philippines,27/05/2011
+166,ABS-CBN,ph,2434,Unkown,English,Philippines,11/07/2011
+166,ABS-CBN,ph,2435,Unkown,English,Philippines,03/11/2011
+166,ABS-CBN,ph,2450,Unkown,English,Philippines,11/05/2011
+166,ABS-CBN,ph,2469,Unkown,English,Philippines,04/08/2011
+166,ABS-CBN,ph,2470,Unkown,English,Philippines,18/05/2011
+166,ABS-CBN,ph,2471,Unkown,English,Philippines,10/08/2011
+166,ABS-CBN,ph,2472,Unkown,English,Philippines,07/11/2011
+166,ABS-CBN,ph,2474,Unkown,English,Philippines,29/08/2011
+166,ABS-CBN,ph,2475,Unkown,English,Philippines,18/08/2011
+166,ABS-CBN,ph,2476,Unkown,English,Philippines,01/06/2011
+166,ABS-CBN,ph,2477,Unkown,English,Philippines,29/09/2011
+166,ABS-CBN,ph,2473,Unkown,English,Philippines,27/07/2011
+166,ABS-CBN,ph,2478,Unkown,English,Philippines,09/06/2011
+166,ABS-CBN,ph,2483,Unkown,English,Philippines,11/10/2011
+166,ABS-CBN,ph,2484,Unkown,English,Philippines,04/07/2011
+166,ABS-CBN,ph,2479,Unkown,English,Philippines,03/10/2011
+166,ABS-CBN,ph,2480,Unkown,English,Philippines,12/09/2011
+166,ABS-CBN,ph,2481,Unkown,English,Philippines,28/10/2011
+166,ABS-CBN,ph,2482,Unkown,English,Philippines,04/11/2011
+166,ABS-CBN,ph,2485,Unkown,English,Philippines,22/09/2011
+166,ABS-CBN,ph,2486,Unkown,English,Philippines,20/10/2011
+166,ABS-CBN,ph,2487,Unkown,English,Philippines,08/11/2011
+166,ABS-CBN,ph,2488,Unkown,English,Philippines,19/10/2011
+166,ABS-CBN,ph,2489,Unkown,English,Philippines,01/09/2011
+166,ABS-CBN,ph,2490,Unkown,English,Philippines,23/08/2011
+166,ABS-CBN,ph,2491,Unkown,English,Philippines,06/09/2011
+166,ABS-CBN,ph,2492,Unkown,English,Philippines,02/09/2011
+166,ABS-CBN,ph,2493,Unkown,English,Philippines,14/09/2011
+166,ABS-CBN,ph,2494,Unkown,English,Philippines,07/10/2011
+166,ABS-CBN,ph,2495,Unkown,English,Philippines,10/10/2011
+166,ABS-CBN,ph,2496,Unkown,English,Philippines,01/08/2011
+166,ABS-CBN,ph,2497,Unkown,English,Philippines,13/09/2011
+166,ABS-CBN,ph,2499,Unkown,English,Philippines,14/06/2011
+166,ABS-CBN,ph,2498,Unkown,English,Philippines,20/06/2011
+166,ABS-CBN,ph,2500,Unkown,English,Philippines,09/05/2011
+166,ABS-CBN,ph,2501,Unkown,English,Philippines,16/09/2011
+166,ABS-CBN,ph,2502,Unkown,English,Philippines,31/10/2011
+166,ABS-CBN,ph,2503,Unkown,English,Philippines,31/08/2011
+166,ABS-CBN,ph,2505,Unkown,English,Philippines,11/08/2011
+166,ABS-CBN,ph,2506,Unkown,English,Philippines,17/05/2011
+166,ABS-CBN,ph,2507,Unkown,English,Philippines,12/10/2011
+166,ABS-CBN,ph,2508,Unkown,English,Philippines,16/08/2011
+166,ABS-CBN,ph,2504,Unkown,English,Philippines,21/07/2011
+166,ABS-CBN,ph,2509,Unkown,English,Philippines,08/08/2011
+166,ABS-CBN,ph,2510,Unkown,English,Philippines,30/08/2011
+166,ABS-CBN,ph,2511,Unkown,English,Philippines,29/06/2011
+166,ABS-CBN,ph,2512,Unkown,English,Philippines,21/06/2011
+166,ABS-CBN,ph,2513,Unkown,English,Philippines,05/07/2011
+166,ABS-CBN,ph,2514,Unkown,English,Philippines,24/08/2011
+166,ABS-CBN,ph,2515,Unkown,English,Philippines,15/11/2011
+166,ABS-CBN,ph,2516,Unkown,English,Philippines,23/06/2011
+166,ABS-CBN,ph,2517,Unkown,English,Philippines,13/07/2011
+166,ABS-CBN,ph,2518,Unkown,English,Philippines,26/07/2011
+166,ABS-CBN,ph,2519,Unkown,English,Philippines,09/08/2011
+166,ABS-CBN,ph,2520,Unkown,English,Philippines,22/07/2011
+166,ABS-CBN,ph,2521,Unkown,English,Philippines,30/06/2011
+166,ABS-CBN,ph,2522,Unkown,English,Philippines,14/11/2011
+166,ABS-CBN,ph,2525,Unkown,English,Philippines,30/09/2011
+166,ABS-CBN,ph,2526,Unkown,English,Philippines,03/08/2011
+166,ABS-CBN,ph,2527,Unkown,English,Philippines,16/11/2011
+166,ABS-CBN,ph,2528,Unkown,English,Philippines,31/05/2011
+166,ABS-CBN,ph,2529,Unkown,English,Philippines,20/09/2011
+166,ABS-CBN,ph,2530,Unkown,English,Philippines,18/10/2011
+166,ABS-CBN,ph,2531,Unkown,English,Philippines,27/10/2011
+166,ABS-CBN,ph,2532,Unkown,English,Philippines,27/06/2011
+166,ABS-CBN,ph,2533,Unkown,English,Philippines,29/07/2011
+166,ABS-CBN,ph,2534,Unkown,English,Philippines,21/09/2011
+166,ABS-CBN,ph,2535,Unkown,English,Philippines,28/07/2011
+166,ABS-CBN,ph,2536,Unkown,English,Philippines,03/06/2011
+166,ABS-CBN,ph,2537,Unkown,English,Philippines,09/11/2011
+166,ABS-CBN,ph,2538,Unkown,English,Philippines,04/10/2011
+166,ABS-CBN,ph,2539,Unkown,English,Philippines,25/05/2011
+166,ABS-CBN,ph,2540,Unkown,English,Philippines,02/06/2011
+166,ABS-CBN,ph,2523,Unkown,English,Philippines,01/07/2011
+166,ABS-CBN,ph,2524,Unkown,English,Philippines,08/06/2011
+166,ABS-CBN,ph,2541,Unkown,English,Philippines,06/06/2011
+166,ABS-CBN,ph,2542,Unkown,English,Philippines,27/09/2011
+166,ABS-CBN,ph,2543,Unkown,English,Philippines,10/06/2011
+166,ABS-CBN,ph,2544,Unkown,English,Philippines,05/08/2011
+166,ABS-CBN,ph,2545,Unkown,English,Philippines,10/05/2011
+166,ABS-CBN,ph,2546,Unkown,English,Philippines,23/09/2011
+166,ABS-CBN,ph,2547,Unkown,English,Philippines,06/07/2011
+166,ABS-CBN,ph,2548,Unkown,English,Philippines,26/08/2011
+166,ABS-CBN,ph,2549,Unkown,English,Philippines,05/09/2011
+166,ABS-CBN,ph,2550,Unkown,English,Philippines,11/11/2011
+166,ABS-CBN,ph,2551,Unkown,English,Philippines,19/09/2011
+166,ABS-CBN,ph,2552,Unkown,English,Philippines,14/07/2011
+166,ABS-CBN,ph,2553,Unkown,English,Philippines,06/10/2011
+166,ABS-CBN,ph,2554,Unkown,English,Philippines,24/06/2011
+166,ABS-CBN,ph,2555,Unkown,English,Philippines,08/07/2011
+166,ABS-CBN,ph,2556,Unkown,English,Philippines,26/09/2011
+166,ABS-CBN,ph,2557,Unkown,English,Philippines,14/10/2011
+102,Cuatro,es,2558,Color,English,USA,16/10/1999
+167,NHK Kyôiku,jp,2558,Color,English,USA,16/10/1999
+168,Nickelodeon Network,us,2558,Color,English,USA,16/10/1999
+169,VH1 Television,us,2600,Color,English,USA,13/09/2000
+169,VH1 Television,us,2601,Color,English,USA,06/09/2010
+170,Discovery Science Channel,us,2614,Color,English,USA,08/12/2004
+169,VH1 Television,us,2627,Color,English,USA,30/10/2006
+169,VH1 Television,us,2628,Color,English,USA,03/10/2011
+171,TV Asahi,jp,2785,Color,Japanese,Japan,28/09/1981
+172,TV Guide Network,us,2814,Color,English,USA,02/10/2011
+169,VH1 Television,us,2820,Color,English,USA,10/01/2003
+173,NHK BS Hi-Vision,jp,2821,Color,Japanese,Japan,05/02/2007
+174,NHK Enterprises,jp,2821,Color,Japanese,Japan,05/02/2007
+175,NHK BS Premium,jp,2824,Unkown,English,Japan,13/08/2011
+27,British Broadcasting Corporation (BBC),gb,2833,Color,English,UK,10/01/1992
+176,Playboy Entertainment Group,us,2834,Color,English,USA,10/07/2004
+137,RTL,de,2839,Color,German,Germany,03/04/2004
+19,National Broadcasting Company (NBC),us,2851,Color,English,Unkown,01/01/1800
+117,Game Show Network (GSN),us,2858,Color,English,USA,13/03/2007
+177,Wildsound Film Festival,ca,2859,Color,English,Canada,10/03/2011
+178,Kanal 5,se,2640,Color,Swedish,Sweden,08/11/2004
+179,Televisa,,2800,Color,Spanish,Mexico,04/10/2009
+180,France 2 (FR2),fr,2804,Color,French,France,26/09/2002
+181,Fuji Television Network,jp,2832,Color,Japanese,Japan,03/07/1995
+73,Danmarks Radio (DR),dk,2861,Color,Danish,Denmark,13/09/1997
+73,Danmarks Radio (DR),dk,2872,Color,Danish,Denmark,23/03/2003
+182,BYU Broadcasting,us,2879,Color,Spanish,USA,11/02/2007
+183,Antenna TV,gr,2912,Color,Greek,Greece,13/09/1997
+184,Südwestrundfunk (SWR),de,2917,Color,German,Germany,13/10/2002
+185,Telecinco,es,2881,Color,Spanish,Spain,25/05/2001
+108,Antena 3 Televisión,es,2894,Color,Spanish,Spain,04/05/2002
+186,Star Channel,gr,2910,Color,Greek,Greece,13/09/2003
+187,France 5,fr,2914,Color,French,France,19/01/1998
+188,La Cinquième,fr,2914,Color,French,France,19/01/1998
+189,Channel 5 Television,gb,2918,Color,English,Unkown,01/01/1800
+190,"Fremantle Corporation, The",ca,2918,Color,English,Unkown,01/01/1800
+191,Hessischer Rundfunk (HR),de,2924,Color,German,West Germany,13/09/1975
+192,Cool TV,hu,2931,Color,English,USA,14/05/2008
+57,Spike TV,us,2931,Color,English,USA,14/05/2008
+192,Cool TV,hu,3008,Unkown,English,USA,09/03/2011
+57,Spike TV,us,3008,Unkown,English,USA,09/03/2011
+192,Cool TV,hu,3032,Unkown,English,USA,29/03/2011
+57,Spike TV,us,3032,Unkown,English,USA,29/03/2011
+98,Canal 13,ar,2925,Color,Spanish,Argentina,04/05/2002
+193,Romantica,hu,2925,Color,Spanish,Argentina,04/05/2002
+194,Romantica,pl,2925,Color,Spanish,Argentina,04/05/2002
+96,Telefé International,ar,2925,Color,Spanish,Argentina,04/05/2002
+195,Viva,il,2925,Color,Spanish,Argentina,04/05/2002
+32,Televisie Radio Omroep Stichting (TROS),nl,2930,Unkown,Dutch,Netherlands,10/11/2003
+196,Pan Vision,se,3062,Color,Swedish,Sweden,21/10/1980
+197,Sveriges Television (SVT),se,3062,Color,Swedish,Sweden,21/10/1980
+196,Pan Vision,se,3063,Color,Swedish,Sweden,04/11/1980
+197,Sveriges Television (SVT),se,3063,Color,Swedish,Sweden,04/11/1980
+196,Pan Vision,se,3064,Color,Swedish,Sweden,25/11/1980
+197,Sveriges Television (SVT),se,3064,Color,Swedish,Sweden,25/11/1980
+196,Pan Vision,se,3065,Color,Swedish,Sweden,11/11/1980
+197,Sveriges Television (SVT),se,3065,Color,Swedish,Sweden,11/11/1980
+196,Pan Vision,se,3066,Color,Swedish,Sweden,18/11/1980
+197,Sveriges Television (SVT),se,3066,Color,Swedish,Sweden,18/11/1980
+196,Pan Vision,se,3067,Color,Swedish,Sweden,21/10/1980
+197,Sveriges Television (SVT),se,3067,Color,Swedish,Sweden,21/10/1980
+196,Pan Vision,se,3068,Color,Swedish,Sweden,28/10/1980
+197,Sveriges Television (SVT),se,3068,Color,Swedish,Sweden,28/10/1980
+198,America One Network,us,3069,Color,English,USA,19/01/2009
+199,MAV TV,us,3069,Color,English,USA,19/01/2009
+200,Televisão Independente (TVI),pt,3189,Color,Portuguese,Portugal,13/09/1995
+201,FEM3,hu,3083,Color,Turkish,Turkey,07/11/2006
+202,Kanal D,tr,3083,Color,Turkish,Turkey,07/11/2006
+203,SuperTV2,hu,3083,Color,Turkish,Turkey,07/11/2006
+164,TV2,hu,3083,Color,Turkish,Turkey,07/11/2006
+164,TV2,hu,3084,Color,Turkish,Turkey,07/11/2006
+164,TV2,hu,3085,Color,Turkish,Turkey,30/01/2007
+164,TV2,hu,3086,Color,Turkish,Turkey,06/02/2007
+164,TV2,hu,3087,Color,Turkish,Turkey,13/02/2007
+164,TV2,hu,3088,Color,Turkish,Turkey,20/02/2007
+164,TV2,hu,3089,Color,Turkish,Turkey,27/02/2007
+164,TV2,hu,3090,Unkown,Turkish,Turkey,06/03/2007
+164,TV2,hu,3091,Unkown,Turkish,Turkey,13/03/2007
+164,TV2,hu,3092,Unkown,Turkish,Turkey,20/03/2007
+164,TV2,hu,3093,Unkown,Turkish,Turkey,27/03/2007
+164,TV2,hu,3094,Unkown,Turkish,Turkey,03/04/2007
+164,TV2,hu,3095,Color,Turkish,Turkey,14/11/2006
+164,TV2,hu,3096,Unkown,Turkish,Turkey,10/04/2007
+164,TV2,hu,3097,Unkown,Turkish,Turkey,17/04/2007
+164,TV2,hu,3098,Unkown,Turkish,Turkey,24/04/2007
+164,TV2,hu,3099,Unkown,Turkish,Turkey,08/05/2007
+164,TV2,hu,3100,Unkown,Turkish,Turkey,15/05/2007
+164,TV2,hu,3101,Unkown,Turkish,Turkey,22/05/2007
+164,TV2,hu,3102,Color,Turkish,Turkey,29/05/2007
+164,TV2,hu,3103,Color,Turkish,Turkey,05/06/2007
+164,TV2,hu,3104,Color,Turkish,Turkey,12/06/2007
+164,TV2,hu,3105,Color,Turkish,Turkey,19/06/2007
+164,TV2,hu,3106,Color,Turkish,Turkey,21/11/2006
+164,TV2,hu,3107,Color,Turkish,Turkey,28/11/2006
+164,TV2,hu,3108,Color,Turkish,Turkey,12/12/2006
+164,TV2,hu,3109,Color,Turkish,Turkey,19/12/2006
+164,TV2,hu,3110,Color,Turkish,Turkey,26/12/2006
+164,TV2,hu,3111,Color,Turkish,Turkey,16/01/2007
+164,TV2,hu,3112,Color,Turkish,Turkey,23/01/2007
+164,TV2,hu,3113,Unkown,English,Turkey,13/09/2007
+164,TV2,hu,3114,Unkown,English,Turkey,18/09/2007
+164,TV2,hu,3115,Unkown,English,Turkey,25/09/2007
+164,TV2,hu,3116,Unkown,English,Turkey,03/10/2007
+164,TV2,hu,3117,Unkown,English,Turkey,09/10/2007
+164,TV2,hu,3118,Unkown,English,Turkey,16/10/2007
+164,TV2,hu,3119,Unkown,English,Turkey,30/10/2007
+164,TV2,hu,3120,Unkown,English,Turkey,06/11/2007
+164,TV2,hu,3121,Unkown,English,Turkey,13/11/2007
+164,TV2,hu,3122,Unkown,English,Turkey,20/11/2007
+164,TV2,hu,3123,Unkown,English,Turkey,27/11/2007
+164,TV2,hu,3124,Unkown,English,Turkey,04/12/2007
+164,TV2,hu,3125,Unkown,English,Turkey,11/12/2007
+164,TV2,hu,3126,Unkown,English,Turkey,18/12/2007
+164,TV2,hu,3127,Unkown,English,Turkey,25/12/2007
+164,TV2,hu,3128,Unkown,English,Turkey,08/01/2008
+164,TV2,hu,3129,Unkown,English,Turkey,15/01/2008
+164,TV2,hu,3130,Unkown,English,Turkey,22/01/2008
+164,TV2,hu,3131,Unkown,English,Turkey,29/01/2008
+164,TV2,hu,3132,Unkown,English,Turkey,05/02/2008
+164,TV2,hu,3133,Unkown,English,Turkey,12/02/2008
+164,TV2,hu,3134,Unkown,English,Turkey,19/02/2008
+164,TV2,hu,3135,Unkown,English,Turkey,26/02/2008
+164,TV2,hu,3136,Unkown,English,Turkey,04/03/2008
+164,TV2,hu,3137,Unkown,English,Turkey,11/03/2008
+164,TV2,hu,3138,Unkown,English,Turkey,18/03/2008
+164,TV2,hu,3139,Unkown,English,Turkey,25/03/2008
+164,TV2,hu,3140,Unkown,English,Turkey,01/04/2008
+164,TV2,hu,3141,Unkown,English,Turkey,01/04/2008
+164,TV2,hu,3142,Unkown,English,Turkey,15/04/2008
+164,TV2,hu,3143,Unkown,English,Turkey,13/09/2008
+164,TV2,hu,3144,Unkown,English,Turkey,29/04/2008
+164,TV2,hu,3145,Unkown,English,Turkey,06/05/2008
+164,TV2,hu,3146,Unkown,English,Turkey,13/05/2008
+164,TV2,hu,3147,Unkown,English,Turkey,20/05/2008
+164,TV2,hu,3148,Unkown,English,Turkey,27/05/2008
+164,TV2,hu,3173,Unkown,English,Turkey,03/06/2008
+1,E! Entertainment Television,us,3190,Color,English,Unkown,01/01/1800
+204,Movie Plus,jp,3190,Color,English,Unkown,01/01/1800
+205,Speed Television,us,3191,Color,English,USA,23/06/2008
+160,American Broadcasting Company (ABC),us,3201,Color,English,USA,01/09/1997
+161,Buena Vista Television,us,3201,Color,English,USA,01/09/1997
+206,Disney Channel,pt,3201,Color,English,USA,01/09/1997
+207,Disney Channel,us,3201,Color,English,USA,01/09/1997
+208,Disney Cinemagic,pt,3201,Color,English,USA,01/09/1997
+209,Toon Disney,us,3201,Color,English,USA,01/09/1997
+210,Seriously Entertainment,nz,3268,Color,English,Unkown,01/01/1800
+211,E! Entertainment Television,il,3279,Color,English,USA,22/01/2007
+204,Movie Plus,jp,3279,Color,English,USA,22/01/2007
+1,E! Entertainment Television,us,3280,Color,English,USA,28/08/2006
+1,E! Entertainment Television,us,3282,Color,English,USA,25/04/2005
+212,Channel Four,gb,3283,Color,English,UK,12/07/2004
+2,YouTube,us,3309,Color,English,USA,14/02/2013
+160,American Broadcasting Company (ABC),us,3320,Color,English,USA,13/07/2011
+213,PRO 4,hu,3320,Color,English,USA,13/07/2011
+213,PRO 4,hu,3321,Unkown,English,USA,26/07/2011
+213,PRO 4,hu,3322,Unkown,English,USA,28/06/2011
+213,PRO 4,hu,3323,Unkown,English,USA,12/07/2011
+213,PRO 4,hu,3324,Unkown,English,USA,19/07/2011
+213,PRO 4,hu,3325,Unkown,English,USA,05/07/2011
+213,PRO 4,hu,3326,Unkown,English,USA,21/06/2011
+214,Endemol International B.V.,nl,3327,Color,English,UK,11/07/2010
+213,PRO 4,hu,3327,Color,English,UK,11/07/2010
+215,Vlaamse Televisie Maatschappij (VTM),be,3284,Color,Dutch,Belgium,13/09/2007
+1,E! Entertainment Television,us,3328,Color,Hebrew,Unkown,01/01/1800
+216,Black Entertainment Television (BET),us,3342,Color,English,USA,13/09/2000
+217,MTV Japan,jp,3342,Color,English,USA,13/09/2000
+216,Black Entertainment Television (BET),us,3532,Color,English,USA,09/03/2007
+218,4dvd,gb,3552,Color,English,Unkown,01/01/1800
+219,BBC Worldwide,gb,3552,Color,English,Unkown,01/01/1800
+139,Channel 4 Television Corporation,gb,3552,Color,English,Unkown,01/01/1800
+30,Polyband,de,3552,Color,English,Unkown,01/01/1800
+139,Channel 4 Television Corporation,gb,3553,Color,English,UK,18/05/2009
+139,Channel 4 Television Corporation,gb,3554,Color,English,UK,19/05/2009
+220,PS TVC Studio,ru,3555,Color,Russian,Russia,16/08/2010
+221,Alpha TV,gr,3585,Color,Greek,Greece,29/09/2004
+160,American Broadcasting Company (ABC),us,3680,Color,English,USA,06/02/1968
+222,Schweizer Fernsehen (FS),ch,3682,Color,Swiss German,Switzerland,20/08/1990
+27,British Broadcasting Corporation (BBC),gb,3683,Color,English,UK,13/09/1989
+223,Shaftesbury Sales Company,ca,3800,Color,English,Canada,13/09/2006
+224,Space,ca,3834,Color,English,Unkown,01/01/1800
+225,Zweites Deutsches Fernsehen (ZDF),de,3852,Color,German,Unkown,01/01/1800
+171,TV Asahi,jp,3823,Color,Japanese,Japan,13/10/2011
+171,TV Asahi,jp,3824,Unkown,English,Japan,21/10/2011
+185,Telecinco,es,3860,Color,Spanish,Unkown,01/01/1800
+226,Divisa Home Video,es,3861,Unkown,English,Spain,06/07/2011
+226,Divisa Home Video,es,3862,Unkown,English,Spain,04/07/2011
+21,7 Network,au,3864,Color,English,Australia,16/02/2004
+46,RTL Klub Televízió,hu,3871,Color,German,Unkown,01/01/1800
+227,Sorozat Plusz,hu,3871,Color,German,Unkown,01/01/1800
+228,Universum Film (UFA),de,3871,Color,German,Unkown,01/01/1800
+46,RTL Klub Televízió,hu,3872,Color,German,Germany,25/08/2008
+46,RTL Klub Televízió,hu,3873,Color,German,Germany,05/09/2008
+46,RTL Klub Televízió,hu,3874,Color,German,Germany,20/01/2009
+46,RTL Klub Televízió,hu,3875,Color,German,Germany,23/01/2009
+46,RTL Klub Televízió,hu,3876,Color,German,Germany,26/01/2009
+46,RTL Klub Televízió,hu,3877,Color,German,Germany,28/01/2009
+46,RTL Klub Televízió,hu,3878,Color,German,Germany,29/01/2009
+46,RTL Klub Televízió,hu,3879,Color,German,Germany,30/01/2009
+46,RTL Klub Televízió,hu,3880,Color,German,Germany,02/02/2009
+46,RTL Klub Televízió,hu,3881,Color,German,Germany,03/02/2009
+46,RTL Klub Televízió,hu,3882,Color,German,Germany,04/02/2009
+46,RTL Klub Televízió,hu,3883,Color,German,Germany,05/02/2009
+46,RTL Klub Televízió,hu,3884,Color,German,Germany,08/09/2008
+46,RTL Klub Televízió,hu,3885,Color,German,Germany,06/02/2009
+46,RTL Klub Televízió,hu,3886,Color,German,Germany,09/09/2008
+46,RTL Klub Televízió,hu,3887,Color,German,Germany,10/09/2008
+46,RTL Klub Televízió,hu,3888,Color,German,Germany,11/09/2008
+46,RTL Klub Televízió,hu,3889,Color,German,Germany,12/09/2008
+46,RTL Klub Televízió,hu,3890,Color,German,Germany,15/09/2008
+46,RTL Klub Televízió,hu,3891,Color,German,Germany,16/09/2008
+46,RTL Klub Televízió,hu,3892,Color,German,Germany,17/09/2008
+46,RTL Klub Televízió,hu,3893,Color,German,Germany,18/09/2008
+46,RTL Klub Televízió,hu,3894,Color,German,Germany,26/08/2008
+46,RTL Klub Televízió,hu,3895,Color,German,Germany,19/09/2008
+46,RTL Klub Televízió,hu,3896,Color,German,Germany,21/09/2008
+46,RTL Klub Televízió,hu,3897,Color,German,Germany,21/09/2008
+46,RTL Klub Televízió,hu,3898,Color,German,Germany,22/09/2008
+46,RTL Klub Televízió,hu,3899,Color,German,Germany,23/09/2008
+46,RTL Klub Televízió,hu,3900,Color,German,Germany,24/09/2008
+46,RTL Klub Televízió,hu,3901,Color,German,Germany,29/09/2008
+46,RTL Klub Televízió,hu,3902,Color,German,Germany,30/09/2008
+46,RTL Klub Televízió,hu,3903,Color,German,Germany,01/10/2008
+46,RTL Klub Televízió,hu,3904,Color,German,Germany,02/10/2008
+46,RTL Klub Televízió,hu,3905,Color,German,Germany,27/08/2008
+46,RTL Klub Televízió,hu,3906,Color,German,Germany,06/10/2008
+46,RTL Klub Televízió,hu,3907,Color,German,Germany,07/10/2008
+46,RTL Klub Televízió,hu,3908,Color,German,Germany,08/10/2008
+46,RTL Klub Televízió,hu,3909,Color,German,Germany,09/10/2008
+46,RTL Klub Televízió,hu,3910,Color,German,Germany,10/10/2008
+46,RTL Klub Televízió,hu,3911,Color,German,Germany,13/10/2008
+46,RTL Klub Televízió,hu,3912,Color,German,Germany,14/10/2008
+46,RTL Klub Televízió,hu,3913,Color,German,Germany,15/10/2008
+46,RTL Klub Televízió,hu,3914,Color,German,Germany,16/10/2008
+46,RTL Klub Televízió,hu,3915,Color,German,Germany,28/08/2008
+46,RTL Klub Televízió,hu,3916,Color,German,Germany,17/10/2008
+46,RTL Klub Televízió,hu,3917,Color,German,Germany,29/08/2008
+46,RTL Klub Televízió,hu,3918,Color,German,Germany,01/09/2008
+46,RTL Klub Televízió,hu,3919,Color,German,Germany,20/11/2008
+46,RTL Klub Televízió,hu,3920,Color,German,Germany,21/11/2008
+46,RTL Klub Televízió,hu,3921,Color,German,Germany,24/11/2008
+46,RTL Klub Televízió,hu,3922,Color,German,Germany,25/11/2008
+46,RTL Klub Televízió,hu,3923,Color,German,Germany,26/11/2008
+46,RTL Klub Televízió,hu,3924,Color,German,Germany,27/11/2008
+46,RTL Klub Televízió,hu,3925,Color,German,Germany,28/11/2008
+46,RTL Klub Televízió,hu,3926,Color,German,Germany,02/09/2008
+46,RTL Klub Televízió,hu,3927,Color,German,Germany,01/12/2008
+46,RTL Klub Televízió,hu,3928,Color,German,Germany,02/12/2008
+46,RTL Klub Televízió,hu,3929,Color,German,Germany,03/12/2008
+46,RTL Klub Televízió,hu,3930,Color,German,Germany,04/12/2008
+46,RTL Klub Televízió,hu,3931,Color,German,Germany,05/12/2008
+46,RTL Klub Televízió,hu,3932,Color,German,Germany,08/12/2008
+46,RTL Klub Televízió,hu,3933,Color,German,Germany,09/12/2008
+46,RTL Klub Televízió,hu,3934,Color,German,Germany,10/12/2008
+46,RTL Klub Televízió,hu,3935,Color,German,Germany,11/12/2008
+46,RTL Klub Televízió,hu,3936,Color,German,Germany,12/12/2008
+46,RTL Klub Televízió,hu,3937,Color,German,Germany,03/09/2008
+46,RTL Klub Televízió,hu,3938,Color,German,Germany,15/12/2008
+46,RTL Klub Televízió,hu,3939,Color,German,Germany,16/12/2008
+46,RTL Klub Televízió,hu,3940,Color,German,Germany,17/12/2008
+46,RTL Klub Televízió,hu,3941,Color,German,Germany,18/12/2008
+46,RTL Klub Televízió,hu,3942,Color,German,Germany,19/12/2008
+46,RTL Klub Televízió,hu,3943,Color,German,Germany,20/12/2008
+46,RTL Klub Televízió,hu,3944,Color,German,Germany,22/12/2008
+46,RTL Klub Televízió,hu,3945,Color,German,Germany,29/12/2008
+46,RTL Klub Televízió,hu,3946,Color,German,Germany,30/12/2008
+46,RTL Klub Televízió,hu,3947,Color,German,Germany,02/01/2009
+46,RTL Klub Televízió,hu,3948,Color,German,Germany,04/09/2008
+46,RTL Klub Televízió,hu,3949,Color,German,Germany,05/01/2009
+46,RTL Klub Televízió,hu,3950,Color,German,Germany,06/01/2009
+46,RTL Klub Televízió,hu,3951,Color,German,Germany,07/01/2009
+46,RTL Klub Televízió,hu,3952,Color,German,Germany,08/01/2009
+46,RTL Klub Televízió,hu,3953,Color,German,Germany,09/01/2009
+46,RTL Klub Televízió,hu,3954,Color,German,Germany,12/01/2009
+46,RTL Klub Televízió,hu,3955,Color,German,Germany,13/01/2009
+46,RTL Klub Televízió,hu,3956,Color,German,Germany,14/01/2009
+46,RTL Klub Televízió,hu,3957,Color,German,Germany,15/01/2009
+46,RTL Klub Televízió,hu,3958,Color,German,Germany,16/01/2009
+46,RTL Klub Televízió,hu,3959,Color,German,Germany,28/10/2008
+46,RTL Klub Televízió,hu,3961,Color,German,Germany,23/10/2008
+46,RTL Klub Televízió,hu,3962,Color,German,Germany,06/11/2008
+46,RTL Klub Televízió,hu,3960,Color,German,Germany,21/10/2008
+46,RTL Klub Televízió,hu,3963,Color,German,Germany,31/10/2008
+46,RTL Klub Televízió,hu,3964,Color,German,Germany,18/11/2008
+46,RTL Klub Televízió,hu,3965,Color,German,Germany,12/11/2008
+46,RTL Klub Televízió,hu,3966,Color,German,Germany,10/11/2008
+46,RTL Klub Televízió,hu,3967,Color,German,Germany,03/11/2008
+46,RTL Klub Televízió,hu,3968,Color,German,Germany,30/10/2008
+46,RTL Klub Televízió,hu,3969,Color,German,Germany,27/10/2008
+46,RTL Klub Televízió,hu,3970,Color,German,Germany,24/10/2008
+46,RTL Klub Televízió,hu,3971,Color,German,Germany,17/10/2008
+46,RTL Klub Televízió,hu,3972,Color,German,Germany,17/11/2008
+46,RTL Klub Televízió,hu,3973,Color,German,Germany,19/11/2008
+46,RTL Klub Televízió,hu,3974,Color,German,Germany,11/11/2008
+46,RTL Klub Televízió,hu,3975,Color,German,Germany,11/11/2008
+46,RTL Klub Televízió,hu,3976,Color,German,Germany,07/11/2008
+46,RTL Klub Televízió,hu,3977,Color,German,Germany,04/11/2008
+46,RTL Klub Televízió,hu,3978,Color,German,Germany,05/11/2008
+46,RTL Klub Televízió,hu,3979,Color,German,Germany,29/10/2008
+46,RTL Klub Televízió,hu,3980,Color,German,Germany,13/11/2008
+46,RTL Klub Televízió,hu,3981,Color,German,Germany,22/10/2008
+229,Nova,,3982,Color,Czech,Czech Republic,13/09/2006
+230,TV6,se,3983,Color,Swedish,Sweden,25/03/2013
+73,Danmarks Radio (DR),dk,3993,Color,Danish,Denmark,07/03/2010
+74,AT-X,jp,4017,Color,Japanese,Japan,06/10/2009
+95,Chiba TV,jp,4017,Color,Japanese,Japan,06/10/2009
+231,Chukyo TV Broadcasting Company (CTV),jp,4017,Color,Japanese,Japan,06/10/2009
+232,Section 23 Films,us,4017,Color,Japanese,Japan,06/10/2009
+233,Sentai Filmworks,us,4017,Color,Japanese,Japan,06/10/2009
+234,Sun TV,jp,4017,Color,Japanese,Japan,06/10/2009
+235,TV Saitama,jp,4017,Color,Japanese,Japan,06/10/2009
+236,Tokyo MX TV,jp,4017,Color,Japanese,Japan,06/10/2009
+74,AT-X,jp,4018,Unkown,English,Japan,06/10/2009
+95,Chiba TV,jp,4018,Unkown,English,Japan,06/10/2009
+231,Chukyo TV Broadcasting Company (CTV),jp,4018,Unkown,English,Japan,06/10/2009
+232,Section 23 Films,us,4018,Unkown,English,Japan,06/10/2009
+233,Sentai Filmworks,us,4018,Unkown,English,Japan,06/10/2009
+114,Nippon Television Network Corporation (NTV),jp,4027,Color,Japanese,Japan,08/11/1965
+237,Amuse Video,jp,4029,Unkown,English,Japan,20/09/1979
+114,Nippon Television Network Corporation (NTV),jp,4029,Unkown,English,Japan,20/09/1979
+92,Tokyo Broadcasting System (TBS),jp,4033,Color,Japanese,Japan,25/08/2007
+16,Music Television (MTV),us,4035,Color,English,USA,13/09/1997
+93,Independent Television (ITV),gb,4037,Color,English,UK,15/04/2006
+238,Discovery Geschichte,de,4138,Black and White,German,Germany,13/11/2006
+30,Polyband,de,4138,Black and White,German,Germany,13/11/2006
+239,Vox,de,4138,Black and White,German,Germany,13/11/2006
+240,Home Box Office (HBO),us,4199,Color,English,Unkown,01/01/1800
+160,American Broadcasting Company (ABC),us,4209,Black and White,English,USA,18/09/1964
+160,American Broadcasting Company (ABC),us,4210,Color,English,USA,07/10/1966
+160,American Broadcasting Company (ABC),us,4211,Color,English,USA,06/01/1967
+160,American Broadcasting Company (ABC),us,4212,Black and White,English,USA,25/12/1964
+160,American Broadcasting Company (ABC),us,4213,Black and White,English,USA,28/02/1966
+160,American Broadcasting Company (ABC),us,4214,Black and White,English,USA,20/11/1964
+160,American Broadcasting Company (ABC),us,4215,Black and White,English,USA,07/02/1966
+160,American Broadcasting Company (ABC),us,4216,Black and White,English,USA,13/12/1965
+160,American Broadcasting Company (ABC),us,4217,Black and White,English,USA,11/10/1965
+160,American Broadcasting Company (ABC),us,4218,Color,English,USA,02/12/1966
+160,American Broadcasting Company (ABC),us,4219,Black and White,English,USA,21/03/1966
+160,American Broadcasting Company (ABC),us,4220,Black and White,English,USA,28/03/1966
+160,American Broadcasting Company (ABC),us,4221,Black and White,English,USA,06/11/1964
+241,RareSerials.com,us,4221,Black and White,English,USA,06/11/1964
+241,RareSerials.com,us,4221,Black and White,English,USA,06/11/1964
+160,American Broadcasting Company (ABC),us,4222,Black and White,English,USA,07/03/1966
+160,American Broadcasting Company (ABC),us,4223,Black and White,English,USA,12/03/1965
+160,American Broadcasting Company (ABC),us,4224,Color,English,USA,23/09/1966
+160,American Broadcasting Company (ABC),us,4225,Black and White,English,USA,29/01/1965
+160,American Broadcasting Company (ABC),us,4226,Black and White,English,USA,03/01/1966
+160,American Broadcasting Company (ABC),us,4227,Black and White,English,USA,25/09/1964
+241,RareSerials.com,us,4227,Black and White,English,USA,25/09/1964
+241,RareSerials.com,us,4227,Black and White,English,USA,25/09/1964
+160,American Broadcasting Company (ABC),us,4228,Color,English,USA,30/09/1966
+160,American Broadcasting Company (ABC),us,4229,Color,English,USA,09/09/1966
+160,American Broadcasting Company (ABC),us,4230,Black and White,English,USA,18/09/1964
+241,RareSerials.com,us,4230,Black and White,English,USA,18/09/1964
+241,RareSerials.com,us,4230,Black and White,English,USA,18/09/1964
+160,American Broadcasting Company (ABC),us,4231,Black and White,English,USA,15/11/1965
+160,American Broadcasting Company (ABC),us,4232,Color,English,USA,30/12/1966
+160,American Broadcasting Company (ABC),us,4233,Black and White,English,USA,04/12/1964
+160,American Broadcasting Company (ABC),us,4234,Black and White,English,USA,08/11/1965
+160,American Broadcasting Company (ABC),us,4235,Black and White,English,USA,08/01/1965
+160,American Broadcasting Company (ABC),us,4236,Black and White,English,USA,27/11/1964
+160,American Broadcasting Company (ABC),us,4237,Color,English,USA,16/09/1966
+160,American Broadcasting Company (ABC),us,4238,Black and White,English,USA,26/03/1965
+160,American Broadcasting Company (ABC),us,4239,Black and White,English,USA,23/04/1965
+160,American Broadcasting Company (ABC),us,4240,Black and White,English,USA,30/04/1965
+160,American Broadcasting Company (ABC),us,4241,Color,English,USA,14/10/1966
+160,American Broadcasting Company (ABC),us,4242,Black and White,English,USA,30/10/1964
+241,RareSerials.com,us,4242,Black and White,English,USA,30/10/1964
+241,RareSerials.com,us,4242,Black and White,English,USA,30/10/1964
+160,American Broadcasting Company (ABC),us,4243,Black and White,English,USA,20/09/1965
+160,American Broadcasting Company (ABC),us,4244,Black and White,English,USA,01/11/1965
+160,American Broadcasting Company (ABC),us,4245,Black and White,English,USA,25/10/1965
+160,American Broadcasting Company (ABC),us,4246,Black and White,English,USA,04/04/1966
+160,American Broadcasting Company (ABC),us,4247,Color,English,USA,16/12/1966
+160,American Broadcasting Company (ABC),us,4248,Black and White,English,USA,11/12/1964
+160,American Broadcasting Company (ABC),us,4249,Black and White,English,USA,22/11/1965
+160,American Broadcasting Company (ABC),us,4250,Black and White,English,USA,27/12/1965
+160,American Broadcasting Company (ABC),us,4251,Color,English,USA,09/12/1966
+160,American Broadcasting Company (ABC),us,4252,Black and White,English,USA,15/01/1965
+160,American Broadcasting Company (ABC),us,4253,Color,English,USA,28/10/1966
+160,American Broadcasting Company (ABC),us,4254,Black and White,English,USA,12/02/1965
+160,American Broadcasting Company (ABC),us,4255,Black and White,English,USA,23/10/1964
+241,RareSerials.com,us,4255,Black and White,English,USA,23/10/1964
+241,RareSerials.com,us,4255,Black and White,English,USA,23/10/1964
+160,American Broadcasting Company (ABC),us,4256,Black and White,English,USA,09/04/1965
+160,American Broadcasting Company (ABC),us,4257,Color,English,USA,23/12/1966
+160,American Broadcasting Company (ABC),us,4258,Color,English,USA,11/11/1966
+160,American Broadcasting Company (ABC),us,4259,Black and White,English,USA,07/05/1965
+160,American Broadcasting Company (ABC),us,4260,Black and White,English,USA,14/03/1966
+160,American Broadcasting Company (ABC),us,4261,Black and White,English,USA,18/10/1965
+160,American Broadcasting Company (ABC),us,4262,Black and White,English,USA,13/11/1964
+241,RareSerials.com,us,4262,Black and White,English,USA,13/11/1964
+241,RareSerials.com,us,4262,Black and White,English,USA,13/11/1964
+160,American Broadcasting Company (ABC),us,4263,Color,English,USA,13/01/1967
+160,American Broadcasting Company (ABC),us,4264,Black and White,English,USA,04/10/1965
+160,American Broadcasting Company (ABC),us,4265,Black and White,English,USA,06/12/1965
+160,American Broadcasting Company (ABC),us,4266,Black and White,English,USA,13/09/1965
+160,American Broadcasting Company (ABC),us,4267,Black and White,English,USA,22/01/1965
+160,American Broadcasting Company (ABC),us,4268,Black and White,English,USA,02/10/1964
+241,RareSerials.com,us,4268,Black and White,English,USA,02/10/1964
+241,RareSerials.com,us,4268,Black and White,English,USA,02/10/1964
+160,American Broadcasting Company (ABC),us,4269,Black and White,English,USA,02/04/1965
+160,American Broadcasting Company (ABC),us,4270,Black and White,English,USA,31/01/1966
+160,American Broadcasting Company (ABC),us,4271,Color,English,USA,04/11/1966
+160,American Broadcasting Company (ABC),us,4272,Black and White,English,USA,10/01/1966
+160,American Broadcasting Company (ABC),us,4273,Black and White,English,USA,16/10/1964
+241,RareSerials.com,us,4273,Black and White,English,USA,16/10/1964
+241,RareSerials.com,us,4273,Black and White,English,USA,16/10/1964
+160,American Broadcasting Company (ABC),us,4274,Black and White,English,USA,21/02/1966
+160,American Broadcasting Company (ABC),us,4275,Black and White,English,USA,18/12/1964
+160,American Broadcasting Company (ABC),us,4276,Black and White,English,USA,19/03/1965
+160,American Broadcasting Company (ABC),us,4277,Black and White,English,USA,26/02/1965
+160,American Broadcasting Company (ABC),us,4278,Black and White,English,USA,05/03/1965
+160,American Broadcasting Company (ABC),us,4279,Black and White,English,USA,27/09/1965
+160,American Broadcasting Company (ABC),us,4280,Black and White,English,USA,01/01/1965
+160,American Broadcasting Company (ABC),us,4281,Black and White,English,USA,05/02/1965
+160,American Broadcasting Company (ABC),us,4282,Color,English,USA,18/11/1966
+160,American Broadcasting Company (ABC),us,4283,Black and White,English,USA,14/02/1966
+160,American Broadcasting Company (ABC),us,4284,Black and White,English,USA,17/01/1966
+160,American Broadcasting Company (ABC),us,4285,Black and White,English,USA,16/04/1965
+160,American Broadcasting Company (ABC),us,4286,Black and White,English,USA,29/11/1965
+160,American Broadcasting Company (ABC),us,4287,Black and White,English,USA,24/01/1966
+242,Black Broadcasting Network,us,4426,Color,English,USA,30/07/2010
+243,Artear,ar,4039,Color,Spanish,Argentina,15/09/2003
+244,NBC Telemundo Network,us,4041,Color,Spanish,USA,15/11/2004
+244,NBC Telemundo Network,us,4041,Color,Spanish,USA,15/11/2004
+245,Promofilm California,us,4041,Color,Spanish,USA,15/11/2004
+246,Promofilm US,us,4041,Color,Spanish,USA,15/11/2004
+244,NBC Telemundo Network,us,4119,Color,Spanish,USA,11/01/2008
+179,Televisa,,4119,Color,Spanish,USA,11/01/2008
+247,Chilevisión,cl,4125,Color,Spanish,Chile,31/05/2011
+248,Anime Works,,4152,Color,Japanese,Japan,09/04/2002
+249,Kaze,fr,4152,Color,Japanese,Japan,09/04/2002
+250,Madman Entertainment,au,4152,Color,Japanese,Japan,09/04/2002
+250,Madman Entertainment,au,4152,Color,Japanese,Japan,09/04/2002
+183,Antenna TV,gr,4198,Color,Greek,Greece,13/09/2005
+251,Adult Swim,us,4288,Color,English,USA,19/06/2005
+78,Cartoon Network,us,4288,Color,English,USA,19/06/2005
+16,Music Television (MTV),us,4445,Color,English,Unkown,01/01/1800
+181,Fuji Television Network,jp,4448,Color,Japanese,Japan,22/06/2005
+252,Net5,nl,4454,Color,Dutch,Netherlands,05/11/2003
+253,Arbeitsgemeinschaft der öffentlich-rechtlichen Rundfunkanstalten der Bundesrepublik Deutschland (ARD),de,4455,Color,English,Germany,15/08/2009
+254,Eurosport,fr,4455,Color,English,Germany,15/08/2009
+255,Schweizer Fernsehen (SF),ch,4455,Color,English,Germany,15/08/2009
+225,Zweites Deutsches Fernsehen (ZDF),de,4455,Color,English,Germany,15/08/2009
+256,Crosby/Brown Productions,,4482,Black and White,English,Unkown,01/01/1800
+257,Föreningsfilmo,,4482,Black and White,English,Unkown,01/01/1800
+258,Something Weird Video (SWV),us,4482,Black and White,English,Unkown,01/01/1800
+256,Crosby/Brown Productions,,4486,Black and White,English,Unkown,01/01/1800
+257,Föreningsfilmo,,4486,Black and White,English,Unkown,01/01/1800
+259,Klubb Super 8 Video,se,4486,Black and White,English,Unkown,01/01/1800
+19,National Broadcasting Company (NBC),us,4496,Color,English,USA,29/07/1989
+160,American Broadcasting Company (ABC),us,4651,Color,English,USA,20/03/1979
+160,American Broadcasting Company (ABC),us,4652,Unkown,English,USA,20/03/1979
+160,American Broadcasting Company (ABC),us,4653,Unkown,English,USA,17/07/1979
+160,American Broadcasting Company (ABC),us,4654,Unkown,English,USA,24/07/1979
+160,American Broadcasting Company (ABC),us,4655,Unkown,English,USA,03/04/1979
+160,American Broadcasting Company (ABC),us,4656,Unkown,English,USA,17/04/1979
+160,American Broadcasting Company (ABC),us,4657,Unkown,English,USA,27/03/1979
+160,American Broadcasting Company (ABC),us,4658,Unkown,English,USA,13/09/1979
+160,American Broadcasting Company (ABC),us,4659,Unkown,English,USA,10/04/1979
+160,American Broadcasting Company (ABC),us,4660,Unkown,English,USA,03/07/1979
+260,Endemol Worldwide Distribution (EWD),gb,4661,Color,English,UK,13/08/2012
+93,Independent Television (ITV),gb,4661,Color,English,UK,13/08/2012
+64,Televisió de Catalunya (TV3),es,4457,Color,Catalan,Spain,13/10/2007
+261,Antenne-2,fr,4513,Color,French,France,13/09/1981
+180,France 2 (FR2),fr,4513,Color,French,France,13/09/1981
+262,Nederlandse Programma Stichting (NPS),nl,4540,Color,Dutch,Netherlands,25/10/2009
+262,Nederlandse Programma Stichting (NPS),nl,4541,Color,Dutch,Netherlands,20/12/2009
+262,Nederlandse Programma Stichting (NPS),nl,4542,Color,Dutch,Netherlands,09/01/2010
+262,Nederlandse Programma Stichting (NPS),nl,4543,Color,Dutch,Netherlands,01/11/2009
+262,Nederlandse Programma Stichting (NPS),nl,4544,Color,Dutch,Netherlands,25/10/2009
+262,Nederlandse Programma Stichting (NPS),nl,4545,Color,Dutch,Netherlands,15/11/2009
+262,Nederlandse Programma Stichting (NPS),nl,4546,Color,Dutch,Netherlands,06/12/2009
+262,Nederlandse Programma Stichting (NPS),nl,4547,Color,Dutch,Netherlands,27/12/2009
+262,Nederlandse Programma Stichting (NPS),nl,4548,Color,Dutch,Netherlands,03/01/2010
+262,Nederlandse Programma Stichting (NPS),nl,4549,Color,Dutch,Netherlands,29/11/2009
+262,Nederlandse Programma Stichting (NPS),nl,4551,Color,Dutch,Netherlands,08/11/2009
+262,Nederlandse Programma Stichting (NPS),nl,4550,Color,Dutch,Netherlands,16/01/2010
+262,Nederlandse Programma Stichting (NPS),nl,4552,Color,Dutch,Netherlands,13/12/2009
+262,Nederlandse Programma Stichting (NPS),nl,4553,Color,Dutch,Netherlands,22/11/2009
+64,Televisió de Catalunya (TV3),es,4666,Color,Catalan,Spain,02/10/1987
+263,TVC,es,4668,Color,Catalan,Spain,17/09/1989
+171,TV Asahi,jp,4680,Color,Japanese,Japan,13/01/2012
+171,TV Asahi,jp,4681,Unkown,English,Japan,13/01/2012
+171,TV Asahi,jp,4682,Unkown,English,Japan,20/01/2012
+171,TV Asahi,jp,4683,Unkown,English,Japan,27/01/2012
+171,TV Asahi,jp,4684,Unkown,English,Japan,03/02/2012
+171,TV Asahi,jp,4685,Unkown,English,Japan,10/02/2012
+171,TV Asahi,jp,4686,Unkown,English,Japan,17/02/2012
+171,TV Asahi,jp,4687,Unkown,English,Japan,24/02/2012
+171,TV Asahi,jp,4688,Unkown,English,Japan,02/03/2012
+171,TV Asahi,jp,4689,Unkown,English,Japan,09/03/2012
+264,Ceská Televize,cz,4690,Color,Czech,Czech Republic,03/01/2006
+69,Televisión Española (TVE),es,4698,Color,Spanish,Spain,13/09/1986
+156,New Greek Television (NET),gr,4699,Color,Greek,Greece,17/12/2012
+122,AXN,hu,4700,Color,English,USA,07/01/2009
+265,CW Television Network,us,4700,Color,English,USA,07/01/2009
+122,AXN,hu,4701,Unkown,English,USA,06/02/2009
+122,AXN,hu,4702,Unkown,English,USA,21/01/2009
+122,AXN,hu,4703,Unkown,English,USA,30/01/2009
+122,AXN,hu,4704,Unkown,English,USA,13/02/2009
+122,AXN,hu,4705,Unkown,English,USA,20/02/2009
+122,AXN,hu,4706,Unkown,English,USA,23/01/2009
+122,AXN,hu,4707,Color,English,USA,07/01/2009
+265,CW Television Network,us,4707,Color,English,USA,07/01/2009
+122,AXN,hu,4708,Unkown,English,USA,14/01/2009
+266,Newport Television,us,4710,Color,English,USA,29/12/2008
+267,EIRT,gr,4709,Black and White,Greek,Greece,27/02/1971
+69,Televisión Española (TVE),es,4714,Color,Spanish,Unkown,01/01/1800
+268,Granada Television International,gb,4729,Color,English,UK,16/09/2007
+269,Société Radio-Canada,ca,4730,Black and White,French,Unkown,01/01/1800
+270,TV Danmark,dk,4731,Color,Danish,Denmark,29/08/2005
+12,A&E Television Networks,us,4732,Color,English,USA,31/12/2006
+271,MTV Brasil,br,4737,Color,Portuguese,Brazil,10/03/2008
+272,Televisión de Galicia (TVG) S.A.,es,4773,Color,Galician,Spain,03/01/2012
+270,TV Danmark,dk,4738,Color,Danish,Denmark,12/04/2004
+270,TV Danmark,dk,4739,Color,Danish,Denmark,06/04/2004
+181,Fuji Television Network,jp,4740,Color,Japanese,Japan,18/05/2005
+273,Et-2,gr,4758,Color,Greek,Greece,13/09/1983
+274,Telefactory,ca,4802,Color,English,France,28/02/2004
+155,Greek Television ET-1,gr,4858,Color,Greek,Greece,16/03/2013
+20,MTV Networks,us,4859,Color,English,USA,11/06/2009
+275,RTS-TV,xyu,4948,Color,Serbo-Croatian,Yugoslavia,01/01/1986
+276,Sveriges Radio,se,4949,Black and White,Swedish,Sweden,10/09/1960
+277,Eén,be,4951,Color,Dutch,Belgium,05/04/2005
+278,VRT,be,4951,Color,Dutch,Belgium,05/04/2005
+19,National Broadcasting Company (NBC),us,4992,Color,English,Unkown,01/01/1800
+19,National Broadcasting Company (NBC),us,4993,Color,English,USA,28/03/2013
+19,National Broadcasting Company (NBC),us,4995,Color,English,USA,07/02/2013
+19,National Broadcasting Company (NBC),us,4996,Color,English,USA,14/03/2013
+19,National Broadcasting Company (NBC),us,4997,Color,English,USA,07/03/2013
+19,National Broadcasting Company (NBC),us,4998,Color,English,USA,28/03/2013
+19,National Broadcasting Company (NBC),us,4999,Color,English,USA,24/01/2013
+19,National Broadcasting Company (NBC),us,5000,Color,English,USA,17/12/2012
+19,National Broadcasting Company (NBC),us,5001,Color,English,USA,21/02/2013
+19,National Broadcasting Company (NBC),us,5002,Color,English,USA,17/01/2013
+19,National Broadcasting Company (NBC),us,5003,Color,English,USA,21/03/2013
+19,National Broadcasting Company (NBC),us,5004,Color,English,USA,10/01/2013
+19,National Broadcasting Company (NBC),us,5005,Color,English,USA,28/02/2013
+279,D and K Productions,us,5008,Color,English,USA,14/10/2011
+280,Extreme International,us,5007,Color,English,Canada,13/09/1999
+281,Shaw Communications,ca,5010,Color,English,Canada,30/11/2008
+128,TV2 Danmark,dk,5012,Color,Danish,Denmark,04/03/2004
+282,Prima TV,ro,5013,Color,Romanian,Romania,23/03/2008
+282,Prima TV,ro,5014,Unkown,English,Romania,11/05/2008
+282,Prima TV,ro,5016,Unkown,Romanian,Romania,23/03/2008
+282,Prima TV,ro,5017,Unkown,English,Romania,25/05/2008
+282,Prima TV,ro,5018,Unkown,English,Romania,30/03/2008
+282,Prima TV,ro,5019,Unkown,English,Romania,18/05/2008
+282,Prima TV,ro,5020,Unkown,English,Romania,20/04/2008
+282,Prima TV,ro,5021,Unkown,English,Romania,13/04/2008
+283,Discovery Health,us,5022,Color,English,USA,29/09/2008
+284,"Learning Channel (TLC), The",us,5022,Color,English,USA,29/09/2008
+285,ProSieben Television,de,5187,Color,German,Germany,11/06/2011
+286,Zee Television Network,in,5191,Color,Hindi,India,13/05/1996
+287,TVN,,5192,Color,Spanish,Chile,03/01/2005
+288,France 3 (FR 3),fr,5211,Color,French,Unkown,01/01/1800
+67,Sat.1,de,5218,Color,German,Germany,13/09/1992
+289,"Golf Channel, The",us,5225,Color,English,USA,14/07/2006
+290,NBC Sports,us,5225,Color,English,USA,14/07/2006
+291,MUN2 Television,us,5226,Color,English,USA,08/08/2005
+292,Pro 7,de,5229,Color,German,Germany,09/02/2004
+164,TV2,hu,5229,Color,German,Germany,09/02/2004
+293,Kurt Media,de,5230,Unkown,English,Germany,15/03/2004
+294,Pandastorm Pictures,de,5230,Unkown,English,Germany,15/03/2004
+293,Kurt Media,de,5231,Unkown,English,Germany,23/02/2004
+294,Pandastorm Pictures,de,5231,Unkown,English,Germany,23/02/2004
+293,Kurt Media,de,5232,Unkown,English,Germany,08/07/2007
+294,Pandastorm Pictures,de,5232,Unkown,English,Germany,08/07/2007
+293,Kurt Media,de,5233,Unkown,English,Germany,29/07/2007
+294,Pandastorm Pictures,de,5233,Unkown,English,Germany,29/07/2007
+293,Kurt Media,de,5235,Unkown,English,Germany,26/04/2004
+294,Pandastorm Pictures,de,5235,Unkown,English,Germany,26/04/2004
+293,Kurt Media,de,5236,Unkown,English,Germany,16/02/2004
+294,Pandastorm Pictures,de,5236,Unkown,English,Germany,16/02/2004
+293,Kurt Media,de,5234,Unkown,English,Germany,12/08/2007
+294,Pandastorm Pictures,de,5234,Unkown,English,Germany,12/08/2007
+293,Kurt Media,de,5237,Unkown,English,Germany,05/08/2007
+294,Pandastorm Pictures,de,5237,Unkown,English,Germany,05/08/2007
+293,Kurt Media,de,5238,Unkown,English,Germany,17/06/2007
+294,Pandastorm Pictures,de,5238,Unkown,English,Germany,17/06/2007
+293,Kurt Media,de,5239,Unkown,English,Germany,10/06/2007
+294,Pandastorm Pictures,de,5239,Unkown,English,Germany,10/06/2007
+293,Kurt Media,de,5240,Unkown,English,Germany,01/07/2007
+294,Pandastorm Pictures,de,5240,Unkown,English,Germany,01/07/2007
+293,Kurt Media,de,5241,Unkown,English,Germany,09/02/2004
+294,Pandastorm Pictures,de,5241,Unkown,English,Germany,09/02/2004
+293,Kurt Media,de,5242,Unkown,English,Germany,19/04/2004
+294,Pandastorm Pictures,de,5242,Unkown,English,Germany,19/04/2004
+293,Kurt Media,de,5243,Unkown,English,Germany,29/03/2004
+294,Pandastorm Pictures,de,5243,Unkown,English,Germany,29/03/2004
+293,Kurt Media,de,5244,Unkown,English,Germany,03/06/2007
+294,Pandastorm Pictures,de,5244,Unkown,English,Germany,03/06/2007
+293,Kurt Media,de,5245,Unkown,English,Germany,24/06/2007
+294,Pandastorm Pictures,de,5245,Unkown,English,Germany,24/06/2007
+293,Kurt Media,de,5246,Unkown,English,Germany,15/07/2007
+294,Pandastorm Pictures,de,5246,Unkown,English,Germany,15/07/2007
+293,Kurt Media,de,5247,Unkown,English,Germany,08/03/2004
+294,Pandastorm Pictures,de,5247,Unkown,English,Germany,08/03/2004
+293,Kurt Media,de,5248,Unkown,English,Germany,22/03/2004
+294,Pandastorm Pictures,de,5248,Unkown,English,Germany,22/03/2004
+293,Kurt Media,de,5249,Unkown,English,Germany,05/04/2004
+294,Pandastorm Pictures,de,5249,Unkown,English,Germany,05/04/2004
+137,RTL,de,5250,Color,German,Germany,12/02/2010
+295,Columbia TriStar Home Entertainment,nl,5284,Color,English,USA,12/01/2000
+141,"Nashville Network, The (TNN)",us,5284,Color,English,USA,12/01/2000
+31,RTL Entertainment,nl,5284,Color,English,USA,12/01/2000
+51,Sony Pictures Home Entertainment,nl,5284,Color,English,USA,12/01/2000
+164,TV2,hu,5284,Color,English,USA,12/01/2000
+296,Truckerflicks,us,5284,Color,English,USA,12/01/2000
+297,VT4,be,5284,Color,English,USA,12/01/2000
+298,The National Network (TNN),us,5286,Unkown,English,USA,01/05/2001
+298,The National Network (TNN),us,5287,Unkown,English,USA,20/03/2001
+298,The National Network (TNN),us,5288,Unkown,English,USA,16/02/2000
+298,The National Network (TNN),us,5289,Unkown,English,USA,17/01/2001
+298,The National Network (TNN),us,5290,Unkown,English,USA,30/08/2000
+298,The National Network (TNN),us,5291,Unkown,English,USA,27/03/2001
+298,The National Network (TNN),us,5292,Unkown,English,USA,16/08/2000
+298,The National Network (TNN),us,5293,Unkown,English,USA,27/02/2001
+298,The National Network (TNN),us,5294,Unkown,English,USA,06/02/2001
+298,The National Network (TNN),us,5295,Unkown,English,USA,24/04/2001
+31,RTL Entertainment,nl,5296,Unkown,English,USA,10/01/2001
+298,The National Network (TNN),us,5296,Unkown,English,USA,10/01/2001
+298,The National Network (TNN),us,5297,Unkown,English,USA,10/04/2001
+298,The National Network (TNN),us,5298,Unkown,English,USA,15/03/2000
+298,The National Network (TNN),us,5299,Unkown,English,USA,12/01/2000
+298,The National Network (TNN),us,5300,Unkown,English,USA,30/01/2001
+298,The National Network (TNN),us,5301,Unkown,English,USA,20/02/2001
+298,The National Network (TNN),us,5302,Unkown,English,USA,13/02/2001
+298,The National Network (TNN),us,5303,Unkown,English,USA,19/01/2000
+298,The National Network (TNN),us,5304,Unkown,English,USA,23/08/2000
+298,The National Network (TNN),us,5305,Unkown,English,USA,26/01/2000
+298,The National Network (TNN),us,5306,Unkown,English,USA,23/01/2001
+298,The National Network (TNN),us,5307,Unkown,English,USA,08/05/2001
+298,The National Network (TNN),us,5308,Unkown,English,USA,23/02/2000
+298,The National Network (TNN),us,5309,Unkown,English,USA,02/08/2000
+298,The National Network (TNN),us,5310,Unkown,English,USA,06/03/2001
+298,The National Network (TNN),us,5311,Unkown,English,USA,05/07/2000
+298,The National Network (TNN),us,5312,Unkown,English,USA,06/09/2000
+298,The National Network (TNN),us,5313,Unkown,English,USA,30/05/2001
+298,The National Network (TNN),us,5314,Unkown,English,USA,03/01/2001
+298,The National Network (TNN),us,5315,Unkown,English,USA,02/02/2000
+298,The National Network (TNN),us,5316,Unkown,English,USA,09/08/2000
+298,The National Network (TNN),us,5317,Unkown,English,USA,03/04/2001
+298,The National Network (TNN),us,5318,Unkown,English,USA,21/06/2000
+298,The National Network (TNN),us,5319,Unkown,English,USA,17/04/2001
+298,The National Network (TNN),us,5320,Unkown,English,USA,08/03/2000
+298,The National Network (TNN),us,5321,Unkown,English,USA,15/05/2001
+298,The National Network (TNN),us,5322,Unkown,English,USA,06/06/2001
+298,The National Network (TNN),us,5324,Unkown,English,USA,19/07/2000
+298,The National Network (TNN),us,5325,Unkown,English,USA,26/07/2000
+298,The National Network (TNN),us,5326,Unkown,English,USA,01/03/2000
+298,The National Network (TNN),us,5327,Unkown,English,USA,09/02/2000
+298,The National Network (TNN),us,5328,Unkown,English,USA,22/03/2000
+298,The National Network (TNN),us,5329,Unkown,English,USA,12/07/2000
+298,The National Network (TNN),us,5330,Unkown,English,USA,13/03/2001
+299,Barcelona Televisió,es,5251,Color,Catalan,Spain,13/09/2007
+265,CW Television Network,us,5258,Color,English,Unkown,01/01/1800
+42,Filmbox HD,hu,5258,Color,English,Unkown,01/01/1800
+42,Filmbox HD,hu,5259,Unkown,English,Canada,10/01/2011
+42,Filmbox HD,hu,5260,Color,English,Canada,04/01/2010
+42,Filmbox HD,hu,5261,Color,English,Canada,01/02/2010
+42,Filmbox HD,hu,5262,Color,English,Canada,25/01/2010
+42,Filmbox HD,hu,5263,Unkown,English,Canada,07/02/2011
+42,Filmbox HD,hu,5264,Color,English,Canada,08/02/2010
+42,Filmbox HD,hu,5265,Color,English,Canada,22/03/2010
+42,Filmbox HD,hu,5266,Color,English,Canada,01/03/2010
+42,Filmbox HD,hu,5267,Unkown,English,Canada,28/03/2011
+42,Filmbox HD,hu,5268,Unkown,English,Canada,24/01/2011
+42,Filmbox HD,hu,5269,Unkown,English,Canada,07/03/2011
+42,Filmbox HD,hu,5270,Color,English,Canada,05/04/2010
+42,Filmbox HD,hu,5271,Color,English,Canada,18/01/2010
+42,Filmbox HD,hu,5272,Unkown,English,Canada,14/03/2011
+42,Filmbox HD,hu,5273,Unkown,English,Canada,28/02/2011
+42,Filmbox HD,hu,5274,Color,English,Canada,11/01/2010
+42,Filmbox HD,hu,5275,Unkown,English,Canada,03/01/2011
+42,Filmbox HD,hu,5276,Unkown,English,Canada,31/01/2011
+42,Filmbox HD,hu,5277,Unkown,English,Canada,17/01/2011
+42,Filmbox HD,hu,5278,Color,English,Canada,08/03/2010
+42,Filmbox HD,hu,5279,Unkown,English,Canada,14/02/2011
+42,Filmbox HD,hu,5280,Unkown,English,Canada,21/02/2011
+42,Filmbox HD,hu,5281,Unkown,English,Canada,21/03/2011
+42,Filmbox HD,hu,5282,Color,English,Canada,12/04/2010
+42,Filmbox HD,hu,5283,Color,English,Canada,15/03/2010
+73,Danmarks Radio (DR),dk,5333,Color,Danish,Unkown,01/01/1800
+128,TV2 Danmark,dk,5334,Color,Danish,Denmark,29/04/1998
+197,Sveriges Television (SVT),se,5341,Color,Swedish,Sweden,30/08/2009
+197,Sveriges Television (SVT),se,5342,Color,Swedish,Sweden,22/11/2009
+197,Sveriges Television (SVT),se,5343,Color,Swedish,Sweden,25/10/2009
+197,Sveriges Television (SVT),se,5344,Color,Swedish,Sweden,06/09/2009
+197,Sveriges Television (SVT),se,5345,Color,Swedish,Sweden,15/11/2009
+197,Sveriges Television (SVT),se,5346,Color,Swedish,Sweden,13/09/2009
+197,Sveriges Television (SVT),se,5347,Color,Swedish,Sweden,30/08/2009
+197,Sveriges Television (SVT),se,5348,Color,Swedish,Sweden,18/10/2009
+197,Sveriges Television (SVT),se,5349,Color,Swedish,Sweden,20/09/2009
+197,Sveriges Television (SVT),se,5350,Color,Swedish,Sweden,08/11/2009
+197,Sveriges Television (SVT),se,5351,Color,Swedish,Sweden,29/11/2009
+197,Sveriges Television (SVT),se,5352,Color,Swedish,Sweden,27/09/2009
+197,Sveriges Television (SVT),se,5353,Color,Swedish,Sweden,01/11/2009
+197,Sveriges Television (SVT),se,5354,Color,Swedish,Sweden,04/10/2009
+64,Televisió de Catalunya (TV3),es,5355,Color,Catalan,Spain,06/10/2005
+300,Canal Sur Televisión,es,5367,Color,Spanish,Spain,03/03/2006
+301,SKAI,gr,5369,Color,Greek,Greece,25/01/2011
+197,Sveriges Television (SVT),se,5370,Color,Swedish,Sweden,16/02/2009
+302,Yleisradio (YLE),fi,5370,Color,Swedish,Sweden,16/02/2009
+303,ESPN2 Network,us,5379,Color,English,USA,13/07/2007
+290,NBC Sports,us,5379,Color,English,USA,13/07/2007
+189,Channel 5 Television,gb,5380,Color,English,UK,10/11/2003
+269,Société Radio-Canada,ca,5383,Color,French,Canada,02/02/2011
+288,France 3 (FR 3),fr,5404,Color,French,France,06/05/1986
+304,France Regions 3 (FR3),fr,5404,Color,French,France,06/05/1986
+39,BBC Scotland,gb,5461,Color,English,UK,29/12/2011
+305,Australian Broadcasting Corporation (ABC),au,5463,Color,English,Australia,27/06/1982
+306,TG4,ie,5464,Color,English,Ireland,13/09/2010
+307,South African Broadcasting Corporation (SABC),za,5486,Color,English,South Africa,11/11/1984
+181,Fuji Television Network,jp,5487,Color,Japanese,Japan,16/04/2010
+308,Pro-TV,ru,5489,Color,Russian,Russia,03/05/2011
+253,Arbeitsgemeinschaft der öffentlich-rechtlichen Rundfunkanstalten der Bundesrepublik Deutschland (ARD),de,5490,Black and White,German,Germany,04/04/2005
+19,National Broadcasting Company (NBC),us,5494,Black and White,English,USA,30/09/1947
+160,American Broadcasting Company (ABC),us,5502,Black and White,English,USA,06/10/1948
+6,Columbia Broadcasting System (CBS),us,5502,Black and White,English,USA,06/10/1948
+309,Dumont,,5502,Black and White,English,USA,06/10/1948
+19,National Broadcasting Company (NBC),us,5502,Black and White,English,USA,06/10/1948
+19,National Broadcasting Company (NBC),us,5509,Black and White,English,USA,05/10/1949
+290,NBC Sports,us,5515,Black and White,English,USA,13/10/1950
+290,NBC Sports,us,5520,Black and White,English,USA,04/10/1951
+310,NBC Sports Special,,5527,Black and White,English,USA,01/10/1952
+310,NBC Sports Special,,5535,Black and White,English,USA,30/09/1953
+310,NBC Sports Special,,5542,Black and White,English,USA,29/09/1954
+310,NBC Sports Special,,5547,Color,English,USA,28/09/1955
+310,NBC Sports Special,,5555,Color,English,USA,03/10/1956
+19,National Broadcasting Company (NBC),us,5563,Black and White,English,USA,02/10/1957
+19,National Broadcasting Company (NBC),us,5571,Black and White,English,USA,13/10/1958
+310,NBC Sports Special,,5579,Color,English,USA,01/10/1959
+160,American Broadcasting Company (ABC),us,5586,Unkown,English,USA,26/09/1960
+6,Columbia Broadcasting System (CBS),us,5586,Unkown,English,USA,26/09/1960
+19,National Broadcasting Company (NBC),us,5586,Unkown,English,USA,26/09/1960
+310,NBC Sports Special,,5591,Unkown,English,USA,05/10/1960
+19,National Broadcasting Company (NBC),us,5599,Unkown,English,USA,04/10/1961
+19,National Broadcasting Company (NBC),us,5605,Unkown,English,USA,04/10/1962
+310,NBC Sports Special,,5613,Color,English,USA,02/10/1963
+19,National Broadcasting Company (NBC),us,5618,Unkown,English,USA,07/10/1964
+310,NBC Sports Special,,5626,Color,English,USA,06/10/1965
+310,NBC Sports Special,,5634,Color,English,USA,05/10/1966
+19,National Broadcasting Company (NBC),us,5639,Color,English,USA,13/10/1967
+19,National Broadcasting Company (NBC),us,5647,Color,English,USA,02/10/1968
+290,NBC Sports,us,5655,Color,English,USA,04/10/1969
+19,National Broadcasting Company (NBC),us,5659,Unkown,English,USA,04/10/1969
+19,National Broadcasting Company (NBC),us,5663,Color,English,USA,11/10/1969
+310,NBC Sports Special,,5669,Color,English,USA,03/10/1970
+310,NBC Sports Special,,5673,Color,English,USA,03/10/1970
+19,National Broadcasting Company (NBC),us,5677,Color,English,USA,10/10/1970
+290,NBC Sports,us,5683,Color,English,USA,03/10/1971
+19,National Broadcasting Company (NBC),us,5687,Color,English,USA,02/10/1971
+19,National Broadcasting Company (NBC),us,5692,Color,English,USA,09/10/1971
+290,NBC Sports,us,5700,Color,English,USA,07/10/1972
+19,National Broadcasting Company (NBC),us,5706,Color,English,USA,07/10/1972
+310,NBC Sports Special,,5712,Color,English,USA,14/10/1972
+290,NBC Sports,us,5720,Color,English,USA,06/10/1973
+19,National Broadcasting Company (NBC),us,5726,Color,English,USA,06/10/1973
+19,National Broadcasting Company (NBC),us,5732,Color,English,USA,13/10/1973
+290,NBC Sports,us,5740,Color,English,USA,05/10/1974
+19,National Broadcasting Company (NBC),us,5745,Color,English,USA,05/10/1974
+19,National Broadcasting Company (NBC),us,5750,Color,English,USA,12/10/1974
+290,NBC Sports,us,5756,Color,English,USA,04/10/1975
+19,National Broadcasting Company (NBC),us,5760,Color,English,USA,04/10/1975
+19,National Broadcasting Company (NBC),us,5764,Color,English,USA,11/10/1975
+311,ABC Sports,us,5772,Color,English,USA,09/10/1976
+311,ABC Sports,us,5778,Color,English,USA,09/10/1976
+160,American Broadcasting Company (ABC),us,5782,Color,English,USA,23/09/1976
+6,Columbia Broadcasting System (CBS),us,5782,Color,English,USA,23/09/1976
+19,National Broadcasting Company (NBC),us,5782,Color,English,USA,23/09/1976
+312,Public Broadcasting Service (PBS),us,5782,Color,English,USA,23/09/1976
+313,CBS News,us,5785,Color,English,USA,22/10/1976
+314,National Broadcasting Company (NBC) Sports,us,5786,Color,English,USA,15/10/1976
+290,NBC Sports,us,5791,Color,English,USA,05/10/1977
+310,NBC Sports Special,,5797,Color,English,USA,04/10/1977
+160,American Broadcasting Company (ABC),us,5802,Color,English,USA,11/10/1977
+311,ABC Sports,us,5807,Color,English,USA,03/10/1978
+311,ABC Sports,us,5812,Color,English,USA,04/10/1978
+310,NBC Sports Special,,5817,Color,English,USA,03/10/1979
+19,National Broadcasting Company (NBC),us,5822,Color,English,USA,02/10/1979
+160,American Broadcasting Company (ABC),us,5826,Color,English,USA,08/10/1980
+160,American Broadcasting Company (ABC),us,5830,Color,English,USA,07/10/1980
+6,Columbia Broadcasting System (CBS),us,5836,Color,English,USA,21/09/1980
+19,National Broadcasting Company (NBC),us,5836,Color,English,USA,21/09/1980
+6,Columbia Broadcasting System (CBS),us,5837,Unkown,English,USA,21/09/1980
+19,National Broadcasting Company (NBC),us,5837,Unkown,English,USA,21/09/1980
+160,American Broadcasting Company (ABC),us,5838,Unkown,English,USA,28/10/1980
+6,Columbia Broadcasting System (CBS),us,5838,Unkown,English,USA,28/10/1980
+19,National Broadcasting Company (NBC),us,5838,Unkown,English,USA,28/10/1980
+312,Public Broadcasting Service (PBS),us,5838,Unkown,English,USA,28/10/1980
+315,Entertainment & Sports Programming Network (ESPN),us,5839,Color,English,USA,13/09/1980
+310,NBC Sports Special,,5840,Color,English,USA,14/10/1980
+19,National Broadcasting Company (NBC),us,5846,Color,English,USA,13/10/1981
+19,National Broadcasting Company (NBC),us,5850,Color,English,USA,13/10/1981
+160,American Broadcasting Company (ABC),us,5856,Color,English,USA,20/10/1981
+160,American Broadcasting Company (ABC),us,5862,Color,English,USA,05/10/1982
+315,Entertainment & Sports Programming Network (ESPN),us,5868,Color,English,USA,13/09/1982
+311,ABC Sports,us,5869,Color,English,USA,07/10/1982
+19,National Broadcasting Company (NBC),us,5873,Color,English,USA,13/10/1982
+290,NBC Sports,us,5881,Color,English,USA,05/10/1983
+19,National Broadcasting Company (NBC),us,5886,Color,English,USA,04/10/1983
+311,ABC Sports,us,5891,Color,English,USA,11/10/1983
+160,American Broadcasting Company (ABC),us,5897,Color,English,USA,02/10/1984
+316,C-SPAN,us,5901,Color,English,USA,16/07/1984
+6,Columbia Broadcasting System (CBS),us,5908,Color,English,USA,15/05/1984
+317,ESPN,us,5908,Color,English,USA,15/05/1984
+318,USA,,5908,Color,English,USA,15/05/1984
+311,ABC Sports,us,5902,Color,English,USA,02/10/1984
+160,American Broadcasting Company (ABC),us,5909,Color,English,USA,07/10/1984
+27,British Broadcasting Corporation (BBC),gb,5909,Color,English,USA,07/10/1984
+316,C-SPAN,us,5909,Color,English,USA,07/10/1984
+319,Cable News Network (CNN),us,5909,Color,English,USA,07/10/1984
+6,Columbia Broadcasting System (CBS),us,5909,Color,English,USA,07/10/1984
+320,Independent Television News (ITN),gb,5909,Color,English,USA,07/10/1984
+19,National Broadcasting Company (NBC),us,5909,Color,English,USA,07/10/1984
+312,Public Broadcasting Service (PBS),us,5909,Color,English,USA,07/10/1984
+313,CBS News,us,5911,Color,English,USA,21/10/1984
+316,C-SPAN,us,5912,Color,English,USA,20/08/1984
+19,National Broadcasting Company (NBC),us,5919,Color,English,USA,08/10/1985
+315,Entertainment & Sports Programming Network (ESPN),us,5927,Color,English,USA,31/05/1985
+19,National Broadcasting Company (NBC),us,5928,Color,English,USA,09/10/1985
+311,ABC Sports,us,5936,Color,English,USA,07/10/1986
+6,Columbia Broadcasting System (CBS),us,5951,Color,English,USA,13/05/1986
+136,Turner Broadcasting System (TBS),us,5951,Color,English,USA,13/05/1986
+160,American Broadcasting Company (ABC),us,5944,Color,English,USA,08/10/1986
+19,National Broadcasting Company (NBC),us,5952,Color,English,USA,18/10/1986
+321,RCA/Columbia Pictures Home Video,us,5952,Color,English,USA,18/10/1986
+322,NBC News,us,5956,Color,English,USA,10/09/1986
+19,National Broadcasting Company (NBC),us,5957,Color,English,USA,07/10/1987
+19,National Broadcasting Company (NBC),us,5963,Color,English,USA,06/10/1987
+311,ABC Sports,us,5967,Color,English,USA,05/10/1988
+160,American Broadcasting Company (ABC),us,5972,Color,English,USA,04/10/1988
+160,American Broadcasting Company (ABC),us,5978,Color,English,USA,25/09/1988
+316,C-SPAN,us,5978,Color,English,USA,25/09/1988
+319,Cable News Network (CNN),us,5978,Color,English,USA,25/09/1988
+6,Columbia Broadcasting System (CBS),us,5978,Color,English,USA,25/09/1988
+19,National Broadcasting Company (NBC),us,5978,Color,English,USA,25/09/1988
+323,Mitteldeutscher Rundfunk (MDR),de,5981,Color,German,Germany,17/03/2009
+310,NBC Sports Special,,5982,Color,English,USA,03/10/1989
+19,National Broadcasting Company (NBC),us,5988,Color,English,USA,04/10/1989
+311,ABC Sports,us,5991,Color,English,USA,14/10/1989
+3,Generalization Y Entertainment,us,44,Color,English,USA,24/04/2013
+3,Generalization Y Entertainment,us,45,Unkown,English,USA,24/04/2013
+3,Generalization Y Entertainment,us,46,Unkown,English,USA,08/05/2013
+3,Generalization Y Entertainment,us,48,Unkown,English,USA,22/05/2013
+11,Warner Bros. Television,us,50,Color,English,Unkown,01/01/1800
+11,Warner Bros. Television,us,51,Color,English,Canada,14/10/2010
+11,Warner Bros. Television,us,52,Color,English,Canada,20/01/2011
+11,Warner Bros. Television,us,53,Color,English,Canada,04/11/2010
+11,Warner Bros. Television,us,54,Color,English,Canada,28/10/2010
+11,Warner Bros. Television,us,55,Color,English,Canada,27/01/2011
+11,Warner Bros. Television,us,56,Color,English,Canada,16/12/2010
+11,Warner Bros. Television,us,57,Color,English,Canada,06/01/2011
+11,Warner Bros. Television,us,58,Color,English,Canada,10/02/2011
+11,Warner Bros. Television,us,59,Color,English,Canada,18/11/2010
+11,Warner Bros. Television,us,60,Color,English,Canada,21/10/2010
+11,Warner Bros. Television,us,61,Color,English,Canada,23/09/2010
+11,Warner Bros. Television,us,62,Color,English,Cambodia,13/01/2011
+11,Warner Bros. Television,us,63,Color,English,Canada,11/11/2010
+11,Warner Bros. Television,us,64,Color,English,Canada,07/10/2010
+11,Warner Bros. Television,us,65,Color,English,Canada,03/02/2011
+11,Warner Bros. Television,us,66,Color,English,Canada,17/02/2011
+11,Warner Bros. Television,us,67,Color,English,Canada,30/09/2010
+11,Warner Bros. Television,us,68,Color,English,Canada,09/12/2010
+10,Lorimar Telepictures,us,69,Color,English,Unkown,01/01/1800
+4077,WGN,us,84,Color,English,Unkown,01/01/1800
+20,MTV Networks,us,94,Color,English,USA,13/10/2005
+5855,Pie Town Productions,us,118,Color,English,USA,24/04/2002
+22,NYC TV,us,228,Color,English,USA,24/01/2003
+687,Paramount Television,us,272,Color,English,USA,26/01/1979
+687,Paramount Television,us,273,Color,English,USA,26/01/1979
+687,Paramount Television,us,279,Color,English,USA,09/03/1979
+25,VH1 Classic,us,283,Color,English,USA,22/05/2009
+27,British Broadcasting Corporation (BBC),gb,284,Color,English,UK,30/12/1982
+27,British Broadcasting Corporation (BBC),gb,286,Color,English,UK,07/12/1992
+27,British Broadcasting Corporation (BBC),gb,290,Color,English,UK,14/12/1992
+27,British Broadcasting Corporation (BBC),gb,307,Color,English,UK,09/11/1992
+27,British Broadcasting Corporation (BBC),gb,320,Color,English,UK,16/11/1992
+27,British Broadcasting Corporation (BBC),gb,329,Color,English,UK,23/11/1992
+27,British Broadcasting Corporation (BBC),gb,350,Color,English,UK,30/11/1992
+37,Komuna,rs,398,Color,Serbo-Croatian,Serbia,20/06/2000
+674,Sylvester Productions,be,404,Color,Dutch,Belgium,23/12/2007
+40,Astromax Entertainment,dk,579,Black and White,English,Denmark,01/01/2012
+40,Astromax Entertainment,dk,580,Black and White,English,USA,01/01/2012
+439,Sony Pictures Television,us,596,Color,English,USA,13/09/2006
+439,Sony Pictures Television,us,597,Color,English,USA,21/03/2010
+439,Sony Pictures Television,us,601,Color,English,USA,18/04/2010
+439,Sony Pictures Television,us,606,Color,English,USA,14/03/2007
+439,Sony Pictures Television,us,607,Color,English,Germany,01/03/2010
+439,Sony Pictures Television,us,608,Color,English,USA,03/10/2007
+439,Sony Pictures Television,us,609,Color,English,Germany,25/02/2010
+439,Sony Pictures Television,us,610,Color,English,USA,21/12/2006
+439,Sony Pictures Television,us,618,Color,English,USA,04/04/2010
+439,Sony Pictures Television,us,619,Color,English,USA,18/01/2007
+439,Sony Pictures Television,us,620,Color,English,USA,26/09/2007
+439,Sony Pictures Television,us,622,Color,English,USA,21/03/2007
+439,Sony Pictures Television,us,633,Color,English,USA,19/09/2007
+439,Sony Pictures Television,us,644,Color,English,USA,23/04/2008
+439,Sony Pictures Television,us,645,Unkown,English,USA,14/02/2010
+439,Sony Pictures Television,us,646,Color,English,USA,30/04/2008
+439,Sony Pictures Television,us,649,Color,English,USA,11/04/2007
+439,Sony Pictures Television,us,651,Color,English,USA,04/04/2007
+439,Sony Pictures Television,us,652,Color,English,USA,04/01/2007
+439,Sony Pictures Television,us,653,Color,English,USA,23/05/2010
+439,Sony Pictures Television,us,654,Color,English,USA,08/02/2007
+439,Sony Pictures Television,us,656,Color,English,USA,25/12/2009
+439,Sony Pictures Television,us,657,Color,English,USA,21/02/2010
+439,Sony Pictures Television,us,658,Color,English,USA,28/03/2007
+439,Sony Pictures Television,us,659,Color,English,USA,01/02/2007
+439,Sony Pictures Television,us,660,Color,English,USA,07/03/2010
+439,Sony Pictures Television,us,661,Color,English,USA,25/12/2009
+439,Sony Pictures Television,us,664,Color,English,USA,11/01/2007
+439,Sony Pictures Television,us,665,Color,English,USA,15/02/2007
+439,Sony Pictures Television,us,666,Color,English,Germany,24/02/2010
+439,Sony Pictures Television,us,667,Color,English,USA,14/03/2010
+439,Sony Pictures Television,us,670,Color,English,USA,10/10/2007
+439,Sony Pictures Television,us,675,Color,English,USA,11/04/2007
+448,GMA,ph,679,Color,Filipino,Unkown,01/01/1800
+58,Z Flight Productions,us,399,Color,English,USA,01/12/2009
+58,Z Flight Productions,us,400,Unkown,English,USA,02/02/2010
+58,Z Flight Productions,us,401,Unkown,English,USA,15/01/2010
+60,Katholieke Radio Omroep (KRO),nl,419,Unkown,Dutch,Netherlands,05/12/1969
+60,Katholieke Radio Omroep (KRO),nl,420,Color,Dutch,Netherlands,13/03/1970
+60,Katholieke Radio Omroep (KRO),nl,421,Color,Dutch,Netherlands,10/05/1970
+60,Katholieke Radio Omroep (KRO),nl,422,Color,Dutch,Netherlands,21/11/1969
+60,Katholieke Radio Omroep (KRO),nl,423,Color,Dutch,Netherlands,13/02/1970
+60,Katholieke Radio Omroep (KRO),nl,424,Color,Dutch,Netherlands,19/12/1969
+60,Katholieke Radio Omroep (KRO),nl,425,Color,Dutch,Netherlands,13/01/1970
+60,Katholieke Radio Omroep (KRO),nl,426,Color,Dutch,Netherlands,10/04/1970
+60,Katholieke Radio Omroep (KRO),nl,427,Color,Dutch,Netherlands,26/12/1970
+60,Katholieke Radio Omroep (KRO),nl,428,Color,Dutch,Netherlands,24/10/1969
+60,Katholieke Radio Omroep (KRO),nl,429,Color,Dutch,Netherlands,05/12/2010
+60,Katholieke Radio Omroep (KRO),nl,432,Color,Dutch,Netherlands,20/02/2009
+60,Katholieke Radio Omroep (KRO),nl,435,Color,Dutch,Netherlands,02/01/2009
+60,Katholieke Radio Omroep (KRO),nl,440,Color,Dutch,Netherlands,13/02/2009
+60,Katholieke Radio Omroep (KRO),nl,442,Color,Dutch,Netherlands,05/12/2010
+60,Katholieke Radio Omroep (KRO),nl,443,Color,Dutch,Netherlands,16/01/2011
+60,Katholieke Radio Omroep (KRO),nl,447,Color,Dutch,Netherlands,06/02/2009
+60,Katholieke Radio Omroep (KRO),nl,448,Color,Dutch,Netherlands,09/01/2009
+60,Katholieke Radio Omroep (KRO),nl,449,Color,Dutch,Netherlands,23/01/2009
+60,Katholieke Radio Omroep (KRO),nl,453,Color,Dutch,Netherlands,23/01/2011
+60,Katholieke Radio Omroep (KRO),nl,454,Color,Dutch,Netherlands,02/01/2011
+60,Katholieke Radio Omroep (KRO),nl,455,Color,Dutch,Netherlands,16/01/2009
+60,Katholieke Radio Omroep (KRO),nl,456,Color,Dutch,Netherlands,12/12/2010
+60,Katholieke Radio Omroep (KRO),nl,458,Color,Dutch,Netherlands,30/01/2009
+60,Katholieke Radio Omroep (KRO),nl,460,Color,Dutch,Netherlands,19/12/2010
+3456,France 3,fr,710,Unkown,French,France,05/06/2010
+64,Televisió de Catalunya (TV3),es,723,Color,Catalan,Spain,02/04/2008
+784,SBS Television,au,750,Color,English,Australia,13/09/2003
+677,Canal+,fr,752,Color,French,France,01/09/2001
+66,Malvalanda,es,816,Color,Spanish,Unkown,01/01/1800
+66,Malvalanda,es,817,Color,Spanish,Spain,01/12/2008
+68,Westdeutscher Rundfunk (WDR),de,820,Color,German,Germany,23/07/2006
+567,ZDF,de,821,Color,German,West Germany,18/02/1981
+4609,Canal 22 Televisión Metropolitana,mx,859,Color,Spanish,Mexico,13/09/2008
+594,Norddeutscher Rundfunk (NDR),de,870,Color,German,Unkown,01/01/1800
+69,Televisión Española (TVE),es,901,Black and White,Spanish,Spain,13/09/1971
+70,Das Vierte,de,853,Color,German,Germany,07/03/2007
+382,Radiotelevisione Italiana,it,860,Black and White,Italian,Italy,07/09/1971
+225,Zweites Deutsches Fernsehen (ZDF),de,883,Color,German,West Germany,03/06/1974
+72,Sender Freies Berlin (SFB),de,887,Color,German,Germany,20/08/1993
+68,Westdeutscher Rundfunk (WDR),de,891,Unkown,German,Germany,05/01/1998
+77,Bandai Visual Company,jp,907,Color,Japanese,Japan,05/04/2006
+3639,Victor Entertainment,jp,907,Color,Japanese,Japan,05/04/2006
+77,Bandai Visual Company,jp,908,Color,Japanese,Japan,06/09/2006
+77,Bandai Visual Company,jp,909,Color,Japanese,Japan,21/06/2006
+77,Bandai Visual Company,jp,910,Color,Japanese,Japan,10/05/2006
+77,Bandai Visual Company,jp,911,Color,Japanese,Japan,20/09/2006
+77,Bandai Visual Company,jp,912,Color,Japanese,Japan,30/08/2006
+77,Bandai Visual Company,jp,913,Color,Japanese,Japan,27/09/2006
+77,Bandai Visual Company,jp,914,Color,Japanese,Japan,14/06/2006
+77,Bandai Visual Company,jp,915,Color,Japanese,Japan,03/05/2006
+77,Bandai Visual Company,jp,916,Color,Japanese,Japan,26/04/2006
+77,Bandai Visual Company,jp,917,Color,Japanese,Japan,17/05/2006
+77,Bandai Visual Company,jp,918,Color,Japanese,Japan,19/04/2006
+77,Bandai Visual Company,jp,919,Color,Japanese,Japan,09/08/2006
+77,Bandai Visual Company,jp,920,Color,Japanese,Japan,31/05/2006
+77,Bandai Visual Company,jp,921,Color,Japanese,Japan,07/06/2006
+77,Bandai Visual Company,jp,922,Color,Japanese,Japan,12/07/2006
+77,Bandai Visual Company,jp,923,Color,Japanese,Japan,26/07/2006
+77,Bandai Visual Company,jp,924,Color,Japanese,Japan,23/08/2006
+77,Bandai Visual Company,jp,925,Color,Japanese,Japan,19/07/2006
+77,Bandai Visual Company,jp,926,Color,Japanese,Japan,24/05/2006
+77,Bandai Visual Company,jp,927,Color,Japanese,Japan,28/06/2006
+77,Bandai Visual Company,jp,928,Color,Japanese,Japan,13/09/2006
+77,Bandai Visual Company,jp,929,Color,Japanese,Japan,27/09/2006
+77,Bandai Visual Company,jp,930,Color,Japanese,Japan,12/04/2006
+77,Bandai Visual Company,jp,931,Color,Japanese,Japan,05/07/2006
+77,Bandai Visual Company,jp,932,Color,Japanese,Japan,16/08/2006
+77,Bandai Visual Company,jp,933,Color,Japanese,Japan,05/04/2006
+76,Bandai Entertainment,us,934,Black and White,English,Japan,05/04/2002
+77,Bandai Visual Company,jp,934,Black and White,English,Japan,05/04/2002
+76,Bandai Entertainment,us,935,Color,Japanese,Japan,01/05/2002
+77,Bandai Visual Company,jp,935,Color,Japanese,Japan,01/05/2002
+76,Bandai Entertainment,us,938,Color,Japanese,Japan,05/06/2002
+77,Bandai Visual Company,jp,938,Color,Japanese,Japan,05/06/2002
+76,Bandai Entertainment,us,943,Color,Japanese,Japan,08/05/2002
+77,Bandai Visual Company,jp,943,Color,Japanese,Japan,08/05/2002
+76,Bandai Entertainment,us,944,Color,Japanese,Japan,19/06/2002
+77,Bandai Visual Company,jp,944,Color,Japanese,Japan,19/06/2002
+76,Bandai Entertainment,us,945,Color,Japanese,Japan,29/05/2002
+77,Bandai Visual Company,jp,945,Color,Japanese,Japan,29/05/2002
+76,Bandai Entertainment,us,947,Color,Japanese,Japan,17/04/2002
+77,Bandai Visual Company,jp,947,Color,Japanese,Japan,17/04/2002
+76,Bandai Entertainment,us,948,Color,Japanese,Japan,10/04/2002
+77,Bandai Visual Company,jp,948,Color,Japanese,Japan,10/04/2002
+76,Bandai Entertainment,us,949,Unkown,English,Japan,13/09/2002
+77,Bandai Visual Company,jp,949,Unkown,English,Japan,13/09/2002
+76,Bandai Entertainment,us,951,Color,Japanese,Japan,12/06/2002
+77,Bandai Visual Company,jp,951,Color,Japanese,Japan,12/06/2002
+76,Bandai Entertainment,us,953,Color,Japanese,Japan,22/05/2002
+77,Bandai Visual Company,jp,953,Color,Japanese,Japan,22/05/2002
+76,Bandai Entertainment,us,954,Color,Japanese,Japan,15/05/2002
+77,Bandai Visual Company,jp,954,Color,Japanese,Japan,15/05/2002
+76,Bandai Entertainment,us,956,Color,Japanese,Japan,25/09/2002
+77,Bandai Visual Company,jp,956,Color,Japanese,Japan,25/09/2002
+76,Bandai Entertainment,us,957,Color,Japanese,Japan,03/04/2002
+77,Bandai Visual Company,jp,957,Color,Japanese,Japan,03/04/2002
+76,Bandai Entertainment,us,961,Unkown,English,Japan,13/09/2003
+77,Bandai Visual Company,jp,961,Unkown,English,Japan,13/09/2003
+76,Bandai Entertainment,us,962,Color,Japanese,Japan,24/04/2002
+77,Bandai Visual Company,jp,962,Color,Japanese,Japan,24/04/2002
+77,Bandai Visual Company,jp,963,Color,English,USA,25/05/2004
+86,STV,,976,Color,English,UK,31/12/2010
+69,Televisión Española (TVE),es,978,Color,Spanish,Spain,10/09/1979
+92,Tokyo Broadcasting System (TBS),jp,979,Color,Japanese,Japan,05/10/2006
+1886,Thames Television,gb,993,Color,English,UK,22/10/1987
+97,Televisión Federal (Telefe),ar,1141,Color,Spanish,Argentina,04/12/2005
+272,Televisión de Galicia (TVG) S.A.,es,1142,Color,Galician,Unkown,01/01/1800
+243,Artear,ar,1144,Color,Spanish,Argentina,08/04/2002
+100,ET-3,gr,1146,Color,Greek,Greece,15/10/2012
+105,WEHO Public Access 36,us,1187,Color,English,Unkown,01/01/1800
+5,Canadian Television (CTV),ca,1188,Color,English,Canada,13/10/2009
+4046,"Gibson Group, The",nz,1370,Color,English,UK,22/09/2010
+107,Kitanihon Broadcasting Co. (KNB),jp,1147,Color,Japanese,Japan,02/04/2007
+448,GMA,ph,1186,Color,Tagalog,Philippines,13/04/1997
+1454,Endemol Entertainment,nl,1352,Color,Dutch,Unkown,01/01/1800
+1454,Endemol Entertainment,nl,1353,Unkown,English,Netherlands,16/07/2006
+1454,Endemol Entertainment,nl,1354,Unkown,English,Netherlands,23/07/2006
+1454,Endemol Entertainment,nl,1355,Unkown,English,Netherlands,30/07/2006
+1454,Endemol Entertainment,nl,1356,Unkown,English,Netherlands,06/08/2006
+1454,Endemol Entertainment,nl,1357,Unkown,English,Netherlands,13/08/2006
+1454,Endemol Entertainment,nl,1358,Unkown,English,Netherlands,20/08/2006
+1454,Endemol Entertainment,nl,1359,Unkown,English,Netherlands,27/08/2006
+1454,Endemol Entertainment,nl,1360,Unkown,English,Netherlands,03/09/2006
+1454,Endemol Entertainment,nl,1361,Unkown,English,Netherlands,05/01/2007
+1454,Endemol Entertainment,nl,1362,Unkown,English,Netherlands,12/01/2007
+1454,Endemol Entertainment,nl,1363,Unkown,English,Netherlands,19/01/2007
+1454,Endemol Entertainment,nl,1364,Unkown,English,Netherlands,26/01/2007
+1454,Endemol Entertainment,nl,1365,Unkown,English,Netherlands,02/02/2007
+1454,Endemol Entertainment,nl,1366,Unkown,English,Netherlands,09/02/2007
+1454,Endemol Entertainment,nl,1367,Unkown,English,Netherlands,16/02/2007
+1454,Endemol Entertainment,nl,1368,Unkown,English,Netherlands,23/02/2007
+92,Tokyo Broadcasting System (TBS),jp,1369,Color,Japanese,Japan,04/04/1980
+114,Nippon Television Network Corporation (NTV),jp,1379,Color,Japanese,Japan,13/01/2008
+64,Televisió de Catalunya (TV3),es,1389,Color,Catalan,Spain,26/03/2008
+73,Danmarks Radio (DR),dk,1396,Black and White,Danish,Denmark,06/10/1969
+115,Radio Telefís Éireann (RTÉ),ie,1400,Color,English,Ireland,23/07/2006
+116,Evangelische Omroep (EO),nl,1401,Color,Dutch,Netherlands,03/09/2012
+63,Verenigde Arbeiders Radio Amateurs (VARA),nl,1401,Color,Dutch,Netherlands,03/09/2012
+2534,Southern Star Endemol,au,1417,Color,English,Australia,29/01/2007
+5085,Endemol Entertainment,us,1465,Color,English,Unkown,01/01/1800
+5085,Endemol Entertainment,us,1494,Color,English,Unkown,01/01/1800
+118,MBC-TV Korea,kr,1535,Color,Korean,South Korea,06/07/2003
+222,Schweizer Fernsehen (FS),ch,1537,Color,German,West Germany,10/12/1977
+225,Zweites Deutsches Fernsehen (ZDF),de,1537,Color,German,West Germany,10/12/1977
+401,Österreichischer Rundfunk (ORF),at,1537,Color,German,West Germany,10/12/1977
+119,Radiotelevisão Portuguesa (RTP),pt,1549,Color,Portuguese,Portugal,13/09/1985
+97,Televisión Federal (Telefe),ar,1550,Color,Spanish,Argentina,29/11/1999
+120,Travel Channel,us,1551,Color,English,USA,29/03/2007
+120,Travel Channel,us,1557,Unkown,English,USA,26/04/2007
+120,Travel Channel,us,1561,Unkown,English,USA,31/05/2007
+120,Travel Channel,us,1564,Unkown,English,USA,27/04/2007
+126,Lions Gate Television,ca,1576,Color,English,USA,02/08/2003
+162,Chum Television,ca,1577,Color,English,USA,18/10/2003
+126,Lions Gate Television,ca,1577,Color,English,USA,18/10/2003
+439,Sony Pictures Television,us,1577,Color,English,USA,18/10/2003
+126,Lions Gate Television,ca,1578,Color,English,USA,02/10/2005
+4359,Maple Pictures,ca,1578,Color,English,USA,02/10/2005
+439,Sony Pictures Television,us,1578,Color,English,USA,02/10/2005
+126,Lions Gate Television,ca,1579,Color,English,USA,21/08/2005
+4359,Maple Pictures,ca,1579,Color,English,USA,21/08/2005
+439,Sony Pictures Television,us,1579,Color,English,USA,21/08/2005
+126,Lions Gate Television,ca,1580,Color,English,USA,17/07/2005
+4359,Maple Pictures,ca,1580,Color,English,USA,17/07/2005
+439,Sony Pictures Television,us,1580,Color,English,USA,17/07/2005
+126,Lions Gate Television,ca,1581,Color,English,USA,12/06/2005
+4359,Maple Pictures,ca,1581,Color,English,USA,12/06/2005
+439,Sony Pictures Television,us,1581,Color,English,USA,12/06/2005
+126,Lions Gate Television,ca,1582,Color,English,USA,19/06/2005
+4359,Maple Pictures,ca,1582,Color,English,USA,19/06/2005
+439,Sony Pictures Television,us,1582,Color,English,USA,19/06/2005
+162,Chum Television,ca,1583,Color,English,USA,06/12/2003
+126,Lions Gate Television,ca,1583,Color,English,USA,06/12/2003
+439,Sony Pictures Television,us,1583,Color,English,USA,06/12/2003
+126,Lions Gate Television,ca,1584,Color,English,USA,18/09/2004
+439,Sony Pictures Television,us,1584,Color,English,USA,18/09/2004
+126,Lions Gate Television,ca,1585,Color,English,USA,15/01/2006
+4359,Maple Pictures,ca,1585,Color,English,USA,15/01/2006
+439,Sony Pictures Television,us,1585,Color,English,USA,15/01/2006
+126,Lions Gate Television,ca,1586,Color,English,USA,30/10/2004
+439,Sony Pictures Television,us,1586,Color,English,USA,30/10/2004
+162,Chum Television,ca,1587,Color,English,USA,01/11/2003
+126,Lions Gate Television,ca,1587,Color,English,USA,01/11/2003
+439,Sony Pictures Television,us,1587,Color,English,USA,01/11/2003
+162,Chum Television,ca,1588,Color,English,USA,10/01/2004
+126,Lions Gate Television,ca,1588,Color,English,USA,10/01/2004
+439,Sony Pictures Television,us,1588,Color,English,USA,10/01/2004
+126,Lions Gate Television,ca,1589,Color,English,USA,21/08/2004
+439,Sony Pictures Television,us,1589,Color,English,USA,21/08/2004
+126,Lions Gate Television,ca,1590,Color,English,USA,29/01/2006
+4359,Maple Pictures,ca,1590,Color,English,USA,29/01/2006
+439,Sony Pictures Television,us,1590,Color,English,USA,29/01/2006
+126,Lions Gate Television,ca,1591,Color,English,USA,29/01/2006
+4359,Maple Pictures,ca,1591,Color,English,USA,29/01/2006
+439,Sony Pictures Television,us,1591,Color,English,USA,29/01/2006
+162,Chum Television,ca,1592,Color,English,USA,13/12/2003
+126,Lions Gate Television,ca,1592,Color,English,USA,13/12/2003
+439,Sony Pictures Television,us,1592,Color,English,USA,13/12/2003
+126,Lions Gate Television,ca,1593,Color,English,USA,14/08/2005
+4359,Maple Pictures,ca,1593,Color,English,USA,14/08/2005
+439,Sony Pictures Television,us,1593,Color,English,USA,14/08/2005
+126,Lions Gate Television,ca,1594,Color,English,USA,11/12/2005
+4359,Maple Pictures,ca,1594,Color,English,USA,11/12/2005
+439,Sony Pictures Television,us,1594,Color,English,USA,11/12/2005
+162,Chum Television,ca,1595,Color,English,USA,23/08/2003
+126,Lions Gate Television,ca,1595,Color,English,USA,23/08/2003
+126,Lions Gate Television,ca,1596,Color,English,USA,14/08/2004
+439,Sony Pictures Television,us,1596,Color,English,USA,14/08/2004
+162,Chum Television,ca,1597,Color,English,USA,16/08/2003
+126,Lions Gate Television,ca,1597,Color,English,USA,16/08/2003
+126,Lions Gate Television,ca,1598,Color,English,USA,09/01/2005
+439,Sony Pictures Television,us,1598,Color,English,USA,09/01/2005
+126,Lions Gate Television,ca,1599,Color,English,USA,24/07/2004
+439,Sony Pictures Television,us,1599,Color,English,USA,24/07/2004
+126,Lions Gate Television,ca,1600,Color,English,USA,07/08/2005
+4359,Maple Pictures,ca,1600,Color,English,USA,07/08/2005
+439,Sony Pictures Television,us,1600,Color,English,USA,07/08/2005
+126,Lions Gate Television,ca,1601,Color,English,USA,07/08/2004
+439,Sony Pictures Television,us,1601,Color,English,USA,07/08/2004
+126,Lions Gate Television,ca,1602,Color,English,USA,24/07/2005
+4359,Maple Pictures,ca,1602,Color,English,USA,24/07/2005
+439,Sony Pictures Television,us,1602,Color,English,USA,24/07/2005
+162,Chum Television,ca,1603,Color,English,USA,03/01/2004
+126,Lions Gate Television,ca,1603,Color,English,USA,03/01/2004
+439,Sony Pictures Television,us,1603,Color,English,USA,03/01/2004
+162,Chum Television,ca,1604,Color,English,USA,11/10/2003
+126,Lions Gate Television,ca,1604,Color,English,USA,11/10/2003
+439,Sony Pictures Television,us,1604,Color,English,USA,11/10/2003
+126,Lions Gate Television,ca,1605,Color,English,USA,09/10/2004
+439,Sony Pictures Television,us,1605,Color,English,USA,09/10/2004
+162,Chum Television,ca,1606,Color,English,USA,13/09/2003
+126,Lions Gate Television,ca,1606,Color,English,USA,13/09/2003
+439,Sony Pictures Television,us,1606,Color,English,USA,13/09/2003
+126,Lions Gate Television,ca,1607,Color,English,USA,10/07/2005
+4359,Maple Pictures,ca,1607,Color,English,USA,10/07/2005
+439,Sony Pictures Television,us,1607,Color,English,USA,10/07/2005
+126,Lions Gate Television,ca,1608,Color,English,USA,17/07/2004
+439,Sony Pictures Television,us,1608,Color,English,USA,17/07/2004
+126,Lions Gate Television,ca,1609,Color,English,USA,23/01/2005
+439,Sony Pictures Television,us,1609,Color,English,USA,23/01/2005
+126,Lions Gate Television,ca,1610,Color,English,USA,18/09/2005
+4359,Maple Pictures,ca,1610,Color,English,USA,18/09/2005
+439,Sony Pictures Television,us,1610,Color,English,USA,18/09/2005
+126,Lions Gate Television,ca,1611,Color,English,USA,16/01/2005
+439,Sony Pictures Television,us,1611,Color,English,USA,16/01/2005
+162,Chum Television,ca,1612,Color,English,USA,02/08/2003
+126,Lions Gate Television,ca,1612,Color,English,USA,02/08/2003
+126,Lions Gate Television,ca,1613,Color,English,USA,02/10/2004
+439,Sony Pictures Television,us,1613,Color,English,USA,02/10/2004
+126,Lions Gate Television,ca,1614,Color,English,USA,25/09/2004
+439,Sony Pictures Television,us,1614,Color,English,USA,25/09/2004
+126,Lions Gate Television,ca,1615,Color,English,USA,31/07/2004
+439,Sony Pictures Television,us,1615,Color,English,USA,31/07/2004
+126,Lions Gate Television,ca,1616,Color,English,USA,10/07/2004
+439,Sony Pictures Television,us,1616,Color,English,USA,10/07/2004
+126,Lions Gate Television,ca,1617,Color,English,USA,25/09/2005
+4359,Maple Pictures,ca,1617,Color,English,USA,25/09/2005
+439,Sony Pictures Television,us,1617,Color,English,USA,25/09/2005
+126,Lions Gate Television,ca,1618,Color,English,USA,05/02/2006
+4359,Maple Pictures,ca,1618,Color,English,USA,05/02/2006
+439,Sony Pictures Television,us,1618,Color,English,USA,05/02/2006
+126,Lions Gate Television,ca,1619,Color,English,USA,08/01/2006
+4359,Maple Pictures,ca,1619,Color,English,USA,08/01/2006
+439,Sony Pictures Television,us,1619,Color,English,USA,08/01/2006
+162,Chum Television,ca,1620,Color,English,USA,24/01/2004
+126,Lions Gate Television,ca,1620,Color,English,USA,24/01/2004
+439,Sony Pictures Television,us,1620,Color,English,USA,24/01/2004
+162,Chum Television,ca,1621,Color,English,USA,09/08/2003
+126,Lions Gate Television,ca,1621,Color,English,USA,09/08/2003
+162,Chum Television,ca,1622,Color,English,USA,06/09/2003
+126,Lions Gate Television,ca,1622,Color,English,USA,06/09/2003
+439,Sony Pictures Television,us,1622,Color,English,USA,06/09/2003
+162,Chum Television,ca,1623,Color,English,USA,20/09/2003
+126,Lions Gate Television,ca,1623,Color,English,USA,20/09/2003
+439,Sony Pictures Television,us,1623,Color,English,USA,20/09/2003
+162,Chum Television,ca,1624,Color,English,USA,27/09/2003
+126,Lions Gate Television,ca,1624,Color,English,USA,27/09/2003
+439,Sony Pictures Television,us,1624,Color,English,USA,27/09/2003
+126,Lions Gate Television,ca,1625,Color,English,USA,16/10/2004
+439,Sony Pictures Television,us,1625,Color,English,USA,16/10/2004
+126,Lions Gate Television,ca,1626,Color,English,USA,23/10/2004
+439,Sony Pictures Television,us,1626,Color,English,USA,23/10/2004
+126,Lions Gate Television,ca,1627,Color,English,Canada,11/09/2005
+4359,Maple Pictures,ca,1627,Color,English,Canada,11/09/2005
+439,Sony Pictures Television,us,1627,Color,English,Canada,11/09/2005
+126,Lions Gate Television,ca,1628,Color,English,USA,26/06/2005
+4359,Maple Pictures,ca,1628,Color,English,USA,26/06/2005
+439,Sony Pictures Television,us,1628,Color,English,USA,26/06/2005
+162,Chum Television,ca,1629,Color,English,USA,08/11/2003
+126,Lions Gate Television,ca,1629,Color,English,USA,08/11/2003
+439,Sony Pictures Television,us,1629,Color,English,USA,08/11/2003
+126,Lions Gate Television,ca,1630,Color,English,USA,30/01/2005
+439,Sony Pictures Television,us,1630,Color,English,USA,30/01/2005
+162,Chum Television,ca,1631,Color,English,USA,22/11/2003
+126,Lions Gate Television,ca,1631,Color,English,USA,22/11/2003
+439,Sony Pictures Television,us,1631,Color,English,USA,22/11/2003
+64,Televisió de Catalunya (TV3),es,1636,Color,Spanish,Germany,27/09/2005
+69,Televisión Española (TVE),es,1636,Color,Spanish,Germany,27/09/2005
+131,TBS Superstation,us,1656,Color,English,USA,26/01/2008
+5085,Endemol Entertainment,us,1667,Color,English,Unkown,01/01/1800
+27,British Broadcasting Corporation (BBC),gb,1668,Color,English,UK,10/03/2008
+302,Yleisradio (YLE),fi,1677,Color,English,Finland,13/09/2003
+439,Sony Pictures Television,us,1760,Color,English,USA,27/11/2006
+138,British Sky Broadcasting (BSkyB),gb,1852,Color,English,UK,21/12/2009
+138,British Sky Broadcasting (BSkyB),gb,1853,Color,English,UK,21/12/2009
+138,British Sky Broadcasting (BSkyB),gb,1857,Black and White,English,UK,30/12/2009
+141,"Nashville Network, The (TNN)",us,2016,Color,English,Unkown,01/01/1800
+5431,7 Ponies Productions,us,2018,Color,English,USA,02/02/2004
+5431,7 Ponies Productions,us,2020,Color,English,USA,07/06/2004
+5431,7 Ponies Productions,us,2022,Unkown,English,USA,13/09/2004
+5431,7 Ponies Productions,us,2023,Unkown,English,USA,13/09/2004
+5431,7 Ponies Productions,us,2024,Unkown,English,USA,12/03/2004
+27,British Broadcasting Corporation (BBC),gb,2050,Color,English,UK,05/07/2006
+27,British Broadcasting Corporation (BBC),gb,2054,Color,English,UK,05/07/2006
+5363,Asylum Entertainment,us,2055,Color,English,USA,27/02/2012
+64,Televisió de Catalunya (TV3),es,1649,Color,Catalan,Spain,29/09/2008
+73,Danmarks Radio (DR),dk,1759,Black and White,Danish,Denmark,19/01/1952
+154,YLE TV1,fi,1785,Color,Finnish,Finland,04/06/2007
+154,YLE TV1,fi,1796,Color,Finnish,Finland,03/06/2008
+302,Yleisradio (YLE),fi,1807,Color,Finnish,Finland,06/06/2011
+302,Yleisradio (YLE),fi,1818,Color,Finnish,Finland,11/06/2009
+302,Yleisradio (YLE),fi,1829,Color,Finnish,Finland,31/05/2012
+69,Televisión Española (TVE),es,1832,Color,Spanish,Spain,03/03/2005
+297,VT4,be,1864,Color,Dutch,Belgium,01/03/2002
+302,Yleisradio (YLE),fi,2069,Color,Finnish,Finland,28/12/2009
+158,Télévision Suisse-Romande (TSR),ch,2255,Color,French,Switzerland,21/11/2010
+133,NHK,jp,2297,Color,Japanese,Japan,31/08/2010
+12,A&E Television Networks,us,2382,Color,English,USA,15/01/2001
+1271,Pearson Television International,gb,2382,Color,English,USA,15/01/2001
+1271,Pearson Television International,gb,2383,Unkown,English,USA,22/01/2001
+1271,Pearson Television International,gb,2384,Unkown,English,USA,05/02/2001
+1271,Pearson Television International,gb,2385,Unkown,English,USA,26/02/2001
+1271,Pearson Television International,gb,2386,Unkown,English,USA,23/04/2001
+1271,Pearson Television International,gb,2387,Unkown,English,USA,11/12/2001
+1271,Pearson Television International,gb,2388,Unkown,English,USA,22/01/2002
+1271,Pearson Television International,gb,2389,Unkown,English,USA,15/01/2001
+1271,Pearson Television International,gb,2390,Unkown,English,USA,18/12/2001
+1271,Pearson Television International,gb,2391,Unkown,English,USA,12/11/2001
+1271,Pearson Television International,gb,2392,Unkown,English,USA,26/03/2001
+1271,Pearson Television International,gb,2393,Unkown,English,USA,08/01/2002
+1271,Pearson Television International,gb,2394,Unkown,English,USA,26/02/2002
+1271,Pearson Television International,gb,2395,Unkown,English,USA,15/01/2002
+1271,Pearson Television International,gb,2396,Unkown,English,USA,12/02/2001
+1271,Pearson Television International,gb,2397,Unkown,English,USA,12/02/2002
+1271,Pearson Television International,gb,2398,Unkown,English,USA,05/03/2002
+1271,Pearson Television International,gb,2399,Unkown,English,USA,12/03/2001
+1271,Pearson Television International,gb,2400,Unkown,English,USA,05/02/2002
+1271,Pearson Television International,gb,2401,Unkown,English,USA,08/10/2001
+1271,Pearson Television International,gb,2402,Unkown,English,USA,15/10/2001
+1271,Pearson Television International,gb,2403,Unkown,English,USA,02/04/2001
+1271,Pearson Television International,gb,2404,Unkown,English,USA,19/11/2001
+1271,Pearson Television International,gb,2405,Unkown,English,USA,22/10/2001
+1271,Pearson Television International,gb,2406,Unkown,English,USA,29/01/2001
+1271,Pearson Television International,gb,2407,Unkown,English,USA,07/05/2001
+1271,Pearson Television International,gb,2408,Unkown,English,USA,05/03/2001
+1271,Pearson Television International,gb,2409,Unkown,English,USA,16/04/2001
+1271,Pearson Television International,gb,2410,Unkown,English,USA,26/11/2001
+1271,Pearson Television International,gb,2411,Unkown,English,USA,29/10/2001
+1271,Pearson Television International,gb,2412,Unkown,English,USA,19/03/2001
+1271,Pearson Television International,gb,2413,Unkown,English,USA,05/11/2001
+1271,Pearson Television International,gb,2414,Unkown,English,USA,19/02/2001
+1271,Pearson Television International,gb,2415,Unkown,English,USA,29/01/2002
+166,ABS-CBN,ph,2417,Color,Filipino,Philippines,09/05/2011
+166,ABS-CBN,ph,2418,Unkown,English,Philippines,15/09/2011
+166,ABS-CBN,ph,2419,Unkown,English,Philippines,13/10/2011
+166,ABS-CBN,ph,2420,Unkown,English,Philippines,17/06/2011
+166,ABS-CBN,ph,2421,Unkown,English,Philippines,15/06/2011
+166,ABS-CBN,ph,2422,Unkown,English,Philippines,12/07/2011
+166,ABS-CBN,ph,2423,Unkown,English,Philippines,22/06/2011
+166,ABS-CBN,ph,2425,Unkown,English,Philippines,12/08/2011
+166,ABS-CBN,ph,2426,Unkown,English,Philippines,05/10/2011
+166,ABS-CBN,ph,2427,Unkown,English,Philippines,28/09/2011
+166,ABS-CBN,ph,2428,Unkown,English,Philippines,07/06/2011
+166,ABS-CBN,ph,2424,Unkown,English,Philippines,19/05/2011
+166,ABS-CBN,ph,2436,Unkown,English,Philippines,01/11/2011
+166,ABS-CBN,ph,2437,Unkown,English,Philippines,25/10/2011
+166,ABS-CBN,ph,2438,Unkown,English,Philippines,25/08/2011
+166,ABS-CBN,ph,2439,Unkown,English,Philippines,09/09/2011
+166,ABS-CBN,ph,2440,Unkown,English,Philippines,08/09/2011
+166,ABS-CBN,ph,2441,Unkown,English,Philippines,17/11/2011
+166,ABS-CBN,ph,2442,Unkown,English,Philippines,25/07/2011
+166,ABS-CBN,ph,2443,Unkown,English,Philippines,16/05/2011
+166,ABS-CBN,ph,2444,Unkown,English,Philippines,20/07/2011
+166,ABS-CBN,ph,2445,Unkown,English,Philippines,19/07/2011
+166,ABS-CBN,ph,2446,Unkown,English,Philippines,10/11/2011
+166,ABS-CBN,ph,2447,Unkown,English,Philippines,02/08/2011
+166,ABS-CBN,ph,2448,Unkown,English,Philippines,22/08/2011
+166,ABS-CBN,ph,2449,Unkown,English,Philippines,28/06/2011
+166,ABS-CBN,ph,2451,Unkown,English,Philippines,20/05/2011
+166,ABS-CBN,ph,2453,Unkown,English,Philippines,07/09/2011
+166,ABS-CBN,ph,2454,Unkown,English,Philippines,26/05/2011
+166,ABS-CBN,ph,2452,Unkown,English,Philippines,12/05/2011
+166,ABS-CBN,ph,2455,Unkown,English,Philippines,26/10/2011
+166,ABS-CBN,ph,2456,Unkown,English,Philippines,21/10/2011
+166,ABS-CBN,ph,2457,Unkown,English,Philippines,13/06/2011
+166,ABS-CBN,ph,2458,Unkown,English,Philippines,24/10/2011
+166,ABS-CBN,ph,2459,Unkown,English,Philippines,13/05/2011
+166,ABS-CBN,ph,2460,Unkown,English,Philippines,23/05/2011
+166,ABS-CBN,ph,2461,Unkown,English,Philippines,18/11/2011
+166,ABS-CBN,ph,2462,Unkown,English,Philippines,24/05/2011
+166,ABS-CBN,ph,2463,Unkown,English,Philippines,17/08/2011
+166,ABS-CBN,ph,2464,Unkown,English,Philippines,14/07/2011
+166,ABS-CBN,ph,2465,Unkown,English,Philippines,17/10/2011
+166,ABS-CBN,ph,2466,Unkown,English,Philippines,18/07/2011
+166,ABS-CBN,ph,2467,Unkown,English,Philippines,16/06/2011
+166,ABS-CBN,ph,2468,Unkown,English,Philippines,30/05/2011
+166,ABS-CBN,ph,2429,Unkown,English,Philippines,15/08/2011
+166,ABS-CBN,ph,2430,Unkown,English,Philippines,02/11/2011
+166,ABS-CBN,ph,2431,Unkown,English,Philippines,19/08/2011
+166,ABS-CBN,ph,2432,Unkown,English,Philippines,07/07/2011
+166,ABS-CBN,ph,2433,Unkown,English,Philippines,27/05/2011
+166,ABS-CBN,ph,2434,Unkown,English,Philippines,11/07/2011
+166,ABS-CBN,ph,2435,Unkown,English,Philippines,03/11/2011
+166,ABS-CBN,ph,2450,Unkown,English,Philippines,11/05/2011
+166,ABS-CBN,ph,2469,Unkown,English,Philippines,04/08/2011
+166,ABS-CBN,ph,2470,Unkown,English,Philippines,18/05/2011
+166,ABS-CBN,ph,2471,Unkown,English,Philippines,10/08/2011
+166,ABS-CBN,ph,2472,Unkown,English,Philippines,07/11/2011
+166,ABS-CBN,ph,2474,Unkown,English,Philippines,29/08/2011
+166,ABS-CBN,ph,2475,Unkown,English,Philippines,18/08/2011
+166,ABS-CBN,ph,2476,Unkown,English,Philippines,01/06/2011
+166,ABS-CBN,ph,2477,Unkown,English,Philippines,29/09/2011
+166,ABS-CBN,ph,2473,Unkown,English,Philippines,27/07/2011
+166,ABS-CBN,ph,2478,Unkown,English,Philippines,09/06/2011
+166,ABS-CBN,ph,2483,Unkown,English,Philippines,11/10/2011
+166,ABS-CBN,ph,2484,Unkown,English,Philippines,04/07/2011
+166,ABS-CBN,ph,2479,Unkown,English,Philippines,03/10/2011
+166,ABS-CBN,ph,2480,Unkown,English,Philippines,12/09/2011
+166,ABS-CBN,ph,2481,Unkown,English,Philippines,28/10/2011
+166,ABS-CBN,ph,2482,Unkown,English,Philippines,04/11/2011
+166,ABS-CBN,ph,2485,Unkown,English,Philippines,22/09/2011
+166,ABS-CBN,ph,2486,Unkown,English,Philippines,20/10/2011
+166,ABS-CBN,ph,2487,Unkown,English,Philippines,08/11/2011
+166,ABS-CBN,ph,2488,Unkown,English,Philippines,19/10/2011
+166,ABS-CBN,ph,2489,Unkown,English,Philippines,01/09/2011
+166,ABS-CBN,ph,2490,Unkown,English,Philippines,23/08/2011
+166,ABS-CBN,ph,2491,Unkown,English,Philippines,06/09/2011
+166,ABS-CBN,ph,2492,Unkown,English,Philippines,02/09/2011
+166,ABS-CBN,ph,2493,Unkown,English,Philippines,14/09/2011
+166,ABS-CBN,ph,2494,Unkown,English,Philippines,07/10/2011
+166,ABS-CBN,ph,2495,Unkown,English,Philippines,10/10/2011
+166,ABS-CBN,ph,2496,Unkown,English,Philippines,01/08/2011
+166,ABS-CBN,ph,2497,Unkown,English,Philippines,13/09/2011
+166,ABS-CBN,ph,2499,Unkown,English,Philippines,14/06/2011
+166,ABS-CBN,ph,2498,Unkown,English,Philippines,20/06/2011
+166,ABS-CBN,ph,2500,Unkown,English,Philippines,09/05/2011
+166,ABS-CBN,ph,2501,Unkown,English,Philippines,16/09/2011
+166,ABS-CBN,ph,2502,Unkown,English,Philippines,31/10/2011
+166,ABS-CBN,ph,2503,Unkown,English,Philippines,31/08/2011
+166,ABS-CBN,ph,2505,Unkown,English,Philippines,11/08/2011
+166,ABS-CBN,ph,2506,Unkown,English,Philippines,17/05/2011
+166,ABS-CBN,ph,2507,Unkown,English,Philippines,12/10/2011
+166,ABS-CBN,ph,2508,Unkown,English,Philippines,16/08/2011
+166,ABS-CBN,ph,2504,Unkown,English,Philippines,21/07/2011
+166,ABS-CBN,ph,2509,Unkown,English,Philippines,08/08/2011
+166,ABS-CBN,ph,2510,Unkown,English,Philippines,30/08/2011
+166,ABS-CBN,ph,2511,Unkown,English,Philippines,29/06/2011
+166,ABS-CBN,ph,2512,Unkown,English,Philippines,21/06/2011
+166,ABS-CBN,ph,2513,Unkown,English,Philippines,05/07/2011
+166,ABS-CBN,ph,2514,Unkown,English,Philippines,24/08/2011
+166,ABS-CBN,ph,2515,Unkown,English,Philippines,15/11/2011
+166,ABS-CBN,ph,2516,Unkown,English,Philippines,23/06/2011
+166,ABS-CBN,ph,2517,Unkown,English,Philippines,13/07/2011
+166,ABS-CBN,ph,2518,Unkown,English,Philippines,26/07/2011
+166,ABS-CBN,ph,2519,Unkown,English,Philippines,09/08/2011
+166,ABS-CBN,ph,2520,Unkown,English,Philippines,22/07/2011
+166,ABS-CBN,ph,2521,Unkown,English,Philippines,30/06/2011
+166,ABS-CBN,ph,2522,Unkown,English,Philippines,14/11/2011
+166,ABS-CBN,ph,2525,Unkown,English,Philippines,30/09/2011
+166,ABS-CBN,ph,2526,Unkown,English,Philippines,03/08/2011
+166,ABS-CBN,ph,2527,Unkown,English,Philippines,16/11/2011
+166,ABS-CBN,ph,2528,Unkown,English,Philippines,31/05/2011
+166,ABS-CBN,ph,2529,Unkown,English,Philippines,20/09/2011
+166,ABS-CBN,ph,2530,Unkown,English,Philippines,18/10/2011
+166,ABS-CBN,ph,2531,Unkown,English,Philippines,27/10/2011
+166,ABS-CBN,ph,2532,Unkown,English,Philippines,27/06/2011
+166,ABS-CBN,ph,2533,Unkown,English,Philippines,29/07/2011
+166,ABS-CBN,ph,2534,Unkown,English,Philippines,21/09/2011
+166,ABS-CBN,ph,2535,Unkown,English,Philippines,28/07/2011
+166,ABS-CBN,ph,2536,Unkown,English,Philippines,03/06/2011
+166,ABS-CBN,ph,2537,Unkown,English,Philippines,09/11/2011
+166,ABS-CBN,ph,2538,Unkown,English,Philippines,04/10/2011
+166,ABS-CBN,ph,2539,Unkown,English,Philippines,25/05/2011
+166,ABS-CBN,ph,2540,Unkown,English,Philippines,02/06/2011
+166,ABS-CBN,ph,2523,Unkown,English,Philippines,01/07/2011
+166,ABS-CBN,ph,2524,Unkown,English,Philippines,08/06/2011
+166,ABS-CBN,ph,2541,Unkown,English,Philippines,06/06/2011
+166,ABS-CBN,ph,2542,Unkown,English,Philippines,27/09/2011
+166,ABS-CBN,ph,2543,Unkown,English,Philippines,10/06/2011
+166,ABS-CBN,ph,2544,Unkown,English,Philippines,05/08/2011
+166,ABS-CBN,ph,2545,Unkown,English,Philippines,10/05/2011
+166,ABS-CBN,ph,2546,Unkown,English,Philippines,23/09/2011
+166,ABS-CBN,ph,2547,Unkown,English,Philippines,06/07/2011
+166,ABS-CBN,ph,2548,Unkown,English,Philippines,26/08/2011
+166,ABS-CBN,ph,2549,Unkown,English,Philippines,05/09/2011
+166,ABS-CBN,ph,2550,Unkown,English,Philippines,11/11/2011
+166,ABS-CBN,ph,2551,Unkown,English,Philippines,19/09/2011
+166,ABS-CBN,ph,2552,Unkown,English,Philippines,14/07/2011
+166,ABS-CBN,ph,2553,Unkown,English,Philippines,06/10/2011
+166,ABS-CBN,ph,2554,Unkown,English,Philippines,24/06/2011
+166,ABS-CBN,ph,2555,Unkown,English,Philippines,08/07/2011
+166,ABS-CBN,ph,2556,Unkown,English,Philippines,26/09/2011
+166,ABS-CBN,ph,2557,Unkown,English,Philippines,14/10/2011
+1152,Fireworks Entertainment,ca,2558,Color,English,USA,16/10/1999
+168,Nickelodeon Network,us,2558,Color,English,USA,16/10/1999
+3503,Viacom Productions,us,2558,Color,English,USA,16/10/1999
+169,VH1 Television,us,2600,Color,English,USA,13/09/2000
+3496,VH1 Productions,us,2601,Color,English,USA,06/09/2010
+169,VH1 Television,us,2607,Color,English,USA,13/12/2000
+169,VH1 Television,us,2628,Color,English,USA,03/10/2011
+2781,LSL Productions,us,2638,Color,English,Unkown,01/01/1800
+171,TV Asahi,jp,2785,Color,Japanese,Japan,28/09/1981
+172,TV Guide Network,us,2814,Color,English,USA,02/10/2011
+169,VH1 Television,us,2820,Color,English,USA,10/01/2003
+133,NHK,jp,2821,Color,Japanese,Japan,05/02/2007
+133,NHK,jp,2824,Unkown,English,Japan,13/08/2011
+117,Game Show Network (GSN),us,2858,Color,English,USA,13/03/2007
+2,YouTube,us,2859,Color,English,Canada,10/03/2011
+184,Südwestrundfunk (SWR),de,2599,Color,German,Germany,03/10/1998
+178,Kanal 5,se,2640,Color,Swedish,Sweden,08/11/2004
+639,Televisa S.A. de C.V.,mx,2786,Color,Spanish,Mexico,01/01/2001
+639,Televisa S.A. de C.V.,mx,2800,Color,Spanish,Mexico,04/10/2009
+180,France 2 (FR2),fr,2804,Color,French,France,26/09/2002
+73,Danmarks Radio (DR),dk,2861,Color,Danish,Denmark,13/09/1997
+5413,BYU Television International,us,2879,Color,Spanish,USA,11/02/2007
+448,GMA,ph,2913,Color,Filipino,Philippines,05/07/2006
+1370,Saarländischer Rundfunk (SR),de,2917,Color,German,Germany,13/10/2002
+665,Ketnet,be,2880,Color,Dutch,Belgium,13/01/2002
+185,Telecinco,es,2881,Color,Spanish,Spain,25/05/2001
+187,France 5,fr,2914,Color,French,France,19/01/1998
+188,La Cinquième,fr,2914,Color,French,France,19/01/1998
+1271,Pearson Television International,gb,2920,Color,English,USA,03/01/1999
+374,N.I.R.,be,2921,Black and White,Dutch,Belgium,11/12/1956
+57,Spike TV,us,3031,Color,English,USA,13/09/2012
+243,Artear,ar,2925,Color,Spanish,Argentina,04/05/2002
+2369,Panamericana Televisión,pe,2927,Color,Spanish,Unkown,01/01/1800
+197,Sveriges Television (SVT),se,3062,Color,Swedish,Sweden,21/10/1980
+197,Sveriges Television (SVT),se,3063,Color,Swedish,Sweden,04/11/1980
+197,Sveriges Television (SVT),se,3064,Color,Swedish,Sweden,25/11/1980
+197,Sveriges Television (SVT),se,3065,Color,Swedish,Sweden,11/11/1980
+197,Sveriges Television (SVT),se,3066,Color,Swedish,Sweden,18/11/1980
+197,Sveriges Television (SVT),se,3067,Color,Swedish,Sweden,21/10/1980
+197,Sveriges Television (SVT),se,3068,Color,Swedish,Sweden,28/10/1980
+200,Televisão Independente (TVI),pt,3189,Color,Portuguese,Portugal,13/09/1995
+1,E! Entertainment Television,us,3190,Color,English,Unkown,01/01/1800
+205,Speed Television,us,3191,Color,English,USA,23/06/2008
+207,Disney Channel,us,3201,Color,English,USA,01/09/1997
+209,Toon Disney,us,3201,Color,English,USA,01/09/1997
+5593,Walt Disney Television Animation,us,3201,Color,English,USA,01/09/1997
+969,Walt Disney Television,us,3201,Color,English,USA,01/09/1997
+210,Seriously Entertainment,nz,3268,Color,English,Unkown,01/01/1800
+1,E! Entertainment Television,us,3279,Color,English,USA,22/01/2007
+1,E! Entertainment Television,us,3280,Color,English,USA,28/08/2006
+1,E! Entertainment Television,us,3281,Color,English,USA,13/03/2006
+1,E! Entertainment Television,us,3282,Color,English,USA,25/04/2005
+1,E! Entertainment Television,us,3328,Color,Hebrew,Unkown,01/01/1800
+5085,Endemol Entertainment,us,3328,Color,Hebrew,Unkown,01/01/1800
+216,Black Entertainment Television (BET),us,3551,Color,English,USA,11/01/2009
+311,ABC Sports,us,3680,Color,English,USA,06/02/1968
+802,BBC Bristol,gb,3683,Color,English,UK,13/09/1989
+329,Canadian Broadcasting Corporation (CBC),ca,3800,Color,English,Canada,13/09/2006
+171,TV Asahi,jp,3823,Color,Japanese,Japan,13/10/2011
+4897,Canal Once T.V.,mx,3851,Color,Spanish,Mexico,04/12/2003
+1916,Nickelodeon Latin America (Nick Latino),,3856,Color,Spanish,USA,13/09/2013
+4934,Plural Entertainment,es,3860,Color,Spanish,Unkown,01/01/1800
+229,Nova,,3982,Color,Czech,Czech Republic,13/09/2006
+5692,Baluba Television,,3983,Color,Swedish,Sweden,25/03/2013
+73,Danmarks Radio (DR),dk,3993,Color,Danish,Denmark,07/03/2010
+1303,Marvelous Entertainment,jp,4017,Color,Japanese,Japan,06/10/2009
+1085,Pony Canyon,jp,4017,Color,Japanese,Japan,06/10/2009
+1303,Marvelous Entertainment,jp,4018,Unkown,English,Japan,06/10/2009
+1085,Pony Canyon,jp,4018,Unkown,English,Japan,06/10/2009
+114,Nippon Television Network Corporation (NTV),jp,4027,Color,Japanese,Japan,08/11/1965
+2117,Yomiuri Telecasting Corporation (YTV),jp,4027,Color,Japanese,Japan,08/11/1965
+2117,Yomiuri Telecasting Corporation (YTV),jp,4029,Unkown,English,Japan,20/09/1979
+16,Music Television (MTV),us,4035,Color,English,USA,13/09/1997
+874,ITV Productions,gb,4037,Color,English,UK,15/04/2006
+3699,Spiegel TV,de,4138,Black and White,German,Germany,13/11/2006
+424,20th Century Fox Television,us,4209,Black and White,English,USA,18/09/1964
+424,20th Century Fox Television,us,4210,Color,English,USA,07/10/1966
+424,20th Century Fox Television,us,4211,Color,English,USA,06/01/1967
+424,20th Century Fox Television,us,4212,Black and White,English,USA,25/12/1964
+424,20th Century Fox Television,us,4213,Black and White,English,USA,28/02/1966
+2982,Twentieth Century Fox Television,us,4214,Black and White,English,USA,20/11/1964
+424,20th Century Fox Television,us,4215,Black and White,English,USA,07/02/1966
+424,20th Century Fox Television,us,4216,Black and White,English,USA,13/12/1965
+424,20th Century Fox Television,us,4217,Black and White,English,USA,11/10/1965
+424,20th Century Fox Television,us,4218,Color,English,USA,02/12/1966
+424,20th Century Fox Television,us,4219,Black and White,English,USA,21/03/1966
+424,20th Century Fox Television,us,4220,Black and White,English,USA,28/03/1966
+2982,Twentieth Century Fox Television,us,4221,Black and White,English,USA,06/11/1964
+424,20th Century Fox Television,us,4222,Black and White,English,USA,07/03/1966
+424,20th Century Fox Television,us,4223,Black and White,English,USA,12/03/1965
+424,20th Century Fox Television,us,4224,Color,English,USA,23/09/1966
+424,20th Century Fox Television,us,4225,Black and White,English,USA,29/01/1965
+424,20th Century Fox Television,us,4226,Black and White,English,USA,03/01/1966
+2982,Twentieth Century Fox Television,us,4227,Black and White,English,USA,25/09/1964
+424,20th Century Fox Television,us,4228,Color,English,USA,30/09/1966
+424,20th Century Fox Television,us,4229,Color,English,USA,09/09/1966
+2982,Twentieth Century Fox Television,us,4230,Black and White,English,USA,18/09/1964
+424,20th Century Fox Television,us,4231,Black and White,English,USA,15/11/1965
+424,20th Century Fox Television,us,4232,Color,English,USA,30/12/1966
+424,20th Century Fox Television,us,4233,Black and White,English,USA,04/12/1964
+424,20th Century Fox Television,us,4234,Black and White,English,USA,08/11/1965
+424,20th Century Fox Television,us,4235,Black and White,English,USA,08/01/1965
+424,20th Century Fox Television,us,4236,Black and White,English,USA,27/11/1964
+424,20th Century Fox Television,us,4237,Color,English,USA,16/09/1966
+424,20th Century Fox Television,us,4238,Black and White,English,USA,26/03/1965
+424,20th Century Fox Television,us,4239,Black and White,English,USA,23/04/1965
+424,20th Century Fox Television,us,4240,Black and White,English,USA,30/04/1965
+424,20th Century Fox Television,us,4241,Color,English,USA,14/10/1966
+2982,Twentieth Century Fox Television,us,4242,Black and White,English,USA,30/10/1964
+424,20th Century Fox Television,us,4243,Black and White,English,USA,20/09/1965
+424,20th Century Fox Television,us,4244,Black and White,English,USA,01/11/1965
+424,20th Century Fox Television,us,4245,Black and White,English,USA,25/10/1965
+424,20th Century Fox Television,us,4246,Black and White,English,USA,04/04/1966
+424,20th Century Fox Television,us,4247,Color,English,USA,16/12/1966
+424,20th Century Fox Television,us,4248,Black and White,English,USA,11/12/1964
+424,20th Century Fox Television,us,4249,Black and White,English,USA,22/11/1965
+424,20th Century Fox Television,us,4250,Black and White,English,USA,27/12/1965
+424,20th Century Fox Television,us,4251,Color,English,USA,09/12/1966
+424,20th Century Fox Television,us,4252,Black and White,English,USA,15/01/1965
+424,20th Century Fox Television,us,4253,Color,English,USA,28/10/1966
+424,20th Century Fox Television,us,4254,Black and White,English,USA,12/02/1965
+2982,Twentieth Century Fox Television,us,4255,Black and White,English,USA,23/10/1964
+424,20th Century Fox Television,us,4256,Black and White,English,USA,09/04/1965
+424,20th Century Fox Television,us,4257,Color,English,USA,23/12/1966
+424,20th Century Fox Television,us,4258,Color,English,USA,11/11/1966
+424,20th Century Fox Television,us,4259,Black and White,English,USA,07/05/1965
+424,20th Century Fox Television,us,4260,Black and White,English,USA,14/03/1966
+424,20th Century Fox Television,us,4261,Black and White,English,USA,18/10/1965
+2982,Twentieth Century Fox Television,us,4262,Black and White,English,USA,13/11/1964
+424,20th Century Fox Television,us,4263,Color,English,USA,13/01/1967
+424,20th Century Fox Television,us,4264,Black and White,English,USA,04/10/1965
+424,20th Century Fox Television,us,4265,Black and White,English,USA,06/12/1965
+424,20th Century Fox Television,us,4266,Black and White,English,USA,13/09/1965
+424,20th Century Fox Television,us,4267,Black and White,English,USA,22/01/1965
+2982,Twentieth Century Fox Television,us,4268,Black and White,English,USA,02/10/1964
+424,20th Century Fox Television,us,4269,Black and White,English,USA,02/04/1965
+424,20th Century Fox Television,us,4270,Black and White,English,USA,31/01/1966
+424,20th Century Fox Television,us,4271,Color,English,USA,04/11/1966
+424,20th Century Fox Television,us,4272,Black and White,English,USA,10/01/1966
+2982,Twentieth Century Fox Television,us,4273,Black and White,English,USA,16/10/1964
+424,20th Century Fox Television,us,4274,Black and White,English,USA,21/02/1966
+424,20th Century Fox Television,us,4275,Black and White,English,USA,18/12/1964
+424,20th Century Fox Television,us,4276,Black and White,English,USA,19/03/1965
+424,20th Century Fox Television,us,4277,Black and White,English,USA,26/02/1965
+424,20th Century Fox Television,us,4278,Black and White,English,USA,05/03/1965
+424,20th Century Fox Television,us,4279,Black and White,English,USA,27/09/1965
+424,20th Century Fox Television,us,4280,Black and White,English,USA,01/01/1965
+424,20th Century Fox Television,us,4281,Black and White,English,USA,05/02/1965
+424,20th Century Fox Television,us,4282,Color,English,USA,18/11/1966
+424,20th Century Fox Television,us,4283,Black and White,English,USA,14/02/1966
+424,20th Century Fox Television,us,4284,Black and White,English,USA,17/01/1966
+424,20th Century Fox Television,us,4285,Black and White,English,USA,16/04/1965
+424,20th Century Fox Television,us,4286,Black and White,English,USA,29/11/1965
+424,20th Century Fox Television,us,4287,Black and White,English,USA,24/01/1966
+3019,Stuart Films,us,4426,Color,English,USA,30/07/2010
+3019,Stuart Films,us,4427,Unkown,English,USA,01/12/2010
+3019,Stuart Films,us,4428,Unkown,English,USA,13/01/2011
+3019,Stuart Films,us,4429,Unkown,English,USA,01/07/2011
+3019,Stuart Films,us,4432,Unkown,English,USA,01/06/2011
+3019,Stuart Films,us,4434,Unkown,English,USA,13/12/2010
+3019,Stuart Films,us,4436,Unkown,English,USA,01/05/2011
+3019,Stuart Films,us,4437,Unkown,English,USA,15/05/2011
+3019,Stuart Films,us,4438,Unkown,English,USA,01/02/2011
+243,Artear,ar,4039,Color,Spanish,Argentina,15/09/2003
+246,Promofilm US,us,4041,Color,Spanish,USA,15/11/2004
+246,Promofilm US,us,4119,Color,Spanish,USA,11/01/2008
+247,Chilevisión,cl,4125,Color,Spanish,Chile,31/05/2011
+133,NHK,jp,4152,Color,Japanese,Japan,09/04/2002
+5941,Studio Pierrot Co. Ltd.,jp,4152,Color,Japanese,Japan,09/04/2002
+5221,El Terrat,es,4311,Color,Catalan,Spain,18/01/2004
+664,SBS6,nl,4454,Color,Dutch,Netherlands,05/11/2003
+253,Arbeitsgemeinschaft der öffentlich-rechtlichen Rundfunkanstalten der Bundesrepublik Deutschland (ARD),de,4455,Color,English,Germany,15/08/2009
+225,Zweites Deutsches Fernsehen (ZDF),de,4455,Color,English,Germany,15/08/2009
+64,Televisió de Catalunya (TV3),es,4457,Color,Catalan,Spain,13/10/2007
+262,Nederlandse Programma Stichting (NPS),nl,4540,Color,Dutch,Netherlands,25/10/2009
+4318,Teleac/NOT,nl,4540,Color,Dutch,Netherlands,25/10/2009
+1244,Televisión Azteca (TV Azteca),mx,4555,Color,Spanish,Mexico,13/09/2007
+64,Televisió de Catalunya (TV3),es,4666,Color,Catalan,Spain,02/10/1987
+263,TVC,es,4668,Color,Catalan,Spain,17/09/1989
+171,TV Asahi,jp,4680,Color,Japanese,Japan,13/01/2012
+171,TV Asahi,jp,4681,Unkown,English,Japan,13/01/2012
+171,TV Asahi,jp,4682,Unkown,English,Japan,20/01/2012
+171,TV Asahi,jp,4683,Unkown,English,Japan,27/01/2012
+171,TV Asahi,jp,4684,Unkown,English,Japan,03/02/2012
+171,TV Asahi,jp,4685,Unkown,English,Japan,10/02/2012
+171,TV Asahi,jp,4686,Unkown,English,Japan,17/02/2012
+171,TV Asahi,jp,4687,Unkown,English,Japan,24/02/2012
+171,TV Asahi,jp,4688,Unkown,English,Japan,02/03/2012
+171,TV Asahi,jp,4689,Unkown,English,Japan,09/03/2012
+264,Ceská Televize,cz,4690,Color,Czech,Czech Republic,03/01/2006
+538,Hellenic Radio & Television (ERT),gr,4699,Color,Greek,Greece,17/12/2012
+1541,Diagonal TV,es,4714,Color,Spanish,Unkown,01/01/1800
+596,Granada Television,gb,4729,Color,English,UK,16/09/2007
+269,Société Radio-Canada,ca,4730,Black and White,French,Unkown,01/01/1800
+2512,MTV Productions,us,4734,Color,English,Unkown,01/01/1800
+271,MTV Brasil,br,4737,Color,Portuguese,Brazil,10/03/2008
+27,British Broadcasting Corporation (BBC),gb,4745,Color,English,UK,07/11/2002
+270,TV Danmark,dk,4738,Color,Danish,Denmark,12/04/2004
+270,TV Danmark,dk,4739,Color,Danish,Denmark,06/04/2004
+5005,Marathon Productions,fr,4802,Color,English,France,28/02/2004
+274,Telefactory,ca,4802,Color,English,France,28/02/2004
+1541,Diagonal TV,es,4921,Color,Catalan,Unkown,01/01/1800
+64,Televisió de Catalunya (TV3),es,4921,Color,Catalan,Unkown,01/01/1800
+275,RTS-TV,xyu,4948,Color,Serbo-Croatian,Yugoslavia,01/01/1986
+276,Sveriges Radio,se,4949,Black and White,Swedish,Sweden,10/09/1960
+277,Eén,be,4951,Color,Dutch,Belgium,05/04/2005
+424,20th Century Fox Television,us,4992,Color,English,Unkown,01/01/1800
+424,20th Century Fox Television,us,4993,Color,English,USA,28/03/2013
+424,20th Century Fox Television,us,4995,Color,English,USA,07/02/2013
+424,20th Century Fox Television,us,4996,Color,English,USA,14/03/2013
+424,20th Century Fox Television,us,4997,Color,English,USA,07/03/2013
+424,20th Century Fox Television,us,4998,Color,English,USA,28/03/2013
+424,20th Century Fox Television,us,4999,Color,English,USA,24/01/2013
+424,20th Century Fox Television,us,5000,Color,English,USA,17/12/2012
+424,20th Century Fox Television,us,5001,Color,English,USA,21/02/2013
+424,20th Century Fox Television,us,5002,Color,English,USA,17/01/2013
+424,20th Century Fox Television,us,5003,Color,English,USA,21/03/2013
+424,20th Century Fox Television,us,5004,Color,English,USA,10/01/2013
+424,20th Century Fox Television,us,5005,Color,English,USA,28/02/2013
+3851,SVT Drama,se,5006,Color,Swedish,Sweden,19/01/1991
+36,CanWest Global Television Network,ca,5010,Color,English,Canada,30/11/2008
+128,TV2 Danmark,dk,5012,Color,Danish,Denmark,04/03/2004
+4543,Endemol Deutschland,de,5187,Color,German,Germany,11/06/2011
+287,TVN,,5192,Color,Spanish,Chile,03/01/2005
+723,Paris Première,fr,5220,Unkown,French,Unkown,01/01/1800
+291,MUN2 Television,us,5226,Color,English,USA,08/08/2005
+292,Pro 7,de,5229,Color,German,Germany,09/02/2004
+329,Canadian Broadcasting Corporation (CBC),ca,5258,Color,English,Unkown,01/01/1800
+197,Sveriges Television (SVT),se,5341,Color,Swedish,Sweden,30/08/2009
+197,Sveriges Television (SVT),se,5342,Color,Swedish,Sweden,22/11/2009
+197,Sveriges Television (SVT),se,5343,Color,Swedish,Sweden,25/10/2009
+197,Sveriges Television (SVT),se,5344,Color,Swedish,Sweden,06/09/2009
+197,Sveriges Television (SVT),se,5345,Color,Swedish,Sweden,15/11/2009
+197,Sveriges Television (SVT),se,5346,Color,Swedish,Sweden,13/09/2009
+197,Sveriges Television (SVT),se,5347,Color,Swedish,Sweden,30/08/2009
+197,Sveriges Television (SVT),se,5348,Color,Swedish,Sweden,18/10/2009
+197,Sveriges Television (SVT),se,5349,Color,Swedish,Sweden,20/09/2009
+197,Sveriges Television (SVT),se,5350,Color,Swedish,Sweden,08/11/2009
+197,Sveriges Television (SVT),se,5351,Color,Swedish,Sweden,29/11/2009
+197,Sveriges Television (SVT),se,5352,Color,Swedish,Sweden,27/09/2009
+197,Sveriges Television (SVT),se,5353,Color,Swedish,Sweden,01/11/2009
+197,Sveriges Television (SVT),se,5354,Color,Swedish,Sweden,04/10/2009
+300,Canal Sur Televisión,es,5367,Color,Spanish,Spain,03/03/2006
+197,Sveriges Television (SVT),se,5370,Color,Swedish,Sweden,16/02/2009
+4338,DR TV,dk,5377,Color,Danish,Denmark,13/10/2014
+73,Danmarks Radio (DR),dk,5377,Color,Danish,Denmark,13/10/2014
+1388,TV2 Norge,no,5377,Color,Danish,Denmark,13/10/2014
+1344,TV4 Sweden,se,5377,Color,Danish,Denmark,13/10/2014
+67,Sat.1,de,5378,Color,German,Germany,04/12/1995
+305,Australian Broadcasting Corporation (ABC),au,5463,Color,English,Australia,27/06/1982
+3212,Abú Media,ie,5464,Color,English,Ireland,13/09/2010
+5074,TVP 1,pl,5472,Color,Polish,Poland,02/03/2011
+307,South African Broadcasting Corporation (SABC),za,5486,Color,English,South Africa,11/11/1984
+181,Fuji Television Network,jp,5487,Color,Japanese,Japan,16/04/2010
+290,NBC Sports,us,5494,Black and White,English,USA,30/09/1947
+290,NBC Sports,us,5515,Black and White,English,USA,13/10/1950
+290,NBC Sports,us,5520,Black and White,English,USA,04/10/1951
+290,NBC Sports,us,5563,Black and White,English,USA,02/10/1957
+290,NBC Sports,us,5571,Black and White,English,USA,13/10/1958
+371,ABC News,us,5586,Unkown,English,USA,26/09/1960
+313,CBS News,us,5586,Unkown,English,USA,26/09/1960
+322,NBC News,us,5586,Unkown,English,USA,26/09/1960
+290,NBC Sports,us,5639,Color,English,USA,13/10/1967
+310,NBC Sports Special,,5692,Color,English,USA,09/10/1971
+290,NBC Sports,us,5764,Color,English,USA,11/10/1975
+311,ABC Sports,us,5778,Color,English,USA,09/10/1976
+290,NBC Sports,us,5786,Color,English,USA,15/10/1976
+311,ABC Sports,us,5869,Color,English,USA,07/10/1982
+290,NBC Sports,us,5873,Color,English,USA,13/10/1982
+290,NBC Sports,us,5881,Color,English,USA,05/10/1983
+311,ABC Sports,us,5902,Color,English,USA,02/10/1984
+19,National Broadcasting Company (NBC),us,5913,Color,English,USA,09/10/1984
+314,National Broadcasting Company (NBC) Sports,us,5952,Color,English,USA,18/10/1986
+322,NBC News,us,5956,Color,English,USA,10/09/1986
+27,British Broadcasting Corporation (BBC),gb,5993,Black and White,English,UK,03/07/1965
