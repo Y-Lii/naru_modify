@@ -185,7 +185,7 @@ def SampleTupleThenRandom(all_cols,
         vals[6] = vals[6].to_datetime64()
     elif args.dataset in ['movie_info', 'merged_2849']:
         vals[-1] = vals[-1].to_datetime64()
-    elif "_key" in args.dateset:
+    elif "_key" in args.dataset:
         vals[-3] = vals[-3].to_datetime64()
 
     # num_cmp = 1
@@ -223,7 +223,7 @@ def GenerateQuery(all_cols, rng, table, return_col_idx=False):
     num_filters = rng.randint(1, len(all_cols))
     if 'merged_' in args.dataset:
         num_filters = rng.randint(2, len(all_cols))
-    elif "_key" in args.dateset:
+    elif "_key" in args.dataset:
         num_filters = rng.randint(3, len(all_cols))
     cols, ops, vals = SampleTupleThenRandom(all_cols,
                                             num_filters,
