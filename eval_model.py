@@ -185,13 +185,16 @@ def SampleTupleThenRandom(all_cols,
         vals[6] = vals[6].to_datetime64()
     elif args.dataset in ['movie_info', 'merged_2849']:
         vals[-1] = vals[-1].to_datetime64()
+    elif "_key" in args.dateset:
+        vals[-3] = vals[-3].to_datetime64()
 
-    num_cmp = 1
-    if num_filters != 2:
-        num_cmp = rng.randint(1, 2)
-    idx_mov = rng.choice([4, 5, 6, 7], replace=False, size=num_filters - num_cmp)
-    idxs = rng.choice([1, 2], replace=False, size=num_cmp)
-    idxs.extend(idx_mov)
+    # num_cmp = 1
+    # if num_filters != 2:
+    #     num_cmp = rng.randint(1, 2)
+    # idx_mov = rng.choice([4, 5, 6, 7], replace=False, size=num_filters - num_cmp)
+    # idxs = rng.choice([1, 2], replace=False, size=num_cmp)
+    # idxs.extend(idx_mov)
+    idxs = rng.choice(len(all_cols), replace=False, size=num_filters)
     cols = np.take(all_cols, idxs)
 
     # If dom size >= 10, okay to place a range filter.
@@ -217,7 +220,11 @@ def SampleTupleThenRandom(all_cols,
 
 def GenerateQuery(all_cols, rng, table, return_col_idx=False):
     """Generate a random query."""
-    num_filters = rng.randint(2, len(all_cols) - 2)
+    num_filters = rng.randint(1, len(all_cols))
+    if 'merged_' in args.dataset:
+        num_filters = rng.randint(2, len(all_cols))
+    elif "_key" in args.dateset:
+        num_filters = rng.randint(3, len(all_cols))
     cols, ops, vals = SampleTupleThenRandom(all_cols,
                                             num_filters,
                                             rng,
