@@ -172,61 +172,87 @@ def ErrorMetric(est_card, card):
     return max(est_card / card, card / est_card)
 
 
-def SampleTupleThenRandom(all_cols,
-                          num_filters,
+def SampleTupleThenRandom(num_filters,
                           rng,
                           table,
                           return_col_idx=False):
-    s = table.data.iloc[rng.randint(0, table.cardinality)]
-    vals = s.values
+    s = table.origin.sample(n=1, random_state=rng)
 
-    if args.dataset in ['dmv', 'dmv-tiny']:
-        # Giant hack for DMV.
-        vals[6] = vals[6].to_datetime64()
-    elif args.dataset in ['movie_info', 'merged_2849']:
-        vals[-1] = vals[-1].to_datetime64()
-    elif "_key" in args.dataset:
-        vals[-3] = vals[-3].to_datetime64()
-
-    # num_cmp = 1
-    # if num_filters != 2:
-    #     num_cmp = rng.randint(1, 2)
-    # idx_mov = rng.choice([4, 5, 6, 7], replace=False, size=num_filters - num_cmp)
-    # idxs = rng.choice([1, 2], replace=False, size=num_cmp)
-    # idxs.extend(idx_mov)
-    idxs = rng.choice(len(all_cols), replace=False, size=num_filters)
-    cols = np.take(all_cols, idxs)
+    sam = s.sample(n=num_filters, random_state=rng, replace=False, axis=1)
+    cols, vals, idxs = do_compress(sam, table)
 
     # If dom size >= 10, okay to place a range filter.
     # Otherwise, low domain size columns should be queried with equality.
-    ops = rng.choice(['<=', '>=', '='], size=num_filters)
-    ops_all_eqs = ['='] * num_filters
-    sensible_to_do_range = [c.DistributionSize() >= 10 for c in cols]
+    ops = rng.choice(['<=', '>=', '='], size=len(vals))
+    ops_all_eqs = ['='] * len(vals)
+    # sensible_to_do_range = [c.DistributionSize() >= 10 for c in cols]
 
     # ops = np.where(sensible_to_do_range, ops, ops_all_eqs)
     ops = ops_all_eqs
-    if num_filters == len(all_cols):
-        if return_col_idx:
-            return np.arange(len(all_cols)), ops, vals
-        return all_cols, ops, vals
 
-    vals = vals[idxs]
     if return_col_idx:
         return idxs, ops, vals
 
-    # print('VAL: ', vals)
     return cols, ops, vals
 
 
-def GenerateQuery(all_cols, rng, table, return_col_idx=False):
+def do_compress(s, table):  
+    compressor_elem = table.compressor_elem
+    # cols = table.columns
+    idxs = []
+    final_columns_for_query = []
+    final_column_values = []
+
+    for col in s.columns:
+        i = table.origin.columns.get_loc(col)
+        query_part = int(s[col].values[0])
+        if i in compressor_elem.split_columns_index:
+            # every column at the beginning will be split into 2 columns
+            how_many_times_compressed = 2
+            quotient, reminder = compressor_elem.split_single_value_for_column(query_part, i)
+            # save the reminder for the future
+            all_reminders = list()
+            all_reminders.append(reminder)
+
+            # split the column into the required number of columns
+            while how_many_times_compressed < compressor_elem.root:
+                # get the quotient and reminder from the quotient in the previous iteration
+                quotient, reminder = compressor_elem.split_single_value_for_column(int(quotient), i)
+
+                # save the reminder, it will represent a separate column
+                all_reminders.append(reminder)
+                how_many_times_compressed += 1
+
+            # store the information for the quotient as a separate column
+            # final_columns_for_query.append(cols[modified_columns_index])
+            final_column_values.append(int(quotient))
+
+            # iterate over the reminders in a reversed order such that the last reminder
+            # is actually the reminder for the quotient the one after that is the reminder for the number
+            # made by the quotient and the first reminder, etc...
+            for num_rem, rem_val in enumerate(reversed(all_reminders)):
+                # store the id of the column
+                # final_columns_for_query.append(cols[modified_columns_index])
+                if num_rem + 1 < len(all_reminders): # do not increment for the last column, this is done outside of the if/else statement
+                    modified_columns_index += 1
+                # store the value of the column
+                final_column_values.append(int(rem_val))
+            final_columns_for_query.extend(np.take(table.columns, table.cast_idx[i]))
+            idxs.extend(table.cast_idx[i])
+        else:
+            # for the columns that are not split
+            final_columns_for_query.append(table.columns[table.cast_idx[i]])
+            final_column_values.append(int(query_part))
+            idxs.append(table.cast_idx[i])
+    
+    return final_columns_for_query, final_column_values, idxs
+
+
+def GenerateQuery(rng, table, return_col_idx=False):
     """Generate a random query."""
-    num_filters = rng.randint(1, len(all_cols))
-    if 'merged_' in args.dataset:
-        num_filters = rng.randint(2, len(all_cols))
-    elif "_key" in args.dataset:
-        num_filters = rng.randint(3, len(all_cols))
-    cols, ops, vals = SampleTupleThenRandom(all_cols,
-                                            num_filters,
+    num_filters = rng.randint(1, len(table.origin.columns))
+
+    cols, ops, vals = SampleTupleThenRandom(num_filters,
                                             rng,
                                             table,
                                             return_col_idx=return_col_idx)
@@ -303,7 +329,7 @@ def RunN(table,
             do_print = True
             print('Query {}:'.format(i), end=' ')
             last_time = time.time()
-        query = GenerateQuery(cols, rng, table)
+        query = GenerateQuery(rng, table)
 
         # if i == 0:
         #     query = [np.take(cols, [2,5,6]), ['=', '=', '='], ['English', 'Turkey', 'us']]
@@ -368,8 +394,7 @@ def RunNParallel(estimator_factory,
         rng = np.random.RandomState(1234)
     queries = []
     for i in range(num):
-        col_idxs, ops, vals = GenerateQuery(cols,
-                                            rng,
+        col_idxs, ops, vals = GenerateQuery(rng,
                                             table=table,
                                             return_col_idx=True)
         queries.append((col_idxs, ops, vals))

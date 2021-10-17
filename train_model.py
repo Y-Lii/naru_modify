@@ -248,6 +248,9 @@ def RunEpoch(split,
 
         if verbose:
             print('%s epoch average loss: %f' % (split, np.mean(losses)))
+        
+        torch.cuda.empty_cache()
+
     if return_losses:
         return losses
     return np.mean(losses)

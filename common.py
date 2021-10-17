@@ -1,9 +1,19 @@
+'''
+    Title: Deep Unsupervised Cardinality Estimation Source Code
+    Author:  Amog Kamsetty, Chenggang Wu, Eric Liang, Zongheng Yang
+    Date: 2020
+    Availability: https://github.com/naru-project/naru
+
+    Source Code used as is or modified from the above mentioned source
+'''
+
 """Data abstractions."""
 import copy
 import time
 
 import numpy as np
 import pandas as pd
+from compressor import Compressor
 
 import torch
 from torch.utils import data
@@ -155,6 +165,7 @@ class CsvTable(Table):
                  type_casts={},
                  pg_name=None,
                  pg_cols=None,
+                 do_compression=None,
                  **kwargs):
         """Accepts the same arguments as pd.read_csv().
 
@@ -173,26 +184,153 @@ class CsvTable(Table):
         self.name = name
         self.pg_name = pg_name
 
+        # if do_compression:
+        # Compression. This means that the column will be split into 2 columns
+        root_used_for_divison = 2
+        self.compressor_element = Compressor(root_used_for_divison)
+
         if isinstance(filename_or_df, str):
-            self.data = self._load(filename_or_df, cols, **kwargs)
+            self.data, cols = self._load(filename_or_df, cols, type_casts, doCompression=do_compression, **kwargs)
         else:
             assert (isinstance(filename_or_df, pd.DataFrame))
             self.data = filename_or_df
 
-        self.columns = self._build_columns(self.data, cols, type_casts, pg_cols)
+        self.columns = self._build_columns(self.data, cols, pg_cols)
 
         super(CsvTable, self).__init__(name, self.columns, pg_name)
 
-    def _load(self, filename, cols, **kwargs):
-        print('Loading csv...', end=' ')
-        s = time.time()
-        df = pd.read_csv(filename, header=0, **kwargs)
-        if cols is not None:
-            df = df[cols]
-        print('done, took {:.1f}s'.format(time.time() - s))
-        return df
+    def call_divide_column(self, column_values, column_divider, original_col_index):
+        return self.compressor_element.divide_column(column_values, column_divider, original_col_index)
 
-    def _build_columns(self, data, cols, type_casts, pg_cols):
+    def compressData(self, original_df, cols, root, when_to_compress):
+        '''
+        Method for compressing the data. Every column that has more unique values then 'when_to_compress' is split
+        into 'root' columns.
+
+        :param original_df:
+        :param cols:
+        :param root:
+        :param when_to_compress:
+        :return:
+        '''
+        compressed_data = pd.DataFrame()
+        boundries_per_column = dict()
+        # keep a record of column name after modify
+        modified_columns = []
+        self.cast_idx = {}
+        acc = 0
+        for idx, col in enumerate(cols):
+            # extract the maximal value for the column
+            max_column_value = original_df[col].max()
+            # if the value satisfies the requirement then calculate the divider and update the column names
+            if max_column_value > when_to_compress:
+                new_idx = []
+                print("Max column value of ", col, " is ", max_column_value)
+                # sqrt
+                boundries_per_column[col] = int(max_column_value ** (1/root))
+                for i in range(root):
+                    modified_columns.append(col + '_' + str(i+1))
+                    new_idx.append(idx + i + acc)
+                acc += root - 1
+                self.cast_idx[idx] = new_idx
+            else:
+                modified_columns.append(col)
+                self.cast_idx[idx] = idx + acc
+
+        print(self.cast_idx)
+        print(boundries_per_column)
+        current_col_title = 0
+        for i, col in enumerate(cols):
+            data_column = original_df[col]
+
+            if col in boundries_per_column:
+                print('compressing column: %s' % col)
+                # every column at the beginning will be split into 2 columns
+                how_many_times_compressed = 2
+                # for every column that has the potential to be split, perform the split
+                quotient_column, reminder_column = self.call_divide_column(data_column.values, boundries_per_column[col], i)
+                # list of all the reminders that we'll need at the end
+                all_reminders = list()
+                # add the first reminder which will actually represent the last column
+                all_reminders.append(reminder_column)
+
+                # if the number of current columns is different than the number of columns that we want to have perform the split
+                while how_many_times_compressed < root:
+                    quotient_column, reminder_column = self.call_divide_column(quotient_column,
+                                                                               boundries_per_column[col], i)
+                    # store the reminder
+                    all_reminders.append(reminder_column)
+                    # increase the number of columns
+                    how_many_times_compressed += 1
+                # part for creating the columns
+                compressed_data[modified_columns[current_col_title]] = quotient_column
+                current_col_title += 1
+                # for the reminder columns, the last columns should actually go first
+                for rem_enum, rem in enumerate(reversed(all_reminders)):
+                    compressed_data[modified_columns[current_col_title]] = rem
+                    if rem_enum + 1 < len(all_reminders):
+                        current_col_title += 1
+            else:
+                # for the columns that should't be split, add them to the correct place
+                compressed_data[modified_columns[current_col_title]] = data_column.values
+
+            # go to the next column
+            current_col_title += 1
+        print('shape of compressed data:', end=' ')
+        print(np.shape(compressed_data))
+
+        return compressed_data, modified_columns
+
+
+
+    def _load(self, filename, cols, type_casts, doCompression=False, **kwargs):
+        print('Loading csv: ' + filename + ' ...', end=' ')
+        print()
+        s = time.time()
+        df = pd.read_csv(filename, **kwargs)
+        if cols:
+            df = df[cols]
+        else:
+            cols = df.columns
+        print(df.head(5))
+        print('original data shape:', end=' ')
+        print(np.shape(df))
+
+        for col, typ in type_casts.items():
+            if col not in df.columns:
+                continue
+            if typ != np.datetime64:
+                df[col] = df[col].astype(typ, copy=False)
+            else:
+                # Both infer_datetime_format and cache are critical for perf.
+                df[col] = pd.to_datetime(df[col],
+                                           infer_datetime_format=True,
+                                           cache=True)
+
+        for col in df.columns:
+            df[col] = pd.Categorical(df[col]).codes
+
+        self.origin = df
+
+        modified_cols = cols
+        if doCompression:
+            '''
+                Create our compression where we split the column into two columns such that we get the root
+                closest to the maximal number of the column. 
+                Using that we divide every number in that column with the square root and we get 
+                the multiplier and the quotient. 
+            '''
+            # Compression. Represents the required number of unique values to qualify a column for compression
+            print("Do compression ")
+            min_num_unique_domain_values_column_to_qualify = 1000
+            df, modified_cols = self.compressData(df, cols, self.compressor_element.root, min_num_unique_domain_values_column_to_qualify)
+            df.to_csv("Compressd_movie.csv", index=0)
+
+        print('done, took {:.1f}s'.format(time.time() - s))
+
+        return df, modified_cols
+
+    def _build_columns(self, data, cols, pg_cols):
         """Example args:
 
             cols = ['Model Year', 'Reg Valid Date', 'Reg Expiration Date']
@@ -202,16 +340,6 @@ class CsvTable(Table):
         """
         print('Parsing...', end=' ')
         s = time.time()
-        for col, typ in type_casts.items():
-            if col not in data:
-                continue
-            if typ != np.datetime64:
-                data[col] = data[col].astype(typ, copy=False)
-            else:
-                # Both infer_datetime_format and cache are critical for perf.
-                data[col] = pd.to_datetime(data[col],
-                                           infer_datetime_format=True,
-                                           cache=True)
 
         # Discretize & create Columns.
         if cols is None:
@@ -228,9 +356,11 @@ class CsvTable(Table):
             #
             # For numeric: np.nan
             # For datetime: np.datetime64('NaT')
+            # get unique values
             col.SetDistribution(data[c].value_counts(dropna=False).index.values)
             columns.append(col)
         print('done, took {:.1f}s'.format(time.time() - s))
+
         return columns
 
 
