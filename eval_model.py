@@ -197,7 +197,8 @@ def SampleTupleThenRandom(num_filters,
 
 
 def do_compress(s, table):  
-    compressor_elem = table.compressor_elem
+    compressor_elem = table.compressor_element
+
     # cols = table.columns
     idxs = []
     final_columns_for_query = []
@@ -300,10 +301,13 @@ def Query(estimators,
 def ReportEsts(estimators):
     v = -1
     for est in estimators:
-        print(est.name, 'max', np.max(est.errs), '99th',
-              np.quantile(est.errs, 0.99), '95th', np.quantile(est.errs, 0.95),
-              'median', np.quantile(est.errs, 0.5))
-        v = max(v, np.max(est.errs))
+        if len(est.errs) > 0:
+            print(est.name, 'max', np.max(est.errs), '99th',
+                  np.quantile(est.errs, 0.99), '95th', np.quantile(est.errs, 0.95),
+                  'median', np.quantile(est.errs, 0.5))
+            v = max(v, np.max(est.errs))
+        else:
+            print('est.errs is null !!!!')
     return v
 
 
