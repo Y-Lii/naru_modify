@@ -133,6 +133,8 @@ parser.add_argument(
     default=30000,
     help='Maximum number of partitions of the Maxdiff histogram.')
 
+parser.add_argument('--compression', type=bool, default=True, help='compression')
+parser.add_argument('--all_q', type=str, default=None, help='all_q.')
 args = parser.parse_args()
 
 
@@ -260,6 +262,14 @@ def GenerateQuery(rng, table, return_col_idx=False):
     return cols, ops, vals
 
 
+def generateQ(idx, table):
+    cols = table.columns
+    ops = ['='] * len(cols)
+    s = table.data.iloc[idx]
+    vals = s.values
+    return cols, ops, vals
+
+
 def Query(estimators,
           do_print=True,
           oracle_card=None,
@@ -319,34 +329,48 @@ def RunN(table,
          log_every=100,
          num_filters=11,
          oracle_cards=None,
-         oracle_est=None):
+         oracle_est=None,
+         all=None):
     if rng is None:
         rng = np.random.RandomState(1234)
 
     last_time = None
-    for i in range(num):
-        do_print = False
-        if i % log_every == 0:
-            if last_time is not None:
-                print('{:.1f} queries/sec'.format(log_every /
-                                                  (time.time() - last_time)))
-            do_print = True
-            print('Query {}:'.format(i), end=' ')
-            last_time = time.time()
-        query = GenerateQuery(rng, table)
+    if args.all_q:
+        for i in range(table.cardinality):
+            query = generateQ(i, table)
+            Query(estimators,
+                  False,
+                  oracle_card=oracle_cards[i]
+                  if oracle_cards is not None and i < len(oracle_cards) else None,
+                  query=query,
+                  table=table,
+                  oracle_est=oracle_est)
+            if i % 1000 == 0:
+                max_err = ReportEsts(estimators)
+    else:
+        for i in range(num):
+            do_print = False
+            if i % log_every == 0:
+                if last_time is not None:
+                    print('{:.1f} queries/sec'.format(log_every /
+                                                      (time.time() - last_time)))
+                do_print = True
+                print('Query {}:'.format(i), end=' ')
+                last_time = time.time()
+            query = GenerateQuery(rng, table)
 
-        # if i == 0:
-        #     query = [np.take(cols, [2,5,6]), ['=', '=', '='], ['English', 'Turkey', 'us']]
+            # if i == 0:
+            #     query = [np.take(cols, [2,5,6]), ['=', '=', '='], ['English', 'Turkey', 'us']]
 
-        Query(estimators,
-              do_print,
-              oracle_card=oracle_cards[i]
-              if oracle_cards is not None and i < len(oracle_cards) else None,
-              query=query,
-              table=table,
-              oracle_est=oracle_est)
+            Query(estimators,
+                  do_print,
+                  oracle_card=oracle_cards[i]
+                  if oracle_cards is not None and i < len(oracle_cards) else None,
+                  query=query,
+                  table=table,
+                  oracle_est=oracle_est)
 
-        max_err = ReportEsts(estimators)
+            max_err = ReportEsts(estimators)
     return False
 
 
@@ -643,8 +667,9 @@ def Main():
                  num=args.num_queries,
                  log_every=1,
                  num_filters=None,
-                 oracle_cards=oracle_cards,
-                 oracle_est=oracle_est)
+                 oracle_cards=None,
+                 oracle_est=oracle_est,
+                 all=args.all_q)
 
     SaveEstimators(args.err_csv, estimators)
     print('...Done, result:', args.err_csv)

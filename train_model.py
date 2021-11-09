@@ -106,6 +106,7 @@ parser.add_argument(
     'Format: e.g., [0 2 1] means variable 2 appears second.'
 )
 
+parser.add_argument('--compression', type=bool, default=True, help='compression')
 args = parser.parse_args()
 
 
@@ -339,7 +340,7 @@ def TrainTask(seed=0):
     #     table = datasets.LoadDmv('movie_link.csv')
     # elif args.dataset == 'dmv':
 
-    table = datasets.LoadDmv(args.dataset)
+    table = datasets.LoadDmv(args.dataset, do_compression=args.compression)
 
     table_bits = Entropy(
         table,
