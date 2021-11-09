@@ -338,15 +338,21 @@ def RunN(table,
     if args.all_q:
         for i in range(table.cardinality):
             query = generateQ(i, table)
-            Query(estimators,
-                  False,
-                  oracle_card=oracle_cards[i]
-                  if oracle_cards is not None and i < len(oracle_cards) else None,
-                  query=query,
-                  table=table,
-                  oracle_est=oracle_est)
-            if i % 1000 == 0:
+            if i % 1000 == 1:
+                Query(estimators,
+                      True,
+                      oracle_card=None,
+                      query=query,
+                      table=table,
+                      oracle_est=oracle_est)
                 max_err = ReportEsts(estimators)
+            else:
+                Query(estimators,
+                      False,
+                      oracle_card=None,
+                      query=query,
+                      table=table,
+                      oracle_est=oracle_est)
     else:
         for i in range(num):
             do_print = False
