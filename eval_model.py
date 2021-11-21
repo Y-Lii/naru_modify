@@ -134,6 +134,7 @@ parser.add_argument(
     help='Maximum number of partitions of the Maxdiff histogram.')
 
 parser.add_argument('--compression', type=bool, default=True, help='compression')
+parser.add_argument('--if_eval', type=bool, default=False, help='if_eval')
 parser.add_argument('--all_q', type=str, default=None, help='all_q.')
 args = parser.parse_args()
 
@@ -156,7 +157,7 @@ def MakeTable():
     # if args.dataset == 'dmv-tiny':
     #     table = datasets.LoadDmv('dmv-tiny.csv')
     # elif args.dataset == 'dmv':
-    table = datasets.LoadDmv(args.dataset)
+    table = datasets.LoadDmv(args.dataset, if_eval=args.if_eval)
 
     oracle_est = estimators_lib.Oracle(table)
     if args.run_bn:
@@ -236,8 +237,8 @@ def do_compress(s, table):
             for num_rem, rem_val in enumerate(reversed(all_reminders)):
                 # store the id of the column
                 # final_columns_for_query.append(cols[modified_columns_index])
-                if num_rem + 1 < len(all_reminders): # do not increment for the last column, this is done outside of the if/else statement
-                    modified_columns_index += 1
+                # if num_rem + 1 < len(all_reminders): # do not increment for the last column, this is done outside of the if/else statement
+                #     modified_columns_index += 1
                 # store the value of the column
                 final_column_values.append(int(rem_val))
             final_columns_for_query.extend(np.take(table.columns, table.cast_idx[i]))

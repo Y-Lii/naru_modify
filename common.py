@@ -166,6 +166,7 @@ class CsvTable(Table):
                  pg_name=None,
                  pg_cols=None,
                  do_compression=None,
+                 if_eval=False,
                  **kwargs):
         """Accepts the same arguments as pd.read_csv().
 
@@ -190,7 +191,7 @@ class CsvTable(Table):
         self.compressor_element = Compressor(root_used_for_divison)
 
         if isinstance(filename_or_df, str):
-            self.data, cols = self._load(filename_or_df, cols, type_casts, doCompression=do_compression, **kwargs)
+            self.data, cols = self._load(filename_or_df, cols, type_casts, doCompression=do_compression, eval=if_eval, **kwargs)
         else:
             assert (isinstance(filename_or_df, pd.DataFrame))
             self.data = filename_or_df
@@ -283,7 +284,7 @@ class CsvTable(Table):
 
 
 
-    def _load(self, filename, cols, type_casts, doCompression=False, **kwargs):
+    def _load(self, filename, cols, type_casts, doCompression=False, eval=False, **kwargs):
         print('Loading csv: ' + filename + ' ...', end=' ')
         print()
         s = time.time()
@@ -294,7 +295,14 @@ class CsvTable(Table):
             cols = df.columns
         print(df.head(5))
         print('original data shape:', end=' ')
-        print(np.shape(df))
+        print(df.shape)
+
+        bounds = list(df.iloc[0])
+        if eval:
+            print('------EVALUATE-----:')
+            print(bounds)
+            df.drop(0)
+            print(df.shape)
 
         for col, typ in type_casts.items():
             if col not in df.columns:
@@ -310,6 +318,8 @@ class CsvTable(Table):
         for col in df.columns:
             df[col] = pd.Categorical(df[col]).codes
 
+        if eval:
+            df.loc[len(df)] = bounds
         self.origin = df
 
         modified_cols = cols
