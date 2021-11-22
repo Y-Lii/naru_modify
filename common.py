@@ -289,12 +289,14 @@ class CsvTable(Table):
         print()
         s = time.time()
         df = pd.read_csv(filename, **kwargs)
+
+        if 'index' in df.columns:
+            df.drop('index', axis=1, inplace=True)
+
         if cols:
             df = df[cols]
         else:
             cols = df.columns
-        if 'index' in df.columns:
-            df.drop('index', axis=1, inplace=True)
 
         print(df.head(5))
         print('original data shape:', end=' ')

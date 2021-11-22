@@ -134,7 +134,7 @@ parser.add_argument(
     help='Maximum number of partitions of the Maxdiff histogram.')
 
 parser.add_argument('--compression', type=bool, default=True, help='compression')
-parser.add_argument('--if-eval', type=bool, default=True, help='if_eval')
+parser.add_argument('--eval', type=bool, default=True, help='if_eval')
 parser.add_argument('--gap', type=int, default=-1, help='gap')
 args = parser.parse_args()
 
@@ -157,7 +157,7 @@ def MakeTable():
     # if args.dataset == 'dmv-tiny':
     #     table = datasets.LoadDmv('dmv-tiny.csv')
     # elif args.dataset == 'dmv':
-    table = datasets.LoadDmv(args.dataset, if_eval=args.if_eval)
+    table = datasets.LoadDmv(args.dataset, if_eval=args.eval)
 
     oracle_est = estimators_lib.Oracle(table)
     if args.run_bn:
