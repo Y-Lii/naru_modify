@@ -134,7 +134,7 @@ parser.add_argument(
     help='Maximum number of partitions of the Maxdiff histogram.')
 
 parser.add_argument('--compression', type=bool, default=True, help='compression')
-parser.add_argument('--if_eval', type=bool, default=True, help='if_eval')
+parser.add_argument('--if-eval', type=bool, default=True, help='if_eval')
 parser.add_argument('--gap', type=int, default=-1, help='gap')
 args = parser.parse_args()
 

@@ -338,7 +338,7 @@ class CsvTable(Table):
             print("Do compression ")
             min_num_unique_domain_values_column_to_qualify = 1000
             df, modified_cols = self.compressData(df, cols, self.compressor_element.root, min_num_unique_domain_values_column_to_qualify)
-            df.to_csv("Compressd_" + filename + ".csv", index=0)
+            df.to_csv("Compressd_" + filename.split('/')[-1], index=0)
 
         print('done, took {:.1f}s'.format(time.time() - s))
 
