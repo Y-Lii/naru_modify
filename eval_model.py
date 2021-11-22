@@ -298,8 +298,8 @@ def Query(estimators,
     # Actual.
     card = oracle_est.Query(cols, ops,
                             vals) if oracle_card is None else oracle_card
-    if card == 0:
-        return
+    # if card == 0:
+    #     return
 
     pprint('Q(', end='')
     for c, o, v in zip(cols, ops, vals):
