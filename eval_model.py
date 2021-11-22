@@ -134,8 +134,8 @@ parser.add_argument(
     help='Maximum number of partitions of the Maxdiff histogram.')
 
 parser.add_argument('--compression', type=bool, default=True, help='compression')
-parser.add_argument('--if_eval', type=bool, default=False, help='if_eval')
-parser.add_argument('--all_q', type=str, default=None, help='all_q.')
+parser.add_argument('--if_eval', type=bool, default=True, help='if_eval')
+parser.add_argument('--gap', type=int, default=-1, help='gap')
 args = parser.parse_args()
 
 
@@ -182,6 +182,7 @@ def SampleTupleThenRandom(num_filters,
     s = table.origin.sample(n=1, random_state=rng)
 
     sam = s.sample(n=num_filters, random_state=rng, replace=False, axis=1)
+    print('Sample query: ', sam)
     cols, vals, idxs = do_compress(sam, table)
 
     # If dom size >= 10, okay to place a range filter.
@@ -270,6 +271,13 @@ def generateQ(idx, table):
     vals = s.values
     return cols, ops, vals
 
+def generate_fix(idx, table, gap = 1):
+    sam = table.origin.iloc[idx * gap].dropna()
+    sam = sam.to_frame()
+    cols, vals, idxs = do_compress(sam, table)
+    ops = ['='] * len(cols)
+    return cols, ops, vals
+
 
 def Query(estimators,
           do_print=True,
@@ -330,31 +338,13 @@ def RunN(table,
          log_every=100,
          num_filters=11,
          oracle_cards=None,
-         oracle_est=None,
-         all=None):
+         oracle_est=None):
     if rng is None:
         rng = np.random.RandomState(1234)
 
     last_time = None
-    if args.all_q:
-        for i in range(table.cardinality):
-            query = generateQ(i, table)
-            if i % 1000 == 1:
-                Query(estimators,
-                      True,
-                      oracle_card=None,
-                      query=query,
-                      table=table,
-                      oracle_est=oracle_est)
-                max_err = ReportEsts(estimators)
-            else:
-                Query(estimators,
-                      False,
-                      oracle_card=None,
-                      query=query,
-                      table=table,
-                      oracle_est=oracle_est)
-    else:
+    gap = int(args.gap)
+    if gap < 0:
         for i in range(num):
             do_print = False
             if i % log_every == 0:
@@ -378,6 +368,36 @@ def RunN(table,
                   oracle_est=oracle_est)
 
             max_err = ReportEsts(estimators)
+    elif gap == 0:
+        for i in range(num):
+            query = generateQ(i, table)
+            if i % 1000 == 1:
+                Query(estimators,
+                      True,
+                      oracle_card=None,
+                      query=query,
+                      table=table,
+                      oracle_est=oracle_est)
+                max_err = ReportEsts(estimators)
+            else:
+                Query(estimators,
+                      False,
+                      oracle_card=None,
+                      query=query,
+                      table=table,
+                      oracle_est=oracle_est)
+
+    elif gap > 0:
+        for i in range(num):
+            query = generate_fix(i, table, gap)
+            Query(estimators,
+                  True,
+                  oracle_card=None,
+                  query=query,
+                  table=table,
+                  oracle_est=oracle_est)
+            max_err = ReportEsts(estimators)
+
     return False
 
 
@@ -675,8 +695,7 @@ def Main():
                  log_every=1,
                  num_filters=None,
                  oracle_cards=None,
-                 oracle_est=oracle_est,
-                 all=args.all_q)
+                 oracle_est=oracle_est)
 
     SaveEstimators(args.err_csv, estimators)
     print('...Done, result:', args.err_csv)

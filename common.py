@@ -293,16 +293,19 @@ class CsvTable(Table):
             df = df[cols]
         else:
             cols = df.columns
+        if 'index' in df.columns:
+            df.drop('index', axis=1, inplace=True)
+
         print(df.head(5))
         print('original data shape:', end=' ')
         print(df.shape)
 
-        bounds = list(df.iloc[0])
-        if eval:
-            print('------EVALUATE-----:')
-            print(bounds)
-            df.drop(0)
-            print(df.shape)
+        # bounds = list(map(int, df.iloc[-1]))
+        # if eval:
+        #     print('------EVALUATE-----:')
+        #     print(bounds)
+        #     df.drop(len(df), inplace=True)
+        #     print(df.shape)
 
         for col, typ in type_casts.items():
             if col not in df.columns:
@@ -315,11 +318,12 @@ class CsvTable(Table):
                                            infer_datetime_format=True,
                                            cache=True)
 
-        for col in df.columns:
-            df[col] = pd.Categorical(df[col]).codes
+        if not eval:
+            for col in df.columns:
+                df[col] = pd.Categorical(df[col]).codes
 
-        if eval:
-            df.loc[len(df)] = bounds
+        # if eval:
+        #     df.loc[len(df) + 1] = bounds
         self.origin = df
 
         modified_cols = cols
@@ -334,7 +338,7 @@ class CsvTable(Table):
             print("Do compression ")
             min_num_unique_domain_values_column_to_qualify = 1000
             df, modified_cols = self.compressData(df, cols, self.compressor_element.root, min_num_unique_domain_values_column_to_qualify)
-            df.to_csv("Compressd_movie.csv", index=0)
+            df.to_csv("Compressd_" + filename + ".csv", index=0)
 
         print('done, took {:.1f}s'.format(time.time() - s))
 
