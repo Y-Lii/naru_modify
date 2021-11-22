@@ -135,7 +135,7 @@ parser.add_argument(
 
 parser.add_argument('--compression', type=bool, default=True, help='compression')
 parser.add_argument('--eval', type=bool, default=True, help='if_eval')
-parser.add_argument('--gap', type=int, default=-1, help='gap')
+parser.add_argument('--query-csv', type=str, default='random', help='query-csv')
 args = parser.parse_args()
 
 
@@ -271,8 +271,8 @@ def generateQ(idx, table):
     vals = s.values
     return cols, ops, vals
 
-def generate_fix(idx, table, gap = 1):
-    org = table.origin.iloc[idx * gap]
+def generate_fix(idx, table, df):
+    org = df.iloc[idx]
     sam = org.loc[lambda x: x != -1]
     sam = sam.to_frame()
     cols, vals, idxs = do_compress(sam.T, table)
@@ -344,8 +344,9 @@ def RunN(table,
         rng = np.random.RandomState(1234)
 
     last_time = None
-    gap = int(args.gap)
-    if gap < 0:
+    file = args.query_csv
+    print('Q: ', file)
+    if file == 'random':
         for i in range(num):
             do_print = False
             if i % log_every == 0:
@@ -369,7 +370,7 @@ def RunN(table,
                   oracle_est=oracle_est)
 
             max_err = ReportEsts(estimators)
-    elif gap == 0:
+    elif file is None:
         for i in range(num):
             query = generateQ(i, table)
             if i % 1000 == 1:
@@ -388,9 +389,10 @@ def RunN(table,
                       table=table,
                       oracle_est=oracle_est)
 
-    elif gap > 0:
-        for i in range(num):
-            query = generate_fix(i, table, gap)
+    else:
+        df = pd.read_csv('./datasets/' + file, header=0)
+        for i in range(file.shape[0]):
+            query = generate_fix(i, table, df)
             Query(estimators,
                   True,
                   oracle_card=None,
