@@ -391,7 +391,7 @@ def RunN(table,
 
     else:
         df = pd.read_csv('./datasets/' + file, header=0)
-        for i in range(file.shape[0]):
+        for i in range(df.shape[0]):
             query = generate_fix(i, table, df)
             Query(estimators,
                   True,
