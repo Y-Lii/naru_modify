@@ -107,6 +107,7 @@ parser.add_argument(
 )
 
 parser.add_argument('--compression', type=bool, default=True, help='compression')
+parser.add_argument('--cate', type=bool, default=True, help='if_category')
 args = parser.parse_args()
 
 
@@ -340,7 +341,7 @@ def TrainTask(seed=0):
     #     table = datasets.LoadDmv('movie_link.csv')
     # elif args.dataset == 'dmv':
 
-    table = datasets.LoadDmv(args.dataset, do_compression=args.compression)
+    table = datasets.LoadDmv(args.dataset, do_compression=args.compression, if_eval=args.cate)
 
     table_bits = Entropy(
         table,
