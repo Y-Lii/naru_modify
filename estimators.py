@@ -533,11 +533,14 @@ class Oracle(CardEst):
                 bools = inds
             else:
                 bools &= inds
-        c = bools.sum()
-        self.OnEnd()
-        if return_masks:
-            return bools
-        return c
+        if bools:
+            c = bools.sum()
+            self.OnEnd()
+            if return_masks:
+                return bools
+            return c
+        else:
+            return 0
 
 
 class QueryRegionSize(CardEst):
