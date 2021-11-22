@@ -272,7 +272,8 @@ def generateQ(idx, table):
     return cols, ops, vals
 
 def generate_fix(idx, table, gap = 1):
-    sam = table.origin.iloc[idx * gap].dropna()
+    org = table.origin.iloc[idx * gap]
+    sam = org.loc[lambda x: x > -1]
     sam = sam.to_frame()
     cols, vals, idxs = do_compress(sam, table)
     ops = ['='] * len(cols)
