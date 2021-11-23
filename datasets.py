@@ -7,7 +7,7 @@ import common
 
 
 def LoadDmv(filename='Vehicle__Snowmobile__and_Boat_Registrations', do_compression=True, if_eval=False):
-    csv_file = './datasets/{}.csv'.format(filename)
+    csv_file = './datasets/{}'.format(filename)
     cols = [
         'id', 'movie_id', 'linked_movie_id', 'link_type_id'
     ]
