@@ -18,6 +18,7 @@ from compressor import Compressor
 import torch
 from torch.utils import data
 
+
 # Na/NaN/NaT Semantics
 #
 # Some input columns may naturally contain missing values.  These are handled
@@ -190,11 +191,7 @@ class CsvTable(Table):
         root_used_for_divison = 2
         self.compressor_element = Compressor(root_used_for_divison)
 
-        if isinstance(filename_or_df, str):
-            self.data, cols = self._load(filename_or_df, cols, type_casts, doCompression=do_compression, eval=if_eval, **kwargs)
-        else:
-            assert (isinstance(filename_or_df, pd.DataFrame))
-            self.data = filename_or_df
+        self.data, cols = self._load(filename_or_df, cols, type_casts, doCompression=do_compression, eval=if_eval, **kwargs)
 
         self.columns = self._build_columns(self.data, cols, pg_cols)
 
@@ -228,9 +225,9 @@ class CsvTable(Table):
                 new_idx = []
                 print("Max column value of ", col, " is ", max_column_value)
                 # sqrt
-                boundries_per_column[col] = int(max_column_value ** (1/root))
+                boundries_per_column[col] = int(max_column_value ** (1 / root))
                 for i in range(root):
-                    modified_columns.append(col + '_' + str(i+1))
+                    modified_columns.append(col + '_' + str(i + 1))
                     new_idx.append(idx + i + acc)
                 acc += root - 1
                 self.cast_idx[idx] = new_idx
@@ -249,7 +246,8 @@ class CsvTable(Table):
                 # every column at the beginning will be split into 2 columns
                 how_many_times_compressed = 2
                 # for every column that has the potential to be split, perform the split
-                quotient_column, reminder_column = self.call_divide_column(data_column.values, boundries_per_column[col], i)
+                quotient_column, reminder_column = self.call_divide_column(data_column.values,
+                                                                           boundries_per_column[col], i)
                 # list of all the reminders that we'll need at the end
                 all_reminders = list()
                 # add the first reminder which will actually represent the last column
@@ -282,16 +280,21 @@ class CsvTable(Table):
 
         return compressed_data, modified_columns
 
-
-
     def _load(self, filename, cols, type_casts, doCompression=False, eval=False, **kwargs):
-        print('Loading csv: ' + filename + ' ...', end=' ')
-        print()
+        print('Loading csv:  ...')
         s = time.time()
-        df = pd.read_csv(filename, **kwargs)
+        if isinstance(filename, str):
+            df = pd.read_csv(filename, **kwargs)
+        else:
+            assert (isinstance(filename, pd.DataFrame))
+            df = filename
 
         if 'index' in df.columns:
-            df.drop('index', axis=1, inplace=True)
+            # df.drop('index', axis=1, inplace=True)
+            df.set_index('index', inplace=True)
+        else:
+            for col in df.columns:
+                df[col] = pd.Categorical(df[col]).codes
 
         if cols:
             df = df[cols]
@@ -317,12 +320,12 @@ class CsvTable(Table):
             else:
                 # Both infer_datetime_format and cache are critical for perf.
                 df[col] = pd.to_datetime(df[col],
-                                           infer_datetime_format=True,
-                                           cache=True)
+                                         infer_datetime_format=True,
+                                         cache=True)
 
-        if not eval:
-            for col in df.columns:
-                df[col] = pd.Categorical(df[col]).codes
+        # if not eval:
+        #     for col in df.columns:
+        #         df[col] = pd.Categorical(df[col]).codes
 
         # if eval:
         #     df.loc[len(df) + 1] = bounds
@@ -339,8 +342,9 @@ class CsvTable(Table):
             # Compression. Represents the required number of unique values to qualify a column for compression
             print("Do compression ")
             min_num_unique_domain_values_column_to_qualify = 1000
-            df, modified_cols = self.compressData(df, cols, self.compressor_element.root, min_num_unique_domain_values_column_to_qualify)
-            df.to_csv("Compressd_" + filename.split('/')[-1], index=0)
+            df, modified_cols = self.compressData(df, cols, self.compressor_element.root,
+                                                  min_num_unique_domain_values_column_to_qualify)
+            # df.to_csv("Compressd_" + filename.split('/')[-1], index=0)
 
         print('done, took {:.1f}s'.format(time.time() - s))
 
