@@ -491,23 +491,23 @@ def TrainTask(seed=0):
         df_index[key] = df
         counter_dict[key] = [dict(Counter(df['subject'])), dict(Counter(df['object']))]
 
-    # for datafile in node_files:
-    #     name = datafile.split('.')[0]
-    #     file = os.path.join(args.datadir, datafile)
-    #     left = pd.read_csv(file, index_col='index')
-    #     table = common.CsvTable(name, left, None, do_compression=args.compression, if_eval=args.cate)
-    #     train_model(table, name)
-    #     for key in df_index:
-    #         df = df_index[key]
-    #         tmp = pd.merge(left, df, how='inner', left_index=True, right_on='subject')
-    #         if tmp.shape[0] > 999:
-    #             table = common.CsvTable(name + '__' + key + '_1', tmp, None, do_compression=args.compression, if_eval=args.cate)
-    #             train_model(table, name + '__' + key + '_1')
-    #
-    #         tmp = pd.merge(left, df, how='inner', left_index=True, right_on='object')
-    #         if tmp.shape[0] > 999:
-    #             table = common.CsvTable(key + '__' + name + '_2', tmp, None, do_compression=args.compression, if_eval=args.cate)
-    #             train_model(table, key + '__' + name + '_2')
+    for datafile in node_files:
+        name = datafile.split('.')[0]
+        file = os.path.join(args.datadir, datafile)
+        left = pd.read_csv(file, index_col='index')
+        table = common.CsvTable(name, left, None, do_compression=args.compression, if_eval=args.cate)
+        train_model(table, name)
+        for key in df_index:
+            df = df_index[key]
+            tmp = pd.merge(left, df, how='inner', left_index=True, right_on='subject')
+            if tmp.shape[0] > 999:
+                table = common.CsvTable(name + '__' + key + '_1', tmp, None, do_compression=args.compression, if_eval=args.cate)
+                train_model(table, name + '__' + key + '_1')
+
+            tmp = pd.merge(left, df, how='inner', left_index=True, right_on='object')
+            if tmp.shape[0] > 999:
+                table = common.CsvTable(key + '__' + name + '_2', tmp, None, do_compression=args.compression, if_eval=args.cate)
+                train_model(table, key + '__' + name + '_2')
 
     predicates = list(counter_dict.keys())
     num = len(predicates)
@@ -515,6 +515,7 @@ def TrainTask(seed=0):
     chain_distance = []
     star_distance = []
     kleene_star = []
+    s = time.time()
     for i in range(num):
         print("Calculating distance of " + predicates[i] + " ...")
         left = counter_dict[predicates[i]]
@@ -525,6 +526,7 @@ def TrainTask(seed=0):
             chain_distance += [distance(left[1], right[0]), distance(right[1], left[0])]
             star_distance += [distance(left[0], right[0]), distance(left[1], right[1])]
 
+    print('Calculating distance took {:.1f}s'.format(time.time() - s))
     chain_argsort = np.argsort(chain_distance)
     star_argsort = np.argsort(star_distance)
     kleene_argsort = np.argsort(kleene_star)
@@ -541,7 +543,6 @@ def TrainTask(seed=0):
         # generate training dataset
         first = key.split('&')[0]
         second = key.split('&')[1]
-        print("Chain " + first + "__" + second)
         left = df_index[first]
         right = df_index[second]
         if rmd == 0:
@@ -551,7 +552,9 @@ def TrainTask(seed=0):
             df = pd.merge(left, right, how='inner', left_on='subject', right_on='object')
             name = second + '__' + first + '_4'
         # train model
+        print(df.shape[0])
         if df.shape[0] > 999:
+            print("Chain " + name)
             table = common.CsvTable(name, df, do_compression=args.compression, if_eval=args.cate)
             train_model(table, name)
 
@@ -561,7 +564,6 @@ def TrainTask(seed=0):
         # generate training dataset
         first = key.split('&')[0]
         second = key.split('&')[1]
-        print("Star " + first + "__" + second)
         left = df_index[first]
         right = df_index[second]
         if rmd == 0:
@@ -571,7 +573,9 @@ def TrainTask(seed=0):
             df = pd.merge(left, right, how='inner', left_on='object', right_on='object')
             name = first + '__' + second + '_6'
         # train model
+        print(df.shape[0])
         if df.shape[0] > 999:
+            print("Star " + name)
             table = common.CsvTable(name, df, do_compression=args.compression, if_eval=args.cate)
             train_model(table, name)
 
