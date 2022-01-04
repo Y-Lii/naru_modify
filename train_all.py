@@ -501,6 +501,15 @@ def TrainTask(seed=0):
         for key in df_index:
             df = df_index[key]
             tmp = pd.merge(left, df, how='inner', left_index=True, right_on='subject')
+
+            dlist = []
+            if 'subject' in tmp.columns:
+                dlist.append('subject')
+            if 'subject_y' in tmp.columns:
+                dlist.append('subject_y')
+            if dlist:
+                tmp.drop(dlist, axis=1, inplace=True)
+
             if tmp.shape[0] > 999:
                 table = common.CsvTable(name + '__' + key + '_1', tmp, None, do_compression=args.compression, if_eval=args.cate)
                 train_model(table, name + '__' + key + '_1')
