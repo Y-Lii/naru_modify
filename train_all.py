@@ -549,6 +549,7 @@ def TrainTask(seed=0):
     # kleene_index = kleene_argsort[int(len(kleene_argsort) * args.ratio) :]
 
     s = time.time()
+    cnt = 0
     for idx in chain_index:
         key = combinations[int(idx / 2)]
         rmd = idx % 2
@@ -562,16 +563,18 @@ def TrainTask(seed=0):
             name = first + '__' + second + '_3'
         else:
             df = pd.merge(left, right, how='inner', left_on='subject', right_on='object')
-            name = second + '__' + first + '_4'
+            name = second + '__' + first + '_3'
         # train model
         if df.shape[0] > 999:
             print("Chain " + name)
             table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=args.cate)
             train_model(table, name)
+            cnt += 1
 
-    print('Train chain-shape models took {:.1f}s'.format(time.time() - s))
+    print('Train {} chain-shape models took {:.1f}s'.format(cnt, time.time() - s))
     s = time.time()
 
+    cnt = 0
     for idx in star_index:
         key = combinations[int(idx / 2)]
         rmd = idx % 2
@@ -582,16 +585,17 @@ def TrainTask(seed=0):
         right = df_index[second]
         if rmd == 0:
             df = pd.merge(left, right, how='inner', left_on='subject', right_on='subject')
-            name = first + '__' + second + '_5'
+            name = first + '__' + second + '_4'
         else:
             df = pd.merge(left, right, how='inner', left_on='object', right_on='object')
-            name = first + '__' + second + '_6'
+            name = first + '__' + second + '_5'
         # train model
         if df.shape[0] > 999:
             print("Star " + name)
             table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=args.cate)
             train_model(table, name)
+            cnt += 1
 
-    print('Train star-shape models took {:.1f}s'.format(time.time() - s))
+    print('Train {} star-shape models took {:.1f}s'.format(cnt, time.time() - s))
 
 TrainTask()
