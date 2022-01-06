@@ -292,7 +292,7 @@ class CsvTable(Table):
         if 'index' in df.columns:
             # df.drop('index', axis=1, inplace=True)
             df.set_index('index', inplace=True)
-        else:
+        elif not eval:
             for col in df.columns:
                 df[col] = pd.Categorical(df[col]).codes
 
