@@ -112,7 +112,6 @@ parser.add_argument(
 )
 
 parser.add_argument('--compression', type=bool, default=True, help='compression')
-parser.add_argument('--cate', type=bool, default=True, help='if_category')
 args = parser.parse_args()
 
 
@@ -496,7 +495,7 @@ def TrainTask(seed=0):
     #     name = datafile.split('.')[0]
     #     file = os.path.join(args.datadir, datafile)
     #     left = pd.read_csv(file, index_col='index')
-    #     table = common.CsvTable(name, left, None, do_compression=args.compression, if_eval=args.cate)
+    #     table = common.CsvTable(name, left, None, do_compression=args.compression, if_eval=False)
     #     train_model(table, name)
     #     for key in df_index:
     #         df = df_index[key]
@@ -511,12 +510,12 @@ def TrainTask(seed=0):
     #             tmp.drop(dlist, axis=1, inplace=True)
     #
     #         if tmp.shape[0] > 999:
-    #             table = common.CsvTable(name + '__' + key + '__1', tmp, None, do_compression=args.compression, if_eval=args.cate)
+    #             table = common.CsvTable(name + '__' + key + '__1', tmp, None, do_compression=args.compression, if_eval=False)
     #             train_model(table, name + '__' + key + '__1')
     #
     #         tmp = pd.merge(left, df, how='inner', left_index=True, right_on='object')
     #         if tmp.shape[0] > 999:
-    #             table = common.CsvTable(key + '__' + name + '__2', tmp, None, do_compression=args.compression, if_eval=args.cate)
+    #             table = common.CsvTable(key + '__' + name + '__2', tmp, None, do_compression=args.compression, if_eval=False)
     #             train_model(table, key + '__' + name + '__2')
     #
     # print('Train type&predicate models took {:.1f}s'.format(time.time() - s))
@@ -567,7 +566,7 @@ def TrainTask(seed=0):
         # train model
         if df.shape[0] > 999:
             print("Chain " + name)
-            table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=args.cate)
+            table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
             train_model(table, name)
             cnt += 1
 
@@ -592,7 +591,7 @@ def TrainTask(seed=0):
         # train model
         if df.shape[0] > 999:
             print("Star " + name)
-            table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=args.cate)
+            table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
             train_model(table, name)
             cnt += 1
 
