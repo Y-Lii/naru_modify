@@ -2,6 +2,7 @@
 import argparse
 import os
 import time
+import tracemalloc
 
 import numpy as np
 import torch
@@ -345,7 +346,7 @@ def TrainTask(seed=0):
     table_bits = Entropy(
         table,
         table.data.fillna(value=0).groupby([c.name for c in table.columns
-                                           ]).size(), [2])[0]
+                                           ]).size(), [2], observed=True)[0]
     fixed_ordering = None
 
     if args.order is not None:
@@ -452,4 +453,10 @@ def TrainTask(seed=0):
     print(PATH)
 
 
+tracemalloc.start()
+
 TrainTask()
+
+print(tracemalloc.get_traced_memory())
+
+tracemalloc.stop()

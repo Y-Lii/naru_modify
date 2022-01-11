@@ -2,6 +2,7 @@
 import argparse
 import os
 import time
+import tracemalloc
 
 import numpy as np
 import torch
@@ -375,7 +376,7 @@ def train_model(table, name, seed=0):
     table_bits = Entropy(
         table,
         table.data.fillna(value=0).groupby([c.name for c in table.columns
-                                            ]).size(), [2])[0]
+                                            ]).size(), [2], observed=True)[0]
     fixed_ordering = None
 
     if args.order is not None:
@@ -543,8 +544,8 @@ def TrainTask(seed=0):
     kleene_argsort = np.argsort(kleene_star)
 
     # for those pairs having shorter distance, we assume indepedence between them
-    chain_index = chain_argsort[int(len(chain_argsort) * args.ratio):]
-    star_index = star_argsort[int(len(star_argsort) * args.ratio):]
+    chain_index = chain_argsort[: int(len(chain_argsort) * args.ratio)]
+    star_index = star_argsort[: int(len(star_argsort) * args.ratio)]
     # kleene_index = kleene_argsort[int(len(kleene_argsort) * args.ratio) :]
 
     s = time.time()
@@ -597,4 +598,12 @@ def TrainTask(seed=0):
 
     print('Train {} star-shape models took {:.1f}s'.format(cnt, time.time() - s))
 
+tracemalloc.start()
+
 TrainTask()
+
+print(tracemalloc.get_traced_memory())
+
+tracemalloc.stop()
+
+
