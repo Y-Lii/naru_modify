@@ -375,8 +375,7 @@ def distance(count_subs, count_obs):
 def train_model(table, name, seed=0):
     table_bits = Entropy(
         table,
-        table.data.fillna(value=0).groupby([c.name for c in table.columns
-                                            ], observed=True).size(), [2])[0]
+        table.data.drop_duplicates().shape[0] * [1], [2])[0]
     fixed_ordering = None
 
     if args.order is not None:
