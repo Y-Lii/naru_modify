@@ -376,7 +376,7 @@ def train_model(table, name, seed=0):
     table_bits = Entropy(
         table,
         table.data.fillna(value=0).groupby([c.name for c in table.columns
-                                            ]).size(), [2], observed=True)[0]
+                                            ], observed=True).size(), [2])[0]
     fixed_ordering = None
 
     if args.order is not None:
