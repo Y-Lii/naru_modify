@@ -543,8 +543,8 @@ def TrainTask(seed=0):
     kleene_argsort = np.argsort(kleene_star)
 
     # for those pairs having shorter distance, we assume indepedence between them
-    chain_index = chain_argsort[: int(len(chain_argsort) * args.ratio)]
-    star_index = star_argsort[: int(len(star_argsort) * args.ratio)]
+    chain_index = chain_argsort[int(len(chain_argsort) * args.ratio):]
+    star_index = star_argsort[int(len(star_argsort) * args.ratio):]
     # kleene_index = kleene_argsort[int(len(kleene_argsort) * args.ratio) :]
 
     s = time.time()
