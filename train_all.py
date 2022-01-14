@@ -543,12 +543,13 @@ def TrainTask(seed=0):
     kleene_argsort = np.argsort(kleene_star)
 
     # for those pairs having shorter distance, we assume indepedence between them
-    chain_index = chain_argsort[int(len(chain_argsort) * args.ratio):]
-    star_index = star_argsort[int(len(star_argsort) * args.ratio):]
+    chain_index = chain_argsort[:int(len(chain_argsort) * args.ratio)]
+    star_index = star_argsort[:int(len(star_argsort) * args.ratio)]
     # kleene_index = kleene_argsort[int(len(kleene_argsort) * args.ratio) :]
 
     s = time.time()
     cnt = 0
+    rcd = []
     for idx in chain_index:
         key = combinations[int(idx / 2)]
         rmd = idx % 2
@@ -557,6 +558,11 @@ def TrainTask(seed=0):
         second = key.split('&')[1]
         left = df_index[first]
         right = df_index[second]
+        if first == 'isCitizenOf':
+            rcd.append(key)
+            print("Pass...." + key)
+            pass
+
         if rmd == 0:
             df = pd.merge(left, right, how='inner', left_on='object', right_on='subject')
             name = first + '__' + second + '__3'
@@ -596,6 +602,8 @@ def TrainTask(seed=0):
             cnt += 1
 
     print('Train {} star-shape models took {:.1f}s'.format(cnt, time.time() - s))
+    for key in rcd:
+        print(key)
 
 tracemalloc.start()
 
