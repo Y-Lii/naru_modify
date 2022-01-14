@@ -558,7 +558,7 @@ def TrainTask(seed=0):
         second = key.split('&')[1]
         left = df_index[first]
         right = df_index[second]
-        if first == 'isCitizenOf':
+        if key.contains('isCitizenOf'):
             rcd.append(key)
             print("Pass...." + key)
             pass
