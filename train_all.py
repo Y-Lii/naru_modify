@@ -558,10 +558,11 @@ def TrainTask(seed=0):
         second = key.split('&')[1]
         left = df_index[first]
         right = df_index[second]
+
         if 'isCitizenOf' in key:
             rcd.append(key)
             print("Pass...." + key)
-            pass
+            continue
 
         if rmd == 0:
             df = pd.merge(left, right, how='inner', left_on='object', right_on='subject')
