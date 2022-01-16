@@ -554,9 +554,9 @@ def TrainTask(seed=0):
         with open("keys", "wb") as fp:  # Pickling
             pickle.dump(combinations, fp)
         with open("chain_dis", "wb") as fp:  # Pickling
-            pickle.dump(combinations, fp)
+            pickle.dump(chain_distance, fp)
         with open("star_dis", "wb") as fp:  # Pickling
-            pickle.dump(combinations, fp)
+            pickle.dump(star_distance, fp)
 
     chain_argsort = np.argsort(chain_distance)
     star_argsort = np.argsort(star_distance)
