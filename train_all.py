@@ -16,6 +16,7 @@ import transformer
 from collections import Counter
 import pandas as pd
 import sys
+import pickle
 
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 print('Device', DEVICE)
@@ -527,17 +528,36 @@ def TrainTask(seed=0):
     star_distance = []
     kleene_star = []
     s = time.time()
-    for i in range(num):
-        print("Calculating distance of " + predicates[i] + " ...")
-        left = counter_dict[predicates[i]]
-        kleene_star.append(distance(left[0], left[1]))
-        for j in range(i + 1, num):
-            right = counter_dict[predicates[j]]
-            combinations.append(predicates[i] + '&' + predicates[j])
-            chain_distance += [distance(left[1], right[0]), distance(right[1], left[0])]
-            star_distance += [distance(left[0], right[0]), distance(left[1], right[1])]
+    if os.path.exists(os.path.join(os.getcwd(), 'keys')):
+        # noinspection PyBroadException
+        try:
+            with open("keys", "rb") as fp:  # Unpickling
+                combinations = pickle.load(fp)
+            with open("chain_dis", "rb") as fp:  # Unpickling
+                chain_distance = pickle.load(fp)
+            with open("star_dis", "rb") as fp:  # Unpickling
+                star_distance = pickle.load(fp)
+        except Exception as e:
+            print("Need to calculate distance")
+    else:
+        for i in range(num):
+            print("Calculating distance of " + predicates[i] + " ...")
+            left = counter_dict[predicates[i]]
+            kleene_star.append(distance(left[0], left[1]))
+            for j in range(i + 1, num):
+                right = counter_dict[predicates[j]]
+                combinations.append(predicates[i] + '&' + predicates[j])
+                chain_distance += [distance(left[1], right[0]), distance(right[1], left[0])]
+                star_distance += [distance(left[0], right[0]), distance(left[1], right[1])]
+        print('Calculating distance took {:.1f}s'.format(time.time() - s))
+        # save results
+        with open("keys", "wb") as fp:  # Pickling
+            pickle.dump(combinations, fp)
+        with open("chain_dis", "wb") as fp:  # Pickling
+            pickle.dump(combinations, fp)
+        with open("star_dis", "wb") as fp:  # Pickling
+            pickle.dump(combinations, fp)
 
-    print('Calculating distance took {:.1f}s'.format(time.time() - s))
     chain_argsort = np.argsort(chain_distance)
     star_argsort = np.argsort(star_distance)
     kleene_argsort = np.argsort(kleene_star)
@@ -606,6 +626,7 @@ def TrainTask(seed=0):
     for key in rcd:
         print(key)
 
+
 tracemalloc.start()
 
 TrainTask()
@@ -613,5 +634,3 @@ TrainTask()
 print(tracemalloc.get_traced_memory())
 
 tracemalloc.stop()
-
-
