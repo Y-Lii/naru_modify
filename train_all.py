@@ -579,7 +579,7 @@ def TrainTask(seed=0):
         left = df_index[first]
         right = df_index[second]
 
-        if 'isCitizenOf' in key:
+        if ('isCitizenOf' in key) or ('isLocatedIn' in key):
             rcd.append(key)
             print("Pass...." + key)
             continue
