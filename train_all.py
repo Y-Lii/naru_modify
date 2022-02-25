@@ -491,35 +491,35 @@ def TrainTask(seed=0):
         df_index[key] = df
         counter_dict[key] = [dict(Counter(df['subject'])), dict(Counter(df['object']))]
 
-    # s = time.time()
-    # for datafile in node_files:
-    #     name = datafile.split('.')[0]
-    #     file = os.path.join(args.datadir, datafile)
-    #     left = pd.read_csv(file, index_col='index')
-    #     table = common.CsvTable(name, left, None, do_compression=args.compression, if_eval=False)
-    #     train_model(table, name)
-    #     for key in df_index:
-    #         df = df_index[key]
-    #         tmp = pd.merge(left, df, how='inner', left_index=True, right_on='subject')
-    #
-    #         dlist = []
-    #         if 'subject' in tmp.columns:
-    #             dlist.append('subject')
-    #         if 'subject_y' in tmp.columns:
-    #             dlist.append('subject_y')
-    #         if dlist:
-    #             tmp.drop(dlist, axis=1, inplace=True)
-    #
-    #         if tmp.shape[0] > 999:
-    #             table = common.CsvTable(name + '__' + key + '__1', tmp, None, do_compression=args.compression, if_eval=False)
-    #             train_model(table, name + '__' + key + '__1')
-    #
-    #         tmp = pd.merge(left, df, how='inner', left_index=True, right_on='object')
-    #         if tmp.shape[0] > 999:
-    #             table = common.CsvTable(key + '__' + name + '__2', tmp, None, do_compression=args.compression, if_eval=False)
-    #             train_model(table, key + '__' + name + '__2')
-    #
-    # print('Train type&predicate models took {:.1f}s'.format(time.time() - s))
+    s = time.time()
+    for datafile in node_files:
+        name = datafile.split('.')[0]
+        file = os.path.join(args.datadir, datafile)
+        left = pd.read_csv(file, index_col='index')
+        table = common.CsvTable(name, left, None, do_compression=args.compression, if_eval=False)
+        train_model(table, name)
+        for key in df_index:
+            df = df_index[key]
+            tmp = pd.merge(left, df, how='inner', left_index=True, right_on='subject')
+
+            dlist = []
+            if 'subject' in tmp.columns:
+                dlist.append('subject')
+            if 'subject_y' in tmp.columns:
+                dlist.append('subject_y')
+            if dlist:
+                tmp.drop(dlist, axis=1, inplace=True)
+
+            if tmp.shape[0] > 999:
+                table = common.CsvTable(name + '__' + key + '__1', tmp, None, do_compression=args.compression, if_eval=False)
+                train_model(table, name + '__' + key + '__1')
+
+            tmp = pd.merge(left, df, how='inner', left_index=True, right_on='object')
+            if tmp.shape[0] > 999:
+                table = common.CsvTable(key + '__' + name + '__2', tmp, None, do_compression=args.compression, if_eval=False)
+                train_model(table, key + '__' + name + '__2')
+
+    print('Train type&predicate models took {:.1f}s'.format(time.time() - s))
 
     predicates = list(counter_dict.keys())
     num = len(predicates)
@@ -570,6 +570,7 @@ def TrainTask(seed=0):
     s = time.time()
     cnt = 0
     rcd = []
+    chain_shape = {}
     for idx in chain_index:
         key = combinations[int(idx / 2)]
         rmd = idx % 2
@@ -579,10 +580,10 @@ def TrainTask(seed=0):
         left = df_index[first]
         right = df_index[second]
 
-        if ('isCitizenOf' in key) or ('isLocatedIn' in key):
-            rcd.append(key)
-            print("Pass...." + key)
-            continue
+        # if ('isCitizenOf' in key) or ('isLocatedIn' in key):
+        #     rcd.append(key)
+        #     print("Pass...." + key)
+        #     continue
 
         if rmd == 0:
             df = pd.merge(left, right, how='inner', left_on='object', right_on='subject')
@@ -591,16 +592,20 @@ def TrainTask(seed=0):
             df = pd.merge(left, right, how='inner', left_on='subject', right_on='object')
             name = second + '__' + first + '__3'
         # train model
-        if df.shape[0] > 999:
-            print("Chain " + name)
-            table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
-            train_model(table, name)
-            cnt += 1
+        nuniq = [df.shape[0]]
+        nuniq += list(df.nunique())
+        chain_shape[name] = nuniq
+        # if df.shape[0] > 999:
+        #     print("Chain " + name)
+        #     table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
+        #     train_model(table, name)
+        cnt += 1
 
     print('Train {} chain-shape models took {:.1f}s'.format(cnt, time.time() - s))
     s = time.time()
 
     cnt = 0
+    star_shape = {}
     for idx in star_index:
         key = combinations[int(idx / 2)]
         rmd = idx % 2
@@ -616,15 +621,23 @@ def TrainTask(seed=0):
             df = pd.merge(left, right, how='inner', left_on='object', right_on='object')
             name = first + '__' + second + '__5'
         # train model
-        if df.shape[0] > 999:
-            print("Star " + name)
-            table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
-            train_model(table, name)
-            cnt += 1
+        # if df.shape[0] > 999:
+        #     print("Star " + name)
+        #     table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
+        #     train_model(table, name)
+        nuniq = [df.shape[0]]
+        nuniq += list(df.nunique())
+        chain_shape[name] = nuniq
+        cnt += 1
 
     print('Train {} star-shape models took {:.1f}s'.format(cnt, time.time() - s))
-    for key in rcd:
-        print(key)
+
+    with open("chain_shape", "wb") as fp:  # Pickling
+        pickle.dump(chain_shape, fp)
+    with open("star_shape", "wb") as fp:  # Pickling
+        pickle.dump(star_shape, fp)
+    # for key in rcd:
+    #     print(key)
 
 
 tracemalloc.start()
