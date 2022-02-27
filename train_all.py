@@ -26,6 +26,7 @@ parser = argparse.ArgumentParser()
 # Training.
 parser.add_argument('--datadir', type=str, default='dmv-tiny', help='Datadir.')
 parser.add_argument('--edgedir', type=str, default='yago_edge', help='edgedir.')
+parser.add_argument('--match', type=bool, default=False, help='match.')
 parser.add_argument('--ratio', type=float, default=0.1, help='ratio.')
 parser.add_argument('--num-gpus', type=int, default=0, help='#gpus.')
 parser.add_argument('--bs', type=int, default=1024, help='Batch size.')
@@ -500,24 +501,42 @@ def TrainTask(seed=0):
         train_model(table, name)
         for key in df_index:
             df = df_index[key]
-            tmp = pd.merge(left, df, how='inner', left_index=True, right_on='subject')
+            if args.match:
+                items = key.split('_')
+                if name == items[0]:
+                    print(name, key)
+                    tmp = pd.merge(left, df, how='inner', left_index=True, right_on='subject')
+                    if tmp.shape[0] > 999:
+                        table = common.CsvTable(name + '__' + key + '__1', tmp, None, do_compression=args.compression,
+                                                if_eval=False)
+                        train_model(table, name + '__' + key + '__1')
 
-            dlist = []
-            if 'subject' in tmp.columns:
-                dlist.append('subject')
-            if 'subject_y' in tmp.columns:
-                dlist.append('subject_y')
-            if dlist:
-                tmp.drop(dlist, axis=1, inplace=True)
+                if name == items[1]:
+                    tmp = pd.merge(left, df, how='inner', left_index=True, right_on='object')
+                    if tmp.shape[0] > 999:
+                        table = common.CsvTable(key + '__' + name + '__2', tmp, None, do_compression=args.compression,
+                                                if_eval=False)
+                        train_model(table, key + '__' + name + '__2')
 
-            if tmp.shape[0] > 999:
-                table = common.CsvTable(name + '__' + key + '__1', tmp, None, do_compression=args.compression, if_eval=False)
-                train_model(table, name + '__' + key + '__1')
+            else:
+                tmp = pd.merge(left, df, how='inner', left_index=True, right_on='subject')
 
-            tmp = pd.merge(left, df, how='inner', left_index=True, right_on='object')
-            if tmp.shape[0] > 999:
-                table = common.CsvTable(key + '__' + name + '__2', tmp, None, do_compression=args.compression, if_eval=False)
-                train_model(table, key + '__' + name + '__2')
+                dlist = []
+                if 'subject' in tmp.columns:
+                    dlist.append('subject')
+                if 'subject_y' in tmp.columns:
+                    dlist.append('subject_y')
+                if dlist:
+                    tmp.drop(dlist, axis=1, inplace=True)
+
+                if tmp.shape[0] > 999:
+                    table = common.CsvTable(name + '__' + key + '__1', tmp, None, do_compression=args.compression, if_eval=False)
+                    train_model(table, name + '__' + key + '__1')
+
+                tmp = pd.merge(left, df, how='inner', left_index=True, right_on='object')
+                if tmp.shape[0] > 999:
+                    table = common.CsvTable(key + '__' + name + '__2', tmp, None, do_compression=args.compression, if_eval=False)
+                    train_model(table, key + '__' + name + '__2')
 
     print('Train type&predicate models took {:.1f}s'.format(time.time() - s))
 
@@ -543,12 +562,33 @@ def TrainTask(seed=0):
         for i in range(num):
             print("Calculating distance of " + predicates[i] + " ...")
             left = counter_dict[predicates[i]]
-            kleene_star.append(distance(left[0], left[1]))
+            # kleene_star.append(distance(left[0], left[1]))
             for j in range(i + 1, num):
                 right = counter_dict[predicates[j]]
-                combinations.append(predicates[i] + '&' + predicates[j])
-                chain_distance += [distance(left[1], right[0]), distance(right[1], left[0])]
-                star_distance += [distance(left[0], right[0]), distance(left[1], right[1])]
+                if args.match:
+                    cp1 = predicates[i].split('_')
+                    cp2 = predicates[j].split('_')
+                    add_key = False
+                    chain_tmp = [-1, -1]
+                    if cp1[0] == cp2[0]:
+                        star_distance.append(distance(left[0], right[0]))
+                        add_key = True
+                    if cp1[1] == cp2[0]:
+                        chain_tmp[0] = distance(left[1], right[0])
+                        add_key = True
+                    if cp1[0] == cp2[1]:
+                        chain_tmp[1] = distance(right[1], left[0])
+                        add_key = True
+
+                    if add_key:
+                        print(predicates[i] + '&' + predicates[j])
+                        combinations.append(predicates[i] + '&' + predicates[j])
+                        chain_distance += chain_tmp
+                else:
+                    combinations.append(predicates[i] + '&' + predicates[j])
+                    chain_distance += [distance(left[1], right[0]), distance(right[1], left[0])]
+                    # star_distance += [distance(left[0], right[0]), distance(left[1], right[1])]
+                    star_distance.append(distance(left[0], right[0]))
         print('Calculating distance took {:.1f}s'.format(time.time() - s))
         # save results
         with open("keys", "wb") as fp:  # Pickling
@@ -563,15 +603,17 @@ def TrainTask(seed=0):
     kleene_argsort = np.argsort(kleene_star)
 
     # for those pairs having shorter distance, we assume indepedence between them
-    chain_index = chain_argsort[:int(len(chain_argsort) * args.ratio)]
-    star_index = star_argsort[:int(len(star_argsort) * args.ratio)]
+    chain_index = chain_argsort[int(len(chain_argsort) * args.ratio):]
+    star_index = star_argsort[int(len(star_argsort) * args.ratio):]
     # kleene_index = kleene_argsort[int(len(kleene_argsort) * args.ratio) :]
 
     s = time.time()
     cnt = 0
     rcd = []
     chain_shape = {}
-    for idx in chain_index:
+    for idx in chain_index[::-1]:
+        if chain_distance[idx] == -1:
+            break
         key = combinations[int(idx / 2)]
         rmd = idx % 2
         # generate training dataset
@@ -606,7 +648,9 @@ def TrainTask(seed=0):
 
     cnt = 0
     star_shape = {}
-    for idx in star_index:
+    for idx in star_index[::-1]:
+        if star_distance[idx] == -1:
+            break
         key = combinations[int(idx / 2)]
         rmd = idx % 2
         # generate training dataset
@@ -627,7 +671,7 @@ def TrainTask(seed=0):
         #     train_model(table, name)
         nuniq = [df.shape[0]]
         nuniq += list(df.nunique())
-        chain_shape[name] = nuniq
+        star_shape[name] = nuniq
         cnt += 1
 
     print('Train {} star-shape models took {:.1f}s'.format(cnt, time.time() - s))
