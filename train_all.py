@@ -651,19 +651,15 @@ def TrainTask(seed=0):
     for idx in star_index[::-1]:
         if star_distance[idx] == -1:
             break
-        key = combinations[int(idx / 2)]
-        rmd = idx % 2
+        key = combinations[idx]
+        # rmd = idx % 2
         # generate training dataset
         first = key.split('&')[0]
         second = key.split('&')[1]
         left = df_index[first]
         right = df_index[second]
-        if rmd == 0:
-            df = pd.merge(left, right, how='inner', left_on='subject', right_on='subject')
-            name = first + '__' + second + '__4'
-        else:
-            df = pd.merge(left, right, how='inner', left_on='object', right_on='object')
-            name = first + '__' + second + '__5'
+        df = pd.merge(left, right, how='inner', left_on='subject', right_on='subject')
+        name = first + '__' + second + '__4'
         # train model
         # if df.shape[0] > 999:
         #     print("Star " + name)
@@ -676,10 +672,12 @@ def TrainTask(seed=0):
 
     print('Train {} star-shape models took {:.1f}s'.format(cnt, time.time() - s))
 
-    with open("chain_shape", "wb") as fp:  # Pickling
-        pickle.dump(chain_shape, fp)
-    with open("star_shape", "wb") as fp:  # Pickling
-        pickle.dump(star_shape, fp)
+    if chain_shape:
+        with open("chain_shape", "wb") as fp:  # Pickling
+            pickle.dump(chain_shape, fp)
+    if star_shape:
+        with open("star_shape", "wb") as fp:  # Pickling
+            pickle.dump(star_shape, fp)
     # for key in rcd:
     #     print(key)
 
