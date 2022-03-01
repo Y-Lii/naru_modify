@@ -540,146 +540,147 @@ def TrainTask(seed=0):
 
     print('Train type&predicate models took {:.1f}s'.format(time.time() - s))
 
-    predicates = list(counter_dict.keys())
-    num = len(predicates)
-    combinations = []
-    chain_distance = []
-    star_distance = []
-    kleene_star = []
-    s = time.time()
-    if os.path.exists(os.path.join(os.getcwd(), 'keys')):
-        # noinspection PyBroadException
-        try:
-            with open("keys", "rb") as fp:  # Unpickling
-                combinations = pickle.load(fp)
-            with open("chain_dis", "rb") as fp:  # Unpickling
-                chain_distance = pickle.load(fp)
-            with open("star_dis", "rb") as fp:  # Unpickling
-                star_distance = pickle.load(fp)
-        except Exception as e:
-            print("Need to calculate distance")
-    else:
-        for i in range(num):
-            print("Calculating distance of " + predicates[i] + " ...")
-            left = counter_dict[predicates[i]]
-            # kleene_star.append(distance(left[0], left[1]))
-            for j in range(i + 1, num):
-                right = counter_dict[predicates[j]]
-                if args.match:
-                    cp1 = predicates[i].split('_')
-                    cp2 = predicates[j].split('_')
-                    add_key = False
-                    chain_tmp = [-1, -1]
-                    if cp1[0] == cp2[0]:
-                        star_distance.append(distance(left[0], right[0]))
-                        add_key = True
-                    if cp1[1] == cp2[0]:
-                        chain_tmp[0] = distance(left[1], right[0])
-                        add_key = True
-                    if cp1[0] == cp2[1]:
-                        chain_tmp[1] = distance(right[1], left[0])
-                        add_key = True
-
-                    if add_key:
-                        print(predicates[i] + '&' + predicates[j])
-                        combinations.append(predicates[i] + '&' + predicates[j])
-                        chain_distance += chain_tmp
-                else:
-                    combinations.append(predicates[i] + '&' + predicates[j])
-                    chain_distance += [distance(left[1], right[0]), distance(right[1], left[0])]
-                    # star_distance += [distance(left[0], right[0]), distance(left[1], right[1])]
-                    star_distance.append(distance(left[0], right[0]))
-        print('Calculating distance took {:.1f}s'.format(time.time() - s))
-        # save results
-        with open("keys", "wb") as fp:  # Pickling
-            pickle.dump(combinations, fp)
-        with open("chain_dis", "wb") as fp:  # Pickling
-            pickle.dump(chain_distance, fp)
-        with open("star_dis", "wb") as fp:  # Pickling
-            pickle.dump(star_distance, fp)
-
-    chain_argsort = np.argsort(chain_distance)
-    star_argsort = np.argsort(star_distance)
-    kleene_argsort = np.argsort(kleene_star)
-
-    # for those pairs having shorter distance, we assume indepedence between them
-    chain_index = chain_argsort[int(len(chain_argsort) * args.ratio):]
-    star_index = star_argsort[int(len(star_argsort) * args.ratio):]
-    # kleene_index = kleene_argsort[int(len(kleene_argsort) * args.ratio) :]
-
-    s = time.time()
-    cnt = 0
-    rcd = []
-    chain_shape = {}
-    for idx in chain_index[::-1]:
-        if chain_distance[idx] == -1:
-            break
-        key = combinations[int(idx / 2)]
-        rmd = idx % 2
-        # generate training dataset
-        first = key.split('&')[0]
-        second = key.split('&')[1]
-        left = df_index[first]
-        right = df_index[second]
-
-        # if ('isCitizenOf' in key) or ('isLocatedIn' in key):
-        #     rcd.append(key)
-        #     print("Pass...." + key)
-        #     continue
-
-        if rmd == 0:
-            df = pd.merge(left, right, how='inner', left_on='object', right_on='subject')
-            name = first + '__' + second + '__3'
+    if counter_dict:
+        predicates = list(counter_dict.keys())
+        num = len(predicates)
+        combinations = []
+        chain_distance = []
+        star_distance = []
+        kleene_star = []
+        s = time.time()
+        if os.path.exists(os.path.join(os.getcwd(), 'keys')):
+            # noinspection PyBroadException
+            try:
+                with open("keys", "rb") as fp:  # Unpickling
+                    combinations = pickle.load(fp)
+                with open("chain_dis", "rb") as fp:  # Unpickling
+                    chain_distance = pickle.load(fp)
+                with open("star_dis", "rb") as fp:  # Unpickling
+                    star_distance = pickle.load(fp)
+            except Exception as e:
+                print("Need to calculate distance")
         else:
-            df = pd.merge(left, right, how='inner', left_on='subject', right_on='object')
-            name = second + '__' + first + '__3'
-        # train model
-        nuniq = [df.shape[0]]
-        nuniq += list(df.nunique())
-        chain_shape[name] = nuniq
-        # if df.shape[0] > 999:
-        #     print("Chain " + name)
-        #     table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
-        #     train_model(table, name)
-        cnt += 1
+            for i in range(num):
+                print("Calculating distance of " + predicates[i] + " ...")
+                left = counter_dict[predicates[i]]
+                # kleene_star.append(distance(left[0], left[1]))
+                for j in range(i + 1, num):
+                    right = counter_dict[predicates[j]]
+                    if args.match:
+                        cp1 = predicates[i].split('_')
+                        cp2 = predicates[j].split('_')
+                        add_key = False
+                        chain_tmp = [-1, -1]
+                        if cp1[0] == cp2[0]:
+                            star_distance.append(distance(left[0], right[0]))
+                            add_key = True
+                        if cp1[1] == cp2[0]:
+                            chain_tmp[0] = distance(left[1], right[0])
+                            add_key = True
+                        if cp1[0] == cp2[1]:
+                            chain_tmp[1] = distance(right[1], left[0])
+                            add_key = True
 
-    print('Train {} chain-shape models took {:.1f}s'.format(cnt, time.time() - s))
-    s = time.time()
+                        if add_key:
+                            print(predicates[i] + '&' + predicates[j])
+                            combinations.append(predicates[i] + '&' + predicates[j])
+                            chain_distance += chain_tmp
+                    else:
+                        combinations.append(predicates[i] + '&' + predicates[j])
+                        chain_distance += [distance(left[1], right[0]), distance(right[1], left[0])]
+                        # star_distance += [distance(left[0], right[0]), distance(left[1], right[1])]
+                        star_distance.append(distance(left[0], right[0]))
+            print('Calculating distance took {:.1f}s'.format(time.time() - s))
+            # save results
+            with open("keys", "wb") as fp:  # Pickling
+                pickle.dump(combinations, fp)
+            with open("chain_dis", "wb") as fp:  # Pickling
+                pickle.dump(chain_distance, fp)
+            with open("star_dis", "wb") as fp:  # Pickling
+                pickle.dump(star_distance, fp)
 
-    cnt = 0
-    star_shape = {}
-    for idx in star_index[::-1]:
-        if star_distance[idx] == -1:
-            break
-        key = combinations[idx]
-        # rmd = idx % 2
-        # generate training dataset
-        first = key.split('&')[0]
-        second = key.split('&')[1]
-        left = df_index[first]
-        right = df_index[second]
-        df = pd.merge(left, right, how='inner', left_on='subject', right_on='subject')
-        name = first + '__' + second + '__4'
-        # train model
-        # if df.shape[0] > 999:
-        #     print("Star " + name)
-        #     table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
-        #     train_model(table, name)
-        nuniq = [df.shape[0]]
-        nuniq += list(df.nunique())
-        star_shape[name] = nuniq
-        cnt += 1
+        chain_argsort = np.argsort(chain_distance)
+        star_argsort = np.argsort(star_distance)
+        kleene_argsort = np.argsort(kleene_star)
 
-    print('Train {} star-shape models took {:.1f}s'.format(cnt, time.time() - s))
+        # for those pairs having shorter distance, we assume indepedence between them
+        chain_index = chain_argsort[int(len(chain_argsort) * args.ratio):]
+        star_index = star_argsort[int(len(star_argsort) * args.ratio):]
+        # kleene_index = kleene_argsort[int(len(kleene_argsort) * args.ratio) :]
 
-    if chain_shape:
-        with open("chain_shape", "wb") as fp:  # Pickling
-            pickle.dump(chain_shape, fp)
-    if star_shape:
-        with open("star_shape", "wb") as fp:  # Pickling
-            pickle.dump(star_shape, fp)
-    # for key in rcd:
-    #     print(key)
+        s = time.time()
+        cnt = 0
+        rcd = []
+        chain_shape = {}
+        for idx in chain_index[::-1]:
+            if chain_distance[idx] == -1:
+                break
+            key = combinations[int(idx / 2)]
+            rmd = idx % 2
+            # generate training dataset
+            first = key.split('&')[0]
+            second = key.split('&')[1]
+            left = df_index[first]
+            right = df_index[second]
+
+            # if ('isCitizenOf' in key) or ('isLocatedIn' in key):
+            #     rcd.append(key)
+            #     print("Pass...." + key)
+            #     continue
+
+            if rmd == 0:
+                df = pd.merge(left, right, how='inner', left_on='object', right_on='subject')
+                name = first + '__' + second + '__3'
+            else:
+                df = pd.merge(left, right, how='inner', left_on='subject', right_on='object')
+                name = second + '__' + first + '__3'
+            # train model
+            nuniq = [df.shape[0]]
+            nuniq += list(df.nunique())
+            chain_shape[name] = nuniq
+            # if df.shape[0] > 999:
+            #     print("Chain " + name)
+            #     table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
+            #     train_model(table, name)
+            cnt += 1
+
+        print('Train {} chain-shape models took {:.1f}s'.format(cnt, time.time() - s))
+        s = time.time()
+
+        cnt = 0
+        star_shape = {}
+        for idx in star_index[::-1]:
+            if star_distance[idx] == -1:
+                break
+            key = combinations[idx]
+            # rmd = idx % 2
+            # generate training dataset
+            first = key.split('&')[0]
+            second = key.split('&')[1]
+            left = df_index[first]
+            right = df_index[second]
+            df = pd.merge(left, right, how='inner', left_on='subject', right_on='subject')
+            name = first + '__' + second + '__4'
+            # train model
+            # if df.shape[0] > 999:
+            #     print("Star " + name)
+            #     table = common.CsvTable(name, df, None, do_compression=args.compression, if_eval=False)
+            #     train_model(table, name)
+            nuniq = [df.shape[0]]
+            nuniq += list(df.nunique())
+            star_shape[name] = nuniq
+            cnt += 1
+
+        print('Train {} star-shape models took {:.1f}s'.format(cnt, time.time() - s))
+
+        if chain_shape:
+            with open("chain_shape", "wb") as fp:  # Pickling
+                pickle.dump(chain_shape, fp)
+        if star_shape:
+            with open("star_shape", "wb") as fp:  # Pickling
+                pickle.dump(star_shape, fp)
+        # for key in rcd:
+        #     print(key)
 
 
 tracemalloc.start()
