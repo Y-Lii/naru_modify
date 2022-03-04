@@ -284,7 +284,7 @@ class CsvTable(Table):
         print('Loading csv:  ...')
         s = time.time()
         if isinstance(filename, str):
-            df = pd.read_csv(filename, **kwargs)
+            df = pd.read_csv(filename, escapechar="\\", **kwargs)
         else:
             assert (isinstance(filename, pd.DataFrame))
             df = filename

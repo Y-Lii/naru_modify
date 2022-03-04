@@ -488,7 +488,7 @@ def TrainTask(seed=0):
     for datafile in edge_files:
         key = datafile.split('.')[0]
         file = os.path.join(args.edgedir, datafile)
-        df = pd.read_csv(file, usecols=[0, 2])
+        df = pd.read_csv(file, usecols=[0, 2], escapechar="\\")
         df_index[key] = df
         counter_dict[key] = [dict(Counter(df['subject'])), dict(Counter(df['object']))]
 
@@ -496,7 +496,7 @@ def TrainTask(seed=0):
     for datafile in node_files:
         name = datafile.split('.')[0]
         file = os.path.join(args.datadir, datafile)
-        left = pd.read_csv(file, index_col='index')
+        left = pd.read_csv(file, index_col='index', escapechar="\\")
         table = common.CsvTable(name, left, None, do_compression=args.compression, if_eval=False)
         train_model(table, name)
         for key in df_index:
